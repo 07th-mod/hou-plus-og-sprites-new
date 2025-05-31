@@ -348,6 +348,13 @@ def match_by_keyword(mod: CallData, og_call_data: list[CallData]):
 
     return None
 
+# Modify here if you want the analyser to only update a subset of lines
+def should_reprocess(og_path):
+    # if 'effect' in str(og_path):
+    #     return True
+
+    return False
+
 def parse_graphics(
         mod_path: str,
         mod_script_dir,
@@ -373,7 +380,10 @@ def parse_graphics(
     memozied_match = voice_match_database.try_get(last_voice, mod.path)
     if memozied_match is not None:
         if memozied_match.og_path is not None:
-            return
+            if should_reprocess(memozied_match.og_path):
+                print(f"reprocessing {mod.path} - {memozied_match.og_path}")
+            else:
+                return
 
     # Now use git to extract matching lines from the original game
     og_lines, raw_git_log_output = get_original_lines(
