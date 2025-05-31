@@ -296,6 +296,20 @@ def verify_one_script(mod_script_path: str, graphics_regexes: list[re.Pattern], 
         'portrait/hara1a_01_' : 'sprites/ara/ara_d1', # This has been modified in our mod so that the voices match better. In the unmodded game it is sprites/ton/ton_d4a instead
         'portrait/hmi2a_13_': 'sprites/mio/mio_d14',
 
+        # Additional sprites to cover orian's changes when CGs are disabled
+        # In the game script the lines usually look like `If (GetGlobalFlag(GHideCG)) {ModDrawCharacter(`
+        'sprite/hri2a_13_': 'sprites/rik/rik_d9a',
+        'sprite/hmi2a_13_': 'sprites/mio/mio_d14a',
+        'sprite/hmi2a_15_' : 'sprites/mio/mio_d11',
+        'sprite/hyos1a_03_' : 'sprites/yos/yos_d4',
+        'sprite/hnit1a_08_' : 'sprites/nit/nit_d7a',
+        'sprite/hnit1a_10_' : 'sprites/nit/nit_d7',
+        'sprite/hoda1a_04_' : 'sprites/hod/hod_d2a',
+        'sprite/hoda1a_07_' : 'sprites/hod/hod_d4a',
+        'sprite/hoka1a_07_' : 'sprites/oka/oka_d5a',
+        'portrait/hri2a_05_': 'sprites/rik/rik_d8',
+        'portrait/hri2a_03_': 'sprites/rik/rik_d3',
+
         # Backgrounds Busstop
         # 'background/hina_bus_03' : 'bg/hina/bus_03', # Not needed due to improved matching # Note: this fails 21 times
         'background/damu2' : 'bg/mizube/y_damu2', # Not sure if right imaage, is greyscale
