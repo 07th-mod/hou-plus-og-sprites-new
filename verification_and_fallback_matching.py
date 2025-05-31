@@ -334,6 +334,32 @@ def verify_one_script(mod_script_path: str, graphics_regexes: list[re.Pattern], 
         'sprite/iri1_warai_' : '<USE_MOD_VERSION>',
         'sprite/oisi1_2_' : '<USE_MOD_VERSION>',
         'sprite/ta1_warai_' : '<USE_MOD_VERSION>',
+
+
+        # Outbreak Effects
+        'effect/kamik_inf_1': 'bg/etc/inf_1', # Image of earth changing to red tint (lower number is less red)
+        'effect/kamik_inf_2': 'bg/etc/inf_2',
+        'effect/kamik_inf_3': 'bg/etc/inf_3',
+        'effect/kamik_inf_4': 'bg/etc/inf_4',
+        'effect/kamik_inf_5': 'bg/etc/inf_5',
+        'effect/omo1_1': 'bg/etc/omo1_1',
+        'effect/omo1_2': 'bg/etc/omo1_2',
+        'effect/omo1_3': 'bg/etc/omo1_3',
+        'effect/omo1_4': 'bg/etc/omo1_4',
+        'effect/omo1_5': 'bg/etc/omo1_5',
+        'effect/omo2_1': 'bg/etc/omo2_1',
+        'effect/omo2_2': 'bg/etc/omo2_2',
+        'effect/day_1': 'bg/etc/day_1',
+        'effect/day_2': 'bg/etc/day_2',
+        'effect/day_10': 'bg/etc/day_10',
+        'effect/day_11': 'bg/etc/day_11',
+
+        # Bus Stop Effects
+        'effect/tyuui': 'img/tyuui',
+        'effect/wagabu': '<USE_MODDED>',
+        # For effect/wagabu, just use modded version.
+        # How to handle this one? It's an image of "They went after our club", draw call doesn't exist in og game
+        # I guess just copy to OGBackgrounds folder and scale for 4:3?
     }
 
     debug_output = []
