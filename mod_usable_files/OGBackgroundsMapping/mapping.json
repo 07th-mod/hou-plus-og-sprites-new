@@ -2,6 +2,7 @@
 	"comment_lookup": "To lookup, first check the voice database. Then check the script fallback. Then check the global fallback.",
 	"comment_paths": "Note: when looking up paths, paths starting with '<' like <SPECIAL_TEXT_EFFECT>  are special cases. And if a match is 'null' then it means this sprite was never matched.",
 	"global_fallback": {
+		"background/blood_1b": "bg/efe/blood_1b",
 		"background/bui_r1e": "bg/keisatu/ke_ky4",
 		"background/chika_shisetsu": "bg/tokyo/ko1",
 		"background/cit_1a": "bg/mati2/mati_101",
@@ -11,16 +12,16 @@
 		"background/damu2": "bg/mizube/y_damu2",
 		"background/damu4": "bg/hina/damu1m",
 		"background/file": "bg/sonota/file",
-		"background/fure1": "bg/sonota/fure1.png",
+		"background/fure1": "bg/sonota/fure1",
 		"background/fure2": "bg/sonota/fure2",
 		"background/g1": "bg/gakkou/g1",
-		"background/gk1": "bg/gakkou/gk1.png",
-		"background/gk3": "bg/gakkou/gk3.png",
+		"background/gk1": "bg/gakkou/gk1",
+		"background/gk3": "bg/gakkou/gk3",
 		"background/gomibako": "bg/2021_add/gomibako",
-		"background/gr3": "bg/gakkou/gr3.png",
-		"background/greyscale/gk1": "bg/gakkou/gk1.png",
+		"background/gr3": "bg/gakkou/gr3",
+		"background/greyscale/gk1": "bg/gakkou/gk1",
 		"background/greyscale/gk3": "bg/gakkou/gk3",
-		"background/greyscale/hi1": "bg/mura/hi1.png",
+		"background/greyscale/hi1": "bg/mura/hi1",
 		"background/greyscale/hina_bus_03": "bg/hina/bus_03",
 		"background/greyscale/hoteru": "bg/sion/si_h1",
 		"background/greyscale/kawa4": "bg/hina/damu1m",
@@ -32,12 +33,12 @@
 		"background/greyscale/sta_1a": "bg/mati/eki2",
 		"background/greyscale/susuki": "bg/mori/kusa",
 		"background/greyscale/toi_1a": "bg/mati/wc1",
-		"background/hasi3": "bg/mori/hasi3.png",
+		"background/hasi3": "bg/mori/hasi3",
 		"background/heaven_tengoku": "bg/2021_add/heaven_tengoku",
 		"background/heri_gunji_01": "bg/sonota/heri1",
-		"background/hi1": "bg/mura/hi1.png",
-		"background/hi3": "bg/mura/hi3.png",
-		"background/hi4": "bg/mura/hi4.png",
+		"background/hi1": "bg/mura/hi1",
+		"background/hi3": "bg/mura/hi3",
+		"background/hi4": "bg/mura/hi4",
 		"background/hi5": "bg/mura/hi5",
 		"background/hi9": "bg/mura/hi9",
 		"background/hi_scroll": "bg/mura/m_hi4",
@@ -60,7 +61,7 @@
 		"background/ji1": "bg/jinja/ji1",
 		"background/ji2": "bg/jinja/ji2",
 		"background/js3_01": "bg/jinja/jsa7",
-		"background/jsa1": "bg/jinja/jsa1.png",
+		"background/jsa1": "bg/jinja/jsa1",
 		"background/jt1": "bg/jinja/jt1",
 		"background/jt2": "bg/jinja/jt2",
 		"background/juku1_01": "bg/mati/juku2",
@@ -97,7 +98,7 @@
 		"background/kamik_sono_005": "bg/sonozakigumi/sono_005",
 		"background/kaw_r1an": "bg/mati/ryou1",
 		"background/kaw_r1cn": "bg/mati/ryou2",
-		"background/ke2": "bg/keisatu/ke2.png",
+		"background/ke2": "bg/keisatu/ke2",
 		"background/ke5": "bg/keisatu/ke5",
 		"background/ke_shiryou1_02": "img/dsc00039",
 		"background/koudou": "bg/mati/mati7",
@@ -108,27 +109,27 @@
 		"background/kuruma3_01": "bg/kuruma/kuruma3",
 		"background/kuruma5": "bg/kuruma/kuruma5",
 		"background/kuruma5_01": "bg/hina/car_1",
-		"background/kuruma6": "bg/kuruma/kuruma6.png",
+		"background/kuruma6": "bg/kuruma/kuruma6",
 		"background/m_hi1": "bg/mura/m_hi1",
 		"background/m_hi3": "bg/mura/m_hi3",
-		"background/m_hi4": "bg/mura/m_hi4.png",
+		"background/m_hi4": "bg/mura/m_hi4",
 		"background/m_hi5_01": "bg/mura/m_hi7",
 		"background/m_hi6": "bg/mura/m_hi6",
 		"background/m_hi8": "bg/mura/m_hi13",
 		"background/m_y4": "bg/mura/y_ie2",
 		"background/ma1": "bg/maebara/ma1",
 		"background/ma2": "bg/maebara/ma2",
-		"background/ma3": "bg/maebara/ma3.png",
-		"background/ma5": "bg/maebara/ma5.png",
+		"background/ma3": "bg/maebara/ma3",
+		"background/ma5": "bg/maebara/ma5",
 		"background/ma_g1": "bg/maebara/ma_g1",
 		"background/ma_g2": "bg/maebara/ma_g2",
 		"background/ma_g3": "bg/maebara/ma_g3",
-		"background/ma_j3": "bg/maebara/ma_j3.png",
-		"background/ma_s1": "bg/maebara/ma_s1.png",
+		"background/ma_j3": "bg/maebara/ma_j3",
+		"background/ma_s1": "bg/maebara/ma_s1",
 		"background/mati12": "bg/mati/mati12",
 		"background/mati3": "bg/mati/mati3",
-		"background/mati4": "bg/mati/mati4.png",
-		"background/mati7": "bg/mati/mati7.png",
+		"background/mati4": "bg/mati/mati4",
+		"background/mati7": "bg/mati/mati7",
 		"background/mati_o1": "bg/mati/mati_o1",
 		"background/mati_o6": "bg/mati/mati_o6",
 		"background/mboi_1c": "bg/sinryoujo/sinryou_sinsatu4",
@@ -146,7 +147,7 @@
 		"background/outb_gr1": "bg/gakkou/gr1",
 		"background/outb_gr2": "bg/gakkou/gr2",
 		"background/outb_jiei_003": "bg/jiei/jiei_003",
-		"background/outb_jt1": "bg/mura/hi2",
+		"background/outb_jt1": "bg/mura2/mura_002",
 		"background/outb_jyt1": "bg/mura2/mura_003",
 		"background/outb_koya1y": "bg/mori/koya1y",
 		"background/outb_shikenkan": "bg/etc/shikenkan",
@@ -167,8 +168,8 @@
 		"background/so1": "bg/sonozaki/so1",
 		"background/so_k1": "bg/sonozaki/so_k1",
 		"background/sora": "bg/mura/sora",
-		"background/sora2": "bg/mura/sora2.png",
-		"background/sora5": "bg/mura/sora5.png",
+		"background/sora2": "bg/mura/sora2",
+		"background/sora5": "bg/mura/sora5",
 		"background/susuki": "bg/mori/kusa",
 		"background/ta2": "bg/mura/tab2",
 		"background/tennai1": "bg/mati/tennai1",
@@ -177,7 +178,7 @@
 		"background/toire2": "bg/resut/toire2",
 		"background/torakku1": "bg/kuruma/torakku1",
 		"background/torakku2": "bg/kuruma/torakku2",
-		"background/uchu_space": "bg/2021_add/uchu_space.png",
+		"background/uchu_space": "bg/2021_add/uchu_space",
 		"background/uchu_space1": "bg/2021_add/uchu_space1",
 		"background/uchu_space2": "bg/2021_add/uchu_space2",
 		"background/y_damu2": "bg/mizube/y_damu2",
@@ -214,20 +215,20 @@
 		"effect/blood_1a": "bg/efe/blood_1a",
 		"effect/blood_1ar": "bg/efe/blood_1ar",
 		"effect/blood_1b": "bg/efe/blood_1b",
-		"effect/blood_2a": "bg/efe/blood_2a.png",
+		"effect/blood_2a": "bg/efe/blood_2a",
 		"effect/blood_2b": "bg/efe/blood_2b",
-		"effect/blood_2c": "bg/efe/blood_2c.png",
+		"effect/blood_2c": "bg/efe/blood_2c",
 		"effect/blood_2d": "bg/efe/blood_2d",
 		"effect/blood_2e": "bg/efe/blood_2e",
 		"effect/bullet_1a": "effect/bullet_1a",
-		"effect/bullet_1b": "effect/bullet_1b.png",
-		"effect/bullet_1c": "effect/bullet_1c.png",
+		"effect/bullet_1b": "effect/bullet_1b",
+		"effect/bullet_1c": "effect/bullet_1c",
 		"effect/bullet_1d": "effect/bullet_1d",
 		"effect/cinema": "effect/cinema",
-		"effect/day_1": "<SPECIAL_TEXT_EFFECT>",
-		"effect/day_10": "<SPECIAL_TEXT_EFFECT>",
-		"effect/day_11": "<SPECIAL_TEXT_EFFECT>",
-		"effect/day_2": "<SPECIAL_TEXT_EFFECT>",
+		"effect/day_1": "bg/etc/day_1",
+		"effect/day_10": "bg/etc/day_10",
+		"effect/day_11": "bg/etc/day_11",
+		"effect/day_2": "bg/etc/day_2",
 		"effect/different_spiral_1a": "bg/efe/different_spiral_1a",
 		"effect/different_spiral_1b": "bg/efe/different_spiral_1b",
 		"effect/down": "effect/down",
@@ -258,30 +259,30 @@
 		"effect/logomask": "effect/logomask",
 		"effect/m1": "effect/m1",
 		"effect/mask1": "effect/1",
-		"effect/mask2": "effect/mask2.png",
-		"effect/mask4": "effect/mask4.png",
+		"effect/mask2": "effect/mask2",
+		"effect/mask4": "effect/mask4",
 		"effect/maskaa": "effect/aa",
 		"effect/maskc": "effect/maskc",
-		"effect/omo1_1": "<SPECIAL_TEXT_EFFECT>",
-		"effect/omo1_2": "<SPECIAL_TEXT_EFFECT>",
-		"effect/omo1_3": "<SPECIAL_TEXT_EFFECT>",
-		"effect/omo1_4": "<SPECIAL_TEXT_EFFECT>",
-		"effect/omo1_5": "<SPECIAL_TEXT_EFFECT>",
-		"effect/omo2_1": "<SPECIAL_TEXT_EFFECT>",
-		"effect/omo2_2": "<SPECIAL_TEXT_EFFECT>",
+		"effect/omo1_1": "bg/etc/omo1_1",
+		"effect/omo1_2": "bg/etc/omo1_2",
+		"effect/omo1_3": "bg/etc/omo1_3",
+		"effect/omo1_4": "bg/etc/omo1_4",
+		"effect/omo1_5": "bg/etc/omo1_5",
+		"effect/omo2_1": "bg/etc/omo2_1",
+		"effect/omo2_2": "bg/etc/omo2_2",
 		"effect/oyasiro": "sprites/oya/oya_d5",
 		"effect/right": "effect/right",
 		"effect/ryuuketu1": "effect/ryuuketu1",
 		"effect/title02": "effect/title02",
-		"effect/tyuui": "<SPECIAL_TEXT_EFFECT>",
+		"effect/tyuui": "img/tyuui",
 		"effect/up": "effect/up",
 		"effect/v_hurricane": "effect/v_hurricane",
-		"effect/wagabu": "<SPECIAL_TEXT_EFFECT>",
+		"effect/wagabu": "<USE_MODDED>",
 		"effect/x": "effect/x",
 		"omake/lock_bg": "omake/lock_bg",
 		"omake/music": "omake/music",
-		"omake/s_roll_last_1": "bg/2021_add/s_roll_last_1.png",
-		"omake/s_roll_last_2": "bg/2021_add/s_roll_last_2.png",
+		"omake/s_roll_last_1": "bg/2021_add/s_roll_last_1",
+		"omake/s_roll_last_2": "bg/2021_add/s_roll_last_2",
 		"omake/stuff_only": "img/stuff_only",
 		"omake/tyuit": "omake/tyuit",
 		"portrait/ha1_au_": "sprites/hanyu/miko/han_4a",
@@ -305,6 +306,8 @@
 		"portrait/hmi2a_13_": "sprites/mio/mio_d14",
 		"portrait/hri2a_01_": "sprites/rik/rik_d4",
 		"portrait/hri2a_02_": "sprites/rik/rik_d2",
+		"portrait/hri2a_03_": "sprites/rik/rik_d3",
+		"portrait/hri2a_05_": "sprites/rik/rik_d8",
 		"portrait/hri2a_08_": "sprites/rik/rik_d8a",
 		"portrait/hri2a_09_": "sprites/rik/rik_d7",
 		"portrait/hri2a_10_": "sprites/rik/rik_d6",
@@ -394,12 +397,16 @@
 			"portrait/hara1a_01_": "sprites/ara/ara_d1",
 			"portrait/hara1a_05_": "sprites/ara/ara_d7a",
 			"portrait/hmi2a_13_": "sprites/mio/mio_d14",
+			"portrait/hri2a_02_": "sprites/rik/rik_d2",
+			"portrait/hri2a_03_": "sprites/rik/rik_d3",
+			"portrait/hri2a_05_": "sprites/rik/rik_d8",
 			"portrait/hri2a_09_": "sprites/rik/rik_d7",
 			"portrait/hri2a_10_": "sprites/rik/rik_d6",
 			"portrait/hyos1a_08_": "sprites/yos/yos_d1",
 			"portrait/hyos1a_09_": "sprites/yos/yos_d1",
 			"red": "red"
 		},
+		"dummy": {},
 		"flow": {
 			"title/07th-mod": "title/07th-mod",
 			"title/rik_alt": "title/rik_3f",
@@ -420,6 +427,7 @@
 		},
 		"outbreak01_1": {
 			"background/outb_gr2": "bg/gakkou/gr2",
+			"background/outb_jt1": "bg/mura2/mura_002",
 			"effect/maskaa": "effect/aa",
 			"portrait/renasen1_ikakaku_": "sprites/rena/sifuku_c/ren_14c"
 		},
@@ -428,12 +436,14 @@
 			"background/kamik_ke_ky1": "bg/keisatu/ke_ky1",
 			"background/kamik_mati16": "bg/mati/mati16",
 			"background/kamik_mati3": "bg/mati/mati3",
+			"background/kamik_mati_001": "bg/mati2/mati_206",
 			"background/kamik_mati_102": "bg/mati/mati16",
 			"background/kamik_mati_203": "bg/mati2/mati_001",
 			"background/kamik_mati_204": "bg/mati2/mati_204",
 			"background/kamik_mati_206": "bg/mati2/mati_206",
 			"background/kamik_mati_401": "bg/mati2/mati_401",
 			"background/kamik_mati_502": "bg/mati2/mati_502",
+			"background/kamik_mati_504": "bg/mati2/mati_504",
 			"background/kamik_sinryou_rouka1": "bg/sinryoujo/sinryou_rouka1",
 			"background/kaw_r1an": "bg/mati/ryou1",
 			"background/kaw_r1cn": "bg/mati/ryou2",
@@ -441,6 +451,7 @@
 			"effect/eye_base_b": "effect/eye_base_b",
 			"effect/eye_base_r": "effect/eye_base_r",
 			"effect/furiker_c": "effect/f_c",
+			"effect/kamik_inf_1": "bg/etc/inf_1",
 			"effect/mask1": "effect/1",
 			"effect/maskaa": "effect/aa",
 			"effect/v_hurricane": "effect/v_hurricane",
@@ -492,8 +503,8 @@
 				"credits/hou_staff_2c_jp": "credits/hou_staff_2c_jp",
 				"credits/tei_cast1": "credits/tei_cast1",
 				"credits/tei_cast2": "credits/tei_cast2",
-				"omake/s_roll_last_1": "bg/2021_add/s_roll_last_1.png",
-				"omake/s_roll_last_2": "bg/2021_add/s_roll_last_2.png"
+				"omake/s_roll_last_1": "bg/2021_add/s_roll_last_1",
+				"omake/s_roll_last_2": "bg/2021_add/s_roll_last_2"
 			}
 		},
 		"&opening": {},
@@ -504,7 +515,7 @@
 				"background/hina_douro_01": "bg/hina/douro_01",
 				"background/hina_title_1": "bg/hina/title_1",
 				"black": "black",
-				"effect/tyuui": "<SPECIAL_TEXT_EFFECT>"
+				"effect/tyuui": "img/tyuui"
 			},
 			"ps3/s26/00/tkak_0000": {
 				"background/hina_bus_03": "bg/hina/bus_02",
@@ -529,7 +540,7 @@
 			"ps3/s26/00/tkak_0120": {},
 			"ps3/s26/00/tkak_0130": {},
 			"ps3/s26/00/tkak_0140": {
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/00/tkat_0000": {},
 			"ps3/s26/00/tkat_0010": {},
@@ -583,7 +594,7 @@
 			"ps3/s26/52/trik_0250": {},
 			"ps3/s26/52/trik_0260": {
 				"background/hina_bus_03": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/52/trik_0270": {},
 			"ps3/s26/52/trik_0280": {},
@@ -600,7 +611,7 @@
 			"ps3/s26/52/trik_0320": {
 				"background/hina_bus_03": "bg/hina/bus_02",
 				"background/hina_bus_04": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/52/trik_0330": {
 				"background/hina_bus_03": "bg/hina/bus_03",
@@ -631,15 +642,16 @@
 			},
 			"ps3/s26/52/trik_0490": {
 				"background/greyscale/neki1": "bg/hina/mati10m",
-				"effect/cinema": "effect/cinema.png",
+				"effect/cinema": "effect/cinema",
 				"portrait/hton1a_01_": "sprites/ton/ton_d1"
 			},
 			"ps3/s26/52/trik_0500": {
+				"background/hina_bus_03": "None",
 				"black": "black",
 				"scene/613": "<SPECIAL_SCENE>"
 			},
 			"ps3/s26/52/trik_0510": {
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/52/trik_0520": {},
 			"ps3/s26/52/trik_0530": {
@@ -672,7 +684,7 @@
 			"ps3/s26/52/trik_0700": {},
 			"ps3/s26/52/trik_0710": {
 				"background/hina_bus_03": "bg/hina/bus_rain",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/52/trik_0720": {
 				"portrait/hri2a_09_": "sprites/rik/rik_d9"
@@ -701,11 +713,11 @@
 			},
 			"ps3/s26/52/trik_0810": {
 				"background/hina_bus_04": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/52/trik_0820": {
-				"effect/m1": "effect/m1.png",
-				"white": "white.png"
+				"effect/m1": "effect/m1",
+				"white": "white"
 			},
 			"ps3/s26/52/trik_0830": {},
 			"ps3/s26/52/trik_0840": {},
@@ -727,7 +739,7 @@
 			"ps3/s26/52/trik_0940": {
 				"background/greyscale/gk3": "bg/gakkou/gk3",
 				"black": "black",
-				"effect/cinema": "effect/cinema.png",
+				"effect/cinema": "effect/cinema",
 				"effect/left": "effect/left"
 			},
 			"ps3/s26/52/trik_0950": {},
@@ -781,7 +793,7 @@
 			"ps3/s26/52/trik_1290": {},
 			"ps3/s26/52/trik_1300": {},
 			"ps3/s26/52/trik_1310": {
-				"effect/right": "effect/right.png"
+				"effect/right": "effect/right"
 			},
 			"ps3/s26/52/trik_1320": {},
 			"ps3/s26/52/trik_1330": {},
@@ -794,9 +806,9 @@
 			"ps3/s26/52/trik_1380": {
 				"background/hina_bus_01": "None",
 				"background/hina_douro_03": "bg/hina/douro_02",
-				"black": "black.png",
+				"black": "black",
 				"effect/left": "effect/left",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/52/trik_1390": {},
 			"ps3/s26/52/trik_1400": {},
@@ -820,14 +832,14 @@
 			},
 			"ps3/s26/52/trik_1550": {
 				"background/hina_bus_04": "bg/hina/bus_04",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/52/trik_1560": {
 				"portrait/hri2a_09_": "sprites/rik/rik_d7"
 			},
 			"ps3/s26/52/trik_1570": {
 				"background/greyscale/neki1": "bg/mati/mati9",
-				"effect/cinema": "effect/cinema.png",
+				"effect/cinema": "effect/cinema",
 				"portrait/hri2a_10_": "sprites/rik/rik_d13"
 			},
 			"ps3/s26/52/trik_1580": {
@@ -857,9 +869,10 @@
 				"black": "black"
 			},
 			"ps3/s26/52/trik_1710": {
-				"black": "black.png",
+				"background/hina_douro_04": "None",
+				"black": "black",
 				"scene/617a": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/52/trik_1720": {},
 			"ps3/s26/52/trik_1730": {},
@@ -884,13 +897,13 @@
 			"ps3/s26/52/trik_1850": {},
 			"ps3/s26/52/trik_1860": {
 				"background/hina_bus_01": "bg/hina/bus_01",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/52/trik_1870": {},
 			"ps3/s26/52/trik_1880": {
 				"background/hina_douro_04": "None",
 				"red": "bg/hina/red1",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/52/trik_1890": {},
 			"ps3/s26/52/trik_1900": {},
@@ -910,6 +923,7 @@
 			},
 			"ps3/s26/52/trik_2000": {},
 			"ps3/s26/52/trik_2010": {
+				"background/hina_douro_01": "None",
 				"scene/620a": "<SPECIAL_SCENE>"
 			},
 			"ps3/s26/52/trik_2020": {
@@ -939,6 +953,7 @@
 			"ps3/s26/53/tmio_0150": {},
 			"ps3/s26/53/tmio_0160": {},
 			"ps3/s26/53/tmio_0170": {
+				"background/hina_bus_03": "None",
 				"black": "black",
 				"effect/right": "effect/right",
 				"scene/612": "<SPECIAL_SCENE>"
@@ -948,7 +963,7 @@
 			"ps3/s26/53/tmio_0200": {},
 			"ps3/s26/53/tmio_0210": {
 				"background/hina_bus_03": "None",
-				"black": "black.png",
+				"black": "black",
 				"white": "white"
 			},
 			"ps3/s26/53/tmio_0220": {},
@@ -965,7 +980,7 @@
 			},
 			"ps3/s26/53/tmio_0300": {
 				"background/hina_bus_03": "None",
-				"black": "black.png",
+				"black": "black",
 				"effect/right": "effect/right"
 			},
 			"ps3/s26/53/tmio_0310": {},
@@ -973,7 +988,7 @@
 				"effect/down": "effect/down"
 			},
 			"ps3/s26/53/tmio_0320": {
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/53/tmio_0330": {
 				"background/hina_bus_04": "bg/hina/bus_04",
@@ -996,7 +1011,7 @@
 			"ps3/s26/53/tmio_0420": {
 				"background/greyscale/kawa4": "bg/hina/damu1m",
 				"black": "black",
-				"effect/cinema": "effect/cinema.png",
+				"effect/cinema": "effect/cinema",
 				"portrait/hmi2a_02_": "sprites/mio/mio_d1"
 			},
 			"ps3/s26/53/tmio_0430": {
@@ -1032,11 +1047,11 @@
 			"ps3/s26/53/tmio_0570": {},
 			"ps3/s26/53/tmio_0580": {
 				"background/hina_bus_03": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/53/tmio_0590": {
 				"effect/down": "effect/down",
-				"effect/right": "effect/right.png"
+				"effect/right": "effect/right"
 			},
 			"ps3/s26/53/tmio_0600": {},
 			"ps3/s26/53/tmio_0610": {},
@@ -1045,7 +1060,7 @@
 				"black": "black"
 			},
 			"ps3/s26/53/tmio_0640": {
-				"effect/left": "effect/left.png"
+				"effect/left": "effect/left"
 			},
 			"ps3/s26/53/tmio_0650": {},
 			"ps3/s26/53/tmio_0660": {},
@@ -1109,6 +1124,7 @@
 			"ps3/s26/53/tmio_1020": {},
 			"ps3/s26/53/tmio_1021": {},
 			"ps3/s26/53/tmio_1030": {
+				"background/hina_bus_02": "None",
 				"black": "black",
 				"scene/614a": "<SPECIAL_SCENE>"
 			},
@@ -1125,9 +1141,10 @@
 				"background/koudou_02": "bg/mati2/mati_005"
 			},
 			"ps3/s26/53/tmio_1100": {
+				"background/hina_bus_03": "None",
 				"black": "black",
 				"scene/614d": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/53/tmio_1110": {},
 			"ps3/s26/53/tmio_1120": {
@@ -1137,7 +1154,7 @@
 			"ps3/s26/53/tmio_1140": {
 				"background/hina_bus_01": "bg/hina/bus_rain",
 				"background/hina_bus_03": "None",
-				"black": "black.png",
+				"black": "black",
 				"white": "white"
 			},
 			"ps3/s26/53/tmio_1150": {},
@@ -1167,7 +1184,7 @@
 			},
 			"ps3/s26/53/tmio_1290": {
 				"background/hina_bus_03": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/53/tmio_1300": {
 				"black": "black"
@@ -1187,11 +1204,11 @@
 			"ps3/s26/53/tmio_1430": {},
 			"ps3/s26/53/tmio_1440": {},
 			"ps3/s26/53/tmio_1450": {
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/53/tmio_1460": {},
 			"ps3/s26/53/tmio_1470": {
-				"effect/up": "effect/up.png"
+				"effect/up": "effect/up"
 			},
 			"ps3/s26/53/tmio_1480": {},
 			"ps3/s26/53/tmio_1490": {
@@ -1236,7 +1253,9 @@
 				"white": "white"
 			},
 			"ps3/s26/53/tmio_1750": {},
-			"ps3/s26/53/tmio_1760": {},
+			"ps3/s26/53/tmio_1760": {
+				"effect/blood_1a": "bg/efe/blood_1a"
+			},
 			"ps3/s26/53/tmio_1770": {
 				"background/hina_bus_01": "bg/hina/bus_01"
 			},
@@ -1248,7 +1267,7 @@
 				"effect/down": "effect/down"
 			},
 			"ps3/s26/53/tmio_1810": {
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/53/tmio_1820": {},
 			"ps3/s26/53/tmio_1830": {},
@@ -1313,7 +1332,7 @@
 			"ps3/s26/53/tmio_2270": {},
 			"ps3/s26/53/tmio_2280": {
 				"background/hina_ari": "bg/hina/ari",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/53/tmio_2290": {},
 			"ps3/s26/53/tmio_2300": {},
@@ -1321,17 +1340,17 @@
 			"ps3/s26/53/tmio_2320": {},
 			"ps3/s26/53/tmio_2330": {},
 			"ps3/s26/53/tmio_2340": {
-				"background/jt1": "bg/jinja/jt1.png",
+				"background/jt1": "bg/jinja/jt1",
 				"black": "black"
 			},
 			"ps3/s26/53/tmio_2350": {},
 			"ps3/s26/53/tmio_2360": {
 				"background/hina_douro_03": "bg/hina/douro_03",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/53/tmio_2370": {
-				"black": "black.png",
-				"white": "white.png"
+				"black": "black",
+				"white": "white"
 			},
 			"ps3/s26/53/tmio_2380": {},
 			"ps3/s26/53/tmio_2390": {},
@@ -1354,7 +1373,7 @@
 			"ps3/s26/53/tmio_2480": {
 				"background/greyscale/mati_ji1": "bg/mati/mati_ji1",
 				"black": "black",
-				"effect/cinema": "effect/cinema.png",
+				"effect/cinema": "effect/cinema",
 				"portrait/hri2a_01_": "sprites/rik/rik_d4"
 			},
 			"ps3/s26/53/tmio_2490": {
@@ -1366,7 +1385,7 @@
 			"ps3/s26/53/tmio_2510": {
 				"background/greyscale/sta_1a": "bg/mati/eki2",
 				"black": "black",
-				"effect/cinema": "effect/cinema.png",
+				"effect/cinema": "effect/cinema",
 				"portrait/hri2a_10_": "sprites/rik/rik_d9"
 			},
 			"ps3/s26/53/tmio_2520": {
@@ -1386,7 +1405,7 @@
 			"ps3/s26/53/tmio_2570": {},
 			"ps3/s26/53/tmio_2580": {
 				"background/hina_douro_04": "None",
-				"black": "black.png",
+				"black": "black",
 				"effect/down": "effect/down"
 			},
 			"ps3/s26/53/tmio_2590": {},
@@ -1408,6 +1427,10 @@
 			"ps3/s26/53/tmio_2690": {},
 			"ps3/s26/53/tmio_2700": {},
 			"ps3/s26/53/tmio_2710": {
+				"background/hina_bus_03": "None",
+				"black": "black",
+				"effect/down": "effect/down",
+				"effect/left": "effect/left",
 				"scene/618b": "<SPECIAL_SCENE>"
 			},
 			"ps3/s26/53/tmio_2720": {},
@@ -1417,10 +1440,10 @@
 			"ps3/s26/53/tmio_2740": {
 				"background/hina_douro_01": "None",
 				"background/hina_douro_04": "bg/hina/douro_04",
-				"black": "black.png",
+				"black": "black",
 				"effect/blood_1a": "bg/efe/blood_1a",
 				"scene/618b": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/53/tmio_2750": {},
 			"ps3/s26/53/tmio_2760": {
@@ -1431,7 +1454,7 @@
 			"ps3/s26/53/tmio_2780": {},
 			"ps3/s26/53/tmio_2790": {
 				"background/hina_bus_03": "bg/hina/bus_03",
-				"black": "black.png",
+				"black": "black",
 				"portrait/hri2a_02_": "sprites/rik/rik_d2",
 				"white": "white"
 			},
@@ -1441,8 +1464,13 @@
 			"ps3/s26/53/tmio_2810": {
 				"portrait/hri2a_08_": "sprites/rik/rik_d8a"
 			},
-			"ps3/s26/53/tmio_2820": {},
-			"ps3/s26/53/tmio_2830": {},
+			"ps3/s26/53/tmio_2820": {
+				"portrait/hri2a_03_": "None",
+				"portrait/hri2a_05_": "None"
+			},
+			"ps3/s26/53/tmio_2830": {
+				"portrait/hri2a_02_": "None"
+			},
 			"ps3/s26/53/tmio_2840": {
 				"background/hina_bus_03": "bg/hina/bus_02",
 				"black": "black"
@@ -1454,9 +1482,10 @@
 			"ps3/s26/53/tmio_2890": {},
 			"ps3/s26/53/tmio_2900": {},
 			"ps3/s26/53/tmio_2910": {
-				"black": "black.png",
+				"background/hina_bus_03": "None",
+				"black": "black",
 				"scene/620b": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/53/tmio_2920": {},
 			"ps3/s26/53/tmio_2930": {},
@@ -1476,7 +1505,7 @@
 			"ps3/s26/54/tyos_0090": {},
 			"ps3/s26/54/tyos_0100": {},
 			"ps3/s26/54/tyos_0110": {
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/54/tyos_0120": {},
 			"ps3/s26/54/tyos_0130": {},
@@ -1488,7 +1517,7 @@
 			"ps3/s26/54/tyos_0170": {
 				"black": "black",
 				"effect/furiker_c": "None",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/54/tyos_0180": {},
 			"ps3/s26/54/tyos_0190": {},
@@ -1497,7 +1526,7 @@
 			"ps3/s26/54/tyos_0220": {},
 			"ps3/s26/54/tyos_0230": {
 				"background/hina_bus_04": "bg/hina/bus_02",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/54/tyos_0240": {
 				"background/hina_bus_03": "bg/hina/bus_03"
@@ -1516,7 +1545,7 @@
 			"ps3/s26/54/tyos_0320": {},
 			"ps3/s26/54/tyos_0330": {
 				"background/greyscale/kawa4": "bg/hina/damu1m",
-				"effect/cinema": "effect/cinema.png",
+				"effect/cinema": "effect/cinema",
 				"portrait/hri2a_09_": "None"
 			},
 			"ps3/s26/54/tyos_0340": {
@@ -1527,14 +1556,14 @@
 			},
 			"ps3/s26/54/tyos_0360": {
 				"background/hina_bus_03": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/54/tyos_0370": {},
 			"ps3/s26/54/tyos_0380": {},
 			"ps3/s26/54/tyos_0390": {},
 			"ps3/s26/54/tyos_0400": {
 				"background/greyscale/moon": "bg/mura/moon",
-				"effect/cinema": "effect/cinema.png",
+				"effect/cinema": "effect/cinema",
 				"portrait/hri2a_12_": "sprites/rik/rik_d13"
 			},
 			"ps3/s26/54/tyos_0410": {},
@@ -1544,8 +1573,8 @@
 			"ps3/s26/54/tyos_0450": {
 				"background/hina_bus_03": "bg/hina/bus_01",
 				"background/hina_bus_04": "bg/hina/bus_05",
-				"black": "black.png",
-				"white": "white.png"
+				"black": "black",
+				"white": "white"
 			},
 			"ps3/s26/54/tyos_0460": {},
 			"ps3/s26/54/tyos_0470": {},
@@ -1572,7 +1601,7 @@
 			},
 			"ps3/s26/54/tyos_0650": {
 				"background/hina_bus_03": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/54/tyos_0660": {},
 			"ps3/s26/54/tyos_0670": {},
@@ -1602,6 +1631,7 @@
 			"ps3/s26/54/tyos_0850": {},
 			"ps3/s26/54/tyos_0860": {},
 			"ps3/s26/54/tyos_0870": {
+				"background/hina_bus_04": "None",
 				"scene/614c": "<SPECIAL_SCENE>"
 			},
 			"ps3/s26/54/tyos_0880": {},
@@ -1619,7 +1649,7 @@
 			"ps3/s26/54/tyos_1000": {},
 			"ps3/s26/54/tyos_1010": {
 				"background/hina_douro_03": "bg/hina/douro_03",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/54/tyos_1020": {},
 			"ps3/s26/54/tyos_1030": {
@@ -1627,7 +1657,7 @@
 			},
 			"ps3/s26/54/tyos_1040": {
 				"black": "black",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/54/tyos_1050": {},
 			"ps3/s26/54/tyos_1060": {
@@ -1653,7 +1683,7 @@
 			"ps3/s26/54/tyos_1240": {
 				"background/greyscale/kimi_ten1": "bg/sion/si_h6",
 				"black": "black",
-				"effect/cinema": "effect/cinema.png",
+				"effect/cinema": "effect/cinema",
 				"portrait/hyos1a_09_": "None"
 			},
 			"ps3/s26/54/tyos_1250": {
@@ -1690,34 +1720,34 @@
 			"ps3/s26/54/tyos_1380": {},
 			"ps3/s26/54/tyos_1390": {},
 			"ps3/s26/54/tyos_1400": {
-				"black": "black.png",
+				"black": "black",
 				"white": "white"
 			},
 			"ps3/s26/54/tyos_1410": {},
 			"ps3/s26/54/tyos_1420": {
 				"background/greyscale/susuki": "bg/mori/kusa",
 				"black": "black",
-				"effect/cinema": "effect/cinema.png"
+				"effect/cinema": "effect/cinema"
 			},
 			"ps3/s26/54/tyos_1430": {},
 			"ps3/s26/54/tyos_1440": {},
 			"ps3/s26/54/tyos_1450": {},
 			"ps3/s26/54/tyos_1460": {
-				"background/greyscale/gk1": "bg/gakkou/gk1.png",
-				"effect/cinema": "effect/cinema.png"
+				"background/greyscale/gk1": "bg/gakkou/gk1",
+				"effect/cinema": "effect/cinema"
 			},
 			"ps3/s26/54/tyos_1470": {
 				"background/greyscale/ng_kyo": "bg/tokyo/ko3",
-				"effect/cinema": "effect/cinema.png"
+				"effect/cinema": "effect/cinema"
 			},
 			"ps3/s26/54/tyos_1480": {},
 			"ps3/s26/54/tyos_1490": {
 				"background/greyscale/toi_1a": "bg/mati/wc1",
-				"effect/cinema": "effect/cinema.png"
+				"effect/cinema": "effect/cinema"
 			},
 			"ps3/s26/54/tyos_1500": {
 				"background/greyscale/hina_bus_03": "bg/hina/bus_03",
-				"effect/cinema": "effect/cinema.png"
+				"effect/cinema": "effect/cinema"
 			},
 			"ps3/s26/54/tyos_1510": {},
 			"ps3/s26/54/tyos_1520": {},
@@ -1726,8 +1756,9 @@
 			"ps3/s26/54/tyos_1550": {},
 			"ps3/s26/54/tyos_1560": {},
 			"ps3/s26/54/tyos_1570": {
+				"black": "black",
 				"scene/615": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/54/tyos_1580": {},
 			"ps3/s26/54/tyos_1590": {},
@@ -1735,13 +1766,14 @@
 			"ps3/s26/54/tyos_1610": {
 				"black": "black",
 				"effect/bite": "bg/efe/bite",
+				"effect/different_spiral_1b": "bg/efe/different_spiral_1b",
 				"effect/oyasiro": "None",
 				"scene/615": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/54/tyos_1620": {},
 			"ps3/s26/54/tyos_1630": {
-				"black": "black.png",
+				"black": "black",
 				"effect/blood_1ar": "bg/efe/blood_1ar"
 			},
 			"ps3/s26/54/tyos_1640": {},
@@ -1758,7 +1790,7 @@
 			"ps3/s26/54/tyos_1750": {},
 			"ps3/s26/54/tyos_1760": {
 				"background/hina_bus_04": "None",
-				"black": "black.png",
+				"black": "black",
 				"white": "white"
 			},
 			"ps3/s26/54/tyos_1770": {
@@ -1815,18 +1847,20 @@
 			"ps3/s26/54/tyos_2140": {},
 			"ps3/s26/54/tyos_2150": {
 				"black": "black",
+				"effect/blood_1b": "bg/efe/blood_1b",
 				"scene/616": "<SPECIAL_SCENE>"
 			},
 			"ps3/s26/54/tyos_2160": {},
 			"ps3/s26/54/tyos_2170": {
-				"white": "white.png"
+				"effect/blood_1ar": "bg/efe/blood_1ar",
+				"white": "white"
 			},
 			"ps3/s26/54/tyos_2180": {
 				"background/hina_bus_01": "None"
 			},
 			"ps3/s26/54/tyos_2190": {
 				"background/hina_bus_03": "bg/hina/bus_02",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/55/tara_0000": {},
 			"ps3/s26/55/tara_0010": {},
@@ -1875,7 +1909,7 @@
 			"ps3/s26/55/tara_0260": {},
 			"ps3/s26/55/tara_0270": {},
 			"ps3/s26/55/tara_0280": {
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/55/tara_0290": {},
 			"ps3/s26/55/tara_0300": {},
@@ -1885,16 +1919,16 @@
 			"ps3/s26/55/tara_0340": {},
 			"ps3/s26/55/tara_0350": {
 				"background/hina_simen1": "bg/sonota/simen1",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/55/tara_0360": {
 				"portrait/hyos1a_09_": "sprites/yos/yos_d4"
 			},
 			"ps3/s26/55/tara_0370": {},
 			"ps3/s26/55/tara_0380": {
-				"background/greyscale/hi1": "bg/mura/hi1.png",
+				"background/greyscale/hi1": "bg/mura/hi1",
 				"black": "black",
-				"effect/cinema": "effect/cinema.png",
+				"effect/cinema": "effect/cinema",
 				"effect/maskc": "effect/maskc",
 				"portrait/hri2a_10_": "sprites/rik/rik_d1"
 			},
@@ -1936,12 +1970,12 @@
 			"ps3/s26/55/tara_0600": {},
 			"ps3/s26/55/tara_0610": {
 				"background/kuruma5": "bg/kuruma/kuruma5",
-				"background/mati7": "bg/mati/mati7.png",
+				"background/mati7": "bg/mati/mati7",
 				"background/y_damu2": "bg/mizube/y_damu2",
-				"black": "black.png",
+				"black": "black",
 				"effect/left": "effect/left",
-				"effect/m1": "effect/m1.png",
-				"white": "white.png"
+				"effect/m1": "effect/m1",
+				"white": "white"
 			},
 			"ps3/s26/55/tara_0620": {},
 			"ps3/s26/55/tara_0630": {},
@@ -1966,8 +2000,8 @@
 			"ps3/s26/55/tara_0780": {
 				"background/hina_bus_03": "bg/hina/bus_01",
 				"black": "black",
-				"effect/bullet_1a": "effect/bullet_1a.png",
-				"white": "white.png"
+				"effect/bullet_1a": "effect/bullet_1a",
+				"white": "white"
 			},
 			"ps3/s26/55/tara_0790": {},
 			"ps3/s26/55/tara_0800": {},
@@ -1976,7 +2010,7 @@
 			"ps3/s26/55/tara_0830": {},
 			"ps3/s26/55/tara_0840": {
 				"background/hina_bus_04": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/55/tara_0850": {},
 			"ps3/s26/55/tara_0860": {
@@ -1989,7 +2023,7 @@
 			},
 			"ps3/s26/55/tara_0900": {
 				"background/greyscale/hoteru": "bg/sion/si_h1",
-				"effect/cinema": "effect/cinema.png",
+				"effect/cinema": "effect/cinema",
 				"portrait/hyos1a_08_": "sprites/yos/yos_d1"
 			},
 			"ps3/s26/55/tara_0910": {
@@ -2026,7 +2060,7 @@
 				"background/hina_bus_01": "bg/hina/bus_rain",
 				"black": "black",
 				"effect/maskaa": "None",
-				"effect/ryuuketu1": "effect/ryuuketu1.png",
+				"effect/ryuuketu1": "effect/ryuuketu1",
 				"white": "white"
 			},
 			"ps3/s26/55/tara_1050": {},
@@ -2060,7 +2094,9 @@
 			"ps3/s26/55/tara_1210": {},
 			"ps3/s26/55/tara_1220": {},
 			"ps3/s26/55/tara_1230": {},
-			"ps3/s26/55/tara_1240": {},
+			"ps3/s26/55/tara_1240": {
+				"effect/different_spiral_1a": "bg/efe/different_spiral_1a"
+			},
 			"ps3/s26/56/tton_0000": {},
 			"ps3/s26/56/tton_0010": {},
 			"ps3/s26/56/tton_0020": {
@@ -2170,7 +2206,7 @@
 			},
 			"ps3/s26/56/tton_0700": {
 				"background/hina_douro_03": "bg/hina/douro_02",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/57/tnit_0000": {
 				"background/hina_bus_03": "bg/hina/bus_02",
@@ -2179,7 +2215,7 @@
 			},
 			"ps3/s26/57/tnit_0010": {
 				"background/hina_bus_01": "bg/hina/bus_rain",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s26/57/tnit_0020": {},
 			"ps3/s26/57/tnit_0030": {},
@@ -2199,7 +2235,7 @@
 			"ps3/s26/57/tnit_0140": {},
 			"ps3/s26/57/tnit_0150": {
 				"background/hina_bus_02": "bg/hina/bus_02",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/57/tnit_0160": {
 				"background/hina_bus_02": "None"
@@ -2232,7 +2268,7 @@
 			"ps3/s26/57/tnit_0390": {},
 			"ps3/s26/57/tnit_0391": {
 				"background/hina_douro_04": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/57/tnit_0400": {},
 			"ps3/s26/57/tnit_0410": {
@@ -2244,11 +2280,13 @@
 			},
 			"ps3/s26/57/tnit_0420": {},
 			"ps3/s26/57/tnit_0430": {
+				"background/hina_douro_01": "None",
 				"black": "black",
 				"effect/up": "effect/up",
 				"scene/618a": "<SPECIAL_SCENE>"
 			},
 			"ps3/s26/57/tnit_0440": {
+				"effect/down": "effect/down",
 				"scene/618b": "<SPECIAL_SCENE>"
 			},
 			"ps3/s26/57/tnit_0450": {},
@@ -2287,7 +2325,7 @@
 			"ps3/s26/58/thos_0270": {},
 			"ps3/s26/58/thos_0280": {
 				"background/hina_bus_02": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/58/thos_0290": {},
 			"ps3/s26/58/thos_0300": {},
@@ -2324,7 +2362,7 @@
 			"ps3/s26/59/toka_0040": {},
 			"ps3/s26/59/toka_0050": {
 				"background/hina_bus_01": "bg/hina/bus_02",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/59/toka_0060": {
 				"background/hina_bus_03": "bg/hina/bus_03",
@@ -2352,27 +2390,31 @@
 				"scene/618a": "<SPECIAL_SCENE>"
 			},
 			"ps3/s26/59/toka_0240": {
+				"background/hina_bus_01": "None",
+				"background/hina_bus_04": "None",
+				"black": "black",
+				"effect/left": "effect/left",
 				"scene/618a": "<SPECIAL_SCENE>",
 				"scene/618b": "<SPECIAL_SCENE>"
 			},
 			"ps3/s26/59/toka_0250": {},
 			"ps3/s26/60/toda_0000": {
 				"background/hina_bus_03": "bg/hina/bus_01",
-				"black": "black.png",
-				"white": "white.png"
+				"black": "black",
+				"white": "white"
 			},
 			"ps3/s26/60/toda_0010": {},
 			"ps3/s26/60/toda_0020": {
 				"background/hina_bus_03": "None",
-				"black": "black.png",
-				"white": "white.png"
+				"black": "black",
+				"white": "white"
 			},
 			"ps3/s26/60/toda_0030": {},
 			"ps3/s26/60/toda_0040": {},
 			"ps3/s26/60/toda_0050": {},
 			"ps3/s26/60/toda_0060": {
 				"background/hina_bus_01": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s26/60/toda_0070": {},
 			"ps3/s26/60/toda_0080": {},
@@ -2387,7 +2429,7 @@
 			"ps3/s26/61/thot_0030": {},
 			"ps3/s26/61/thot_0040": {},
 			"ps3/s26/61/thot_0050": {
-				"black": "black.png",
+				"black": "black",
 				"effect/bite": "bg/efe/bite"
 			},
 			"ps3/s26/61/thot_0060": {},
@@ -2402,6 +2444,7 @@
 			"ps3/s26/61/thot_0120": {},
 			"ps3/s26/61/thot_0130": {}
 		},
+		"dummy": {},
 		"flow": {
 			"": {
 				"black": "black",
@@ -2416,8 +2459,8 @@
 				"chapter/tuika_4": "chapter/tuika_4",
 				"effect/down": "effect/down",
 				"effect/logomask": "effect/logomask",
-				"effect/mask2": "effect/mask2.png",
-				"effect/mask4": "effect/mask4.png",
+				"effect/mask2": "effect/mask2",
+				"effect/mask4": "effect/mask4",
 				"effect/maskc": "effect/maskc",
 				"omake/lock_bg": "omake/lock_bg",
 				"omake/music": "omake/music",
@@ -2432,17 +2475,17 @@
 				"title/title": "title/title",
 				"title/title3": "title/title3",
 				"title/title3scroll": "None",
-				"white": "white.png"
+				"white": "white"
 			}
 		},
 		"init": {},
 		"mehagashi": {
 			"": {
-				"background/jsa1": "bg/jinja/jsa1.png",
+				"background/jsa1": "bg/jinja/jsa1",
 				"background/saiguden_02": "bg/jinja/jsa2",
 				"black": "black",
 				"effect/left": "effect/left",
-				"effect/tyuui": "<SPECIAL_TEXT_EFFECT>"
+				"effect/tyuui": "img/tyuui"
 			},
 			"ps3/meha/0/keiichi9051": {},
 			"ps3/meha/0/keiichi9052": {},
@@ -2454,7 +2497,7 @@
 			"ps3/meha/0/mob029000": {},
 			"ps3/meha/0/mob039000": {},
 			"ps3/meha/0/mob039001": {
-				"background/sora": "bg/mura/sora.png"
+				"background/sora": "bg/mura/sora"
 			},
 			"ps3/meha/0/mob049000": {},
 			"ps3/meha/0/mob059000": {
@@ -2625,7 +2668,7 @@
 			"ps3/meha/1/keiichi9041": {
 				"background/oki_pool1": "bg/2021_add/pool1",
 				"background/oki_pool2": "bg/2021_add/pool2",
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black",
 				"effect/hton": "sprites/ton/ton_d5a",
 				"effect/right": "effect/right",
@@ -2669,10 +2712,10 @@
 			"ps3/meha/1/keiichi9066": {},
 			"ps3/meha/1/keiichi9067": {
 				"background/oki_pool1": "bg/2021_add/pool1",
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black",
 				"effect/down": "effect/down",
-				"effect/up": "effect/up.png",
+				"effect/up": "effect/up",
 				"white": "white"
 			},
 			"ps3/meha/1/keiichi9068": {},
@@ -2701,7 +2744,7 @@
 			},
 			"ps3/meha/1/keiichi9079": {},
 			"ps3/meha/1/keiichi9080": {
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black",
 				"white": "white"
 			},
@@ -2722,7 +2765,7 @@
 			"ps3/meha/1/keiichi9089": {},
 			"ps3/meha/1/keiichi9090": {
 				"background/oki_pool2": "bg/2021_add/pool2",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/meha/1/keiichi9091": {},
 			"ps3/meha/1/keiichi9092": {},
@@ -2741,7 +2784,7 @@
 			"ps3/meha/1/keiichi9102": {},
 			"ps3/meha/1/keiichi9103": {
 				"background/oki_pool1": "bg/2021_add/pool1",
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black",
 				"effect/down": "effect/down",
 				"effect/up": "effect/up",
@@ -2884,7 +2927,7 @@
 			"ps3/meha/1/keiichi9185": {},
 			"ps3/meha/1/keiichi9186": {},
 			"ps3/meha/1/keiichi9187": {
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black",
 				"effect/eye_me": "None",
 				"effect/eye_sa": "sprites/satoko/eye/sa_eyexa2"
@@ -2919,7 +2962,7 @@
 			},
 			"ps3/meha/1/keiichi9201": {
 				"background/oki_pool1": "bg/2021_add/pool1",
-				"background/sora": "bg/mura/sora.png"
+				"background/sora": "bg/mura/sora"
 			},
 			"ps3/meha/1/keiichi9202": {},
 			"ps3/meha/1/keiichi9203": {},
@@ -2930,7 +2973,7 @@
 			},
 			"ps3/meha/1/keiichi9207": {
 				"background/oki_pool1": "bg/2021_add/pool1",
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black",
 				"effect/down": "effect/down",
 				"white": "white"
@@ -2942,7 +2985,7 @@
 			"ps3/meha/1/keiichi9210": {},
 			"ps3/meha/1/keiichi9211": {
 				"background/oki_pool2": "bg/2021_add/pool2",
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black",
 				"effect/down": "effect/down"
 			},
@@ -2971,7 +3014,7 @@
 				"black": "black"
 			},
 			"ps3/meha/1/keiichi9232": {
-				"background/kouisitu1": "bg/2021_add/kouisitu1.png",
+				"background/kouisitu1": "bg/2021_add/kouisitu1",
 				"background/sinryou_sinsatu2": "bg/sinryoujo/sinryou_sinsatu2",
 				"black": "black",
 				"effect/left": "effect/left",
@@ -3038,7 +3081,7 @@
 			},
 			"ps3/meha/1/keiichi9255": {},
 			"ps3/meha/1/keiichi9256": {
-				"background/uchu_space": "bg/2021_add/uchu_space.png",
+				"background/uchu_space": "bg/2021_add/uchu_space",
 				"black": "black",
 				"effect/mask1": "None"
 			},
@@ -3084,11 +3127,11 @@
 			"ps3/meha/10/irie9031": {},
 			"ps3/meha/10/irie9032": {},
 			"ps3/meha/10/irie9033": {
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"portrait/kameda1b_odoroki_": "sprites/kam/kam_3"
 			},
 			"ps3/meha/10/irie9034": {
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"portrait/iri2_majime_": "sprites/irie/hakui/iri_majime",
 				"portrait/kameda1b_odoroki_": "sprites/kam/kam_4",
 				"white": "white"
@@ -3121,7 +3164,7 @@
 			},
 			"ps3/meha/12/hanyu9016": {},
 			"ps3/meha/12/hanyu9017": {
-				"background/fure1": "bg/sonota/fure1.png",
+				"background/fure1": "bg/sonota/fure1",
 				"effect/maskc": "effect/maskc"
 			},
 			"ps3/meha/12/hanyu9018": {},
@@ -3275,7 +3318,7 @@
 			"ps3/meha/23/kameda9003": {},
 			"ps3/meha/23/kameda9004": {
 				"background/oki_pool1": "bg/2021_add/pool1",
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black",
 				"effect/bg0": "effect/bg0",
 				"effect/furiker_a": "furiker_a",
@@ -3315,7 +3358,7 @@
 			"ps3/meha/3/mion9010": {},
 			"ps3/meha/3/mion9011": {},
 			"ps3/meha/3/mion9012": {
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"effect/hara": "sprites/ara/ara_d4",
 				"effect/hton": "sprites/ton/ton_d5a"
 			},
@@ -3324,7 +3367,7 @@
 			"ps3/meha/3/mion9015": {},
 			"ps3/meha/3/mion9016": {},
 			"ps3/meha/3/mion9017": {
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"effect/hara": "sprites/ara/ara_d4",
 				"effect/hton": "sprites/ton/ton_d5a",
 				"white": "white"
@@ -3365,7 +3408,7 @@
 				"black": "black",
 				"effect/eye_me": "sprites/mion/eye/me_eyex1",
 				"effect/right": "effect/right",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/meha/3/mion9041": {},
 			"ps3/meha/3/mion9042": {},
@@ -3381,7 +3424,7 @@
 			"ps3/meha/3/mion9050": {},
 			"ps3/meha/3/mion9051": {
 				"background/oki_pool1": "bg/2021_add/pool1",
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black"
 			},
 			"ps3/meha/3/mion9052": {},
@@ -3445,7 +3488,7 @@
 			"ps3/meha/3/mion9098": {},
 			"ps3/meha/3/mion9099": {},
 			"ps3/meha/3/mion9100": {
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"effect/down": "effect/down"
 			},
 			"ps3/meha/3/mion9101": {},
@@ -3479,7 +3522,7 @@
 			},
 			"ps3/meha/4/satoko9016": {},
 			"ps3/meha/4/satoko9017": {
-				"background/sora": "bg/mura/sora.png"
+				"background/sora": "bg/mura/sora"
 			},
 			"ps3/meha/4/satoko9018": {},
 			"ps3/meha/4/satoko9019": {},
@@ -3592,9 +3635,9 @@
 			"ps3/meha/5/rika9014": {
 				"background/cit_4a": "bg/mati/mati10a",
 				"background/mati3": "bg/mati/mati3",
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black",
-				"effect/left": "effect/left.png",
+				"effect/left": "effect/left",
 				"effect/up": "effect/up",
 				"white": "white"
 			},
@@ -3622,7 +3665,7 @@
 			},
 			"ps3/meha/5/rika9029": {},
 			"ps3/meha/5/rika9030": {
-				"background/sora": "bg/mura/sora.png"
+				"background/sora": "bg/mura/sora"
 			},
 			"ps3/meha/5/rika9031": {},
 			"ps3/meha/5/rika9032": {
@@ -3646,7 +3689,7 @@
 			"ps3/meha/5/rika9039": {},
 			"ps3/meha/5/rika9040": {
 				"background/oki_pool2": "bg/2021_add/pool2",
-				"black": "black.png",
+				"black": "black",
 				"effect/eye_sa": "sprites/satoko/eye/sa_eyexa1",
 				"effect/hara": "sprites/ara/ara_d4",
 				"effect/hton": "sprites/ton/ton_d5a",
@@ -3668,11 +3711,11 @@
 				"background/oki_pool1": "bg/2021_add/pool1",
 				"background/oki_pool2": "bg/2021_add/pool2",
 				"background/oki_pool3": "bg/2021_add/pool3",
-				"background/sora": "bg/mura/sora.png",
-				"black": "black.png",
+				"background/sora": "bg/mura/sora",
+				"black": "black",
 				"effect/left": "effect/left",
 				"effect/right": "effect/right",
-				"effect/up": "effect/up.png"
+				"effect/up": "effect/up"
 			},
 			"ps3/meha/5/rika9047": {},
 			"ps3/meha/5/rika9048": {
@@ -3681,7 +3724,7 @@
 			"ps3/meha/5/rika9049": {},
 			"ps3/meha/5/rika9050": {},
 			"ps3/meha/5/rika9051": {
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black"
 			},
 			"ps3/meha/5/rika9052": {},
@@ -3739,7 +3782,7 @@
 			"ps3/meha/6/shion9026": {},
 			"ps3/meha/6/shion9027": {},
 			"ps3/meha/6/shion9028": {
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black",
 				"effect/right": "effect/right",
 				"effect/up": "effect/up",
@@ -3785,7 +3828,7 @@
 			"ps3/meha/6/shion9054": {},
 			"ps3/meha/6/shion9055": {
 				"background/oki_pool2": "bg/2021_add/pool2",
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black",
 				"effect/left": "effect/left"
 			},
@@ -3798,7 +3841,7 @@
 			"ps3/meha/6/shion9060": {},
 			"ps3/meha/6/shion9061": {},
 			"ps3/meha/6/shion9062": {
-				"background/sora": "bg/mura/sora.png"
+				"background/sora": "bg/mura/sora"
 			},
 			"ps3/meha/6/shion9063": {},
 			"ps3/meha/6/shion9064": {
@@ -3809,7 +3852,7 @@
 			},
 			"ps3/meha/6/shion9065": {},
 			"ps3/meha/6/shion9066": {
-				"background/sora": "bg/mura/sora.png"
+				"background/sora": "bg/mura/sora"
 			},
 			"ps3/meha/6/shion9067": {},
 			"ps3/meha/6/shion9068": {
@@ -3817,7 +3860,7 @@
 			},
 			"ps3/meha/6/shion9069": {
 				"background/oki_pool1": "bg/2021_add/pool1",
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"effect/down": "effect/down",
 				"effect/left": "effect/left"
 			},
@@ -3876,7 +3919,7 @@
 			},
 			"ps3/meha/6/shion9091": {
 				"background/oki_pool2": "bg/2021_add/pool2",
-				"background/sora": "bg/mura/sora.png",
+				"background/sora": "bg/mura/sora",
 				"black": "black",
 				"effect/maskc": "effect/maskc",
 				"red": "None",
@@ -3890,7 +3933,7 @@
 			},
 			"ps3/meha/91/mob139002": {},
 			"ps3/meha/91/mob139003": {
-				"background/sora": "bg/mura/sora.png"
+				"background/sora": "bg/mura/sora"
 			},
 			"ps3/meha/92/mob149000": {},
 			"ps3/meha/92/mob149001": {
@@ -3905,20 +3948,20 @@
 			"": {
 				"background/ma1": "bg/maebara/ma1",
 				"black": "black",
-				"effect/day_1": "<SPECIAL_TEXT_EFFECT>",
+				"effect/day_1": "bg/etc/day_1",
 				"effect/m1": "effect/m1",
-				"effect/tyuui": "<SPECIAL_TEXT_EFFECT>",
+				"effect/tyuui": "img/tyuui",
 				"white": "white"
 			},
 			"ps3/s24/00/nana_0000": {},
 			"ps3/s24/00/nana_0010": {},
 			"ps3/s24/00/nana_0020": {
-				"background/ma_j3": "bg/maebara/ma_j3.png"
+				"background/ma_j3": "bg/maebara/ma_j3"
 			},
 			"ps3/s24/00/nanb_0000": {},
 			"ps3/s24/00/nanc_0000": {},
 			"ps3/s24/00/nand_0000": {
-				"background/ma3": "bg/maebara/ma3.png"
+				"background/ma3": "bg/maebara/ma3"
 			},
 			"ps3/s24/00/njie_0000": {},
 			"ps3/s24/00/njie_0010": {},
@@ -3927,65 +3970,65 @@
 			},
 			"ps3/s24/00/njie_0030": {},
 			"ps3/s24/00/njie_0040": {
-				"background/hi1": "bg/mura/hi1.png",
+				"background/hi1": "bg/mura/hi1",
 				"background/hi4": "bg/mura/hi4",
-				"background/ma_s1": "bg/maebara/ma_s1.png",
+				"background/ma_s1": "bg/maebara/ma_s1",
 				"black": "black"
 			},
 			"ps3/s24/00/njie_0050": {
-				"background/hi1": "bg/mura/hi1.png",
-				"background/hi4": "bg/mura/hi4.png",
+				"background/hi1": "bg/mura/hi1",
+				"background/hi4": "bg/mura/hi4",
 				"background/ie1": "bg/mura/ie1",
 				"background/m_hi5_01": "bg/mura/m_hi7",
 				"background/m_hi6": "bg/mura/m_hi6",
 				"background/ma2": "bg/maebara/ma2",
-				"background/ma_j3": "bg/maebara/ma_j3.png",
+				"background/ma_j3": "bg/maebara/ma_j3",
 				"background/moon": "bg/mura/moon",
 				"background/outb_jiei_003": "bg/jiei/jiei_003",
-				"background/sora2": "bg/mura/sora2.png",
+				"background/sora2": "bg/mura/sora2",
 				"background/ta2": "bg/mura/tab2",
 				"background/tennai1": "bg/mati/tennai1",
 				"black": "black",
 				"effect/bullet_1a": "effect/bullet_1a",
 				"effect/different_spiral_1a": "bg/efe/different_spiral_1a",
 				"effect/different_spiral_1b": "bg/efe/different_spiral_1b",
-				"effect/left": "effect/left.png",
+				"effect/left": "effect/left",
 				"white": "white"
 			},
 			"ps3/s24/00/nkfa_0000": {},
 			"ps3/s24/00/nkfa_0010": {},
 			"ps3/s24/00/nkfa_0020": {
-				"background/ma_s1": "bg/maebara/ma_s1.png",
+				"background/ma_s1": "bg/maebara/ma_s1",
 				"black": "black",
 				"effect/left": "effect/left"
 			},
 			"ps3/s24/00/nkfa_0030": {},
 			"ps3/s24/00/nkfa_0040": {},
 			"ps3/s24/00/nkfa_0050": {
-				"background/hi1": "bg/mura/hi1.png",
-				"background/hi4": "bg/mura/hi4.png",
+				"background/hi1": "bg/mura/hi1",
+				"background/hi4": "bg/mura/hi4",
 				"background/m_hi3": "bg/mura/m_hi3",
 				"background/m_hi8": "bg/mura/hi7",
 				"background/ma3": "bg/maebara/ma3",
 				"background/ma_g1": "bg/maebara/ma_g1",
 				"background/ma_g3": "bg/maebara/ma_g3",
-				"background/ma_j3": "bg/maebara/ma_j3.png",
+				"background/ma_j3": "bg/maebara/ma_j3",
 				"background/ma_s1": "bg/maebara/ma_s1",
 				"background/outb_g1": "bg/gakkou/g1",
 				"background/outb_gr2": "bg/gakkou/gr2",
 				"black": "black",
-				"effect/day_2": "<SPECIAL_TEXT_EFFECT>"
+				"effect/day_2": "bg/etc/day_2"
 			},
 			"ps3/s24/00/nkfa_0060": {},
 			"ps3/s24/00/nkfa_0070": {
 				"background/ma_g2": "bg/maebara/ma_g2",
 				"effect/bullet_1a": "effect/bullet_1a",
-				"effect/bullet_1b": "effect/bullet_1b.png",
-				"effect/bullet_1c": "effect/bullet_1c.png",
+				"effect/bullet_1b": "effect/bullet_1b",
+				"effect/bullet_1c": "effect/bullet_1c",
 				"effect/bullet_1d": "effect/bullet_1d"
 			},
 			"ps3/s24/00/nkfa_0080": {
-				"background/ma2": "bg/maebara/ma2.png",
+				"background/ma2": "bg/maebara/ma2",
 				"effect/left": "effect/left"
 			},
 			"ps3/s24/00/nkfa_0090": {},
@@ -4012,7 +4055,7 @@
 				"background/ma_g3": "bg/maebara/ma_g3",
 				"background/ma_s1": "bg/maebara/ma_s1",
 				"black": "black",
-				"effect/aka1": "effect/aka1.png",
+				"effect/aka1": "effect/aka1",
 				"effect/left": "effect/left",
 				"white": "white"
 			},
@@ -4031,36 +4074,37 @@
 			"ps3/s24/01/nkei_0090": {},
 			"ps3/s24/01/nkei_0100": {
 				"background/outb_gr2": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s24/01/nkei_0110": {},
 			"ps3/s24/01/nkei_0120": {},
 			"ps3/s24/01/nkei_0130": {},
 			"ps3/s24/01/nkei_0140": {
-				"background/hi9": "bg/mura/hi9.png",
+				"background/hi9": "bg/mura/hi9",
 				"background/ji1": "bg/jinja/ji1",
-				"background/m_hi1": "bg/mura/m_hi1.png",
+				"background/m_hi1": "bg/mura/m_hi1",
 				"background/m_hi8": "bg/mura/m_hi13",
 				"background/ma1": "bg/maebara/ma1",
-				"background/ma3": "bg/maebara/ma3.png",
-				"background/ma_j3": "bg/maebara/ma_j3.png",
-				"background/ma_s1": "bg/maebara/ma_s1.png",
-				"background/mati4": "bg/mati/mati4.png",
+				"background/ma3": "bg/maebara/ma3",
+				"background/ma_j3": "bg/maebara/ma_j3",
+				"background/ma_s1": "bg/maebara/ma_s1",
+				"background/mati4": "bg/mati/mati4",
 				"background/outb_g1": "bg/gakkou/g1",
 				"black": "black",
-				"effect/day_10": "<SPECIAL_TEXT_EFFECT>"
+				"effect/day_10": "bg/etc/day_10"
 			},
 			"ps3/s24/01/nkei_0150": {},
 			"ps3/s24/01/nkei_0160": {
-				"background/hi4": "bg/mura/hi4.png",
-				"black": "black.png",
+				"background/gr3": "bg/gakkou/gr3",
+				"background/hi4": "bg/mura/hi4",
+				"black": "black",
 				"scene/601": "<SPECIAL_SCENE>"
 			},
 			"ps3/s24/01/nkei_0170": {},
 			"ps3/s24/01/nkei_0180": {},
 			"ps3/s24/01/nkei_0190": {},
 			"ps3/s24/01/nkei_0200": {
-				"background/hi1": "bg/mura/hi1.png",
+				"background/hi1": "bg/mura/hi1",
 				"black": "black"
 			},
 			"ps3/s24/01/nkei_0210": {},
@@ -4079,8 +4123,8 @@
 				"background/ma2": "bg/maebara/ma2",
 				"background/ma5": "bg/maebara/ma5",
 				"background/ma_g3": "bg/maebara/ma_g3",
-				"background/ma_j3": "bg/maebara/ma_j3.png",
-				"background/ma_s1": "bg/maebara/ma_s1.png",
+				"background/ma_j3": "bg/maebara/ma_j3",
+				"background/ma_s1": "bg/maebara/ma_s1",
 				"black": "black",
 				"effect/blood_2a": "bg/efe/blood_2a",
 				"effect/different_spiral_1a": "bg/efe/different_spiral_1a",
@@ -4088,10 +4132,11 @@
 				"white": "white"
 			},
 			"ps3/s24/01/nkei_0300": {
+				"background/ma_g2": "bg/maebara/ma_g2",
 				"black": "black",
 				"effect/left": "effect/left",
 				"scene/602": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s24/01/nkei_0310": {},
 			"ps3/s24/01/nkei_0320": {
@@ -4105,9 +4150,9 @@
 				"effect/left": "effect/left"
 			},
 			"ps3/s24/01/nkei_0340": {
-				"background/ma2": "bg/maebara/ma2.png",
+				"background/ma2": "bg/maebara/ma2",
 				"background/ma5": "bg/maebara/ma5",
-				"black": "black.png",
+				"black": "black",
 				"effect/blood_1a": "bg/efe/blood_1a",
 				"effect/blood_1ar": "bg/efe/blood_1ar",
 				"effect/blood_2c": "bg/efe/blood_2c",
@@ -4116,7 +4161,7 @@
 				"effect/maskaa": "None",
 				"effect/right": "effect/right",
 				"effect/ryuuketu1": "effect/ryuuketu1",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s24/01/nkei_0350": {
 				"portrait/renasen1_ikakaku_": "None"
@@ -4151,14 +4196,14 @@
 				"background/ma_g2": "bg/maebara/ma_g2",
 				"black": "black",
 				"effect/left": "effect/left",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s24/01/nkei_0520": {},
 			"ps3/s24/01/nkei_0530": {},
 			"ps3/s24/01/nkei_0540": {},
 			"ps3/s24/01/nkei_0550": {
-				"effect/wagabu": "<SPECIAL_TEXT_EFFECT>",
-				"white": "white.png"
+				"effect/wagabu": "<USE_MODDED>",
+				"white": "white"
 			},
 			"ps3/s24/01/nkei_0560": {
 				"background/ma5": "bg/maebara/ma5"
@@ -4167,18 +4212,28 @@
 				"black": "black",
 				"scene/603": "<SPECIAL_SCENE>"
 			},
-			"ps3/s24/01/nkei_0580": {},
-			"ps3/s24/01/nkei_0590": {},
+			"ps3/s24/01/nkei_0580": {
+				"background/ma2": "bg/maebara/ma2",
+				"background/mo1": "bg/mori/mo1",
+				"black": "black"
+			},
+			"ps3/s24/01/nkei_0590": {
+				"background/moon": "bg/mura/moon"
+			},
 			"ps3/s24/01/nkei_0600": {},
-			"ps3/s24/01/nkei_0610": {},
-			"ps3/s24/01/nkei_0620": {},
+			"ps3/s24/01/nkei_0610": {
+				"black": "black"
+			},
+			"ps3/s24/01/nkei_0620": {
+				"background/ma5": "bg/maebara/ma5"
+			},
 			"ps3/s24/01/nkei_0630": {},
 			"ps3/s24/01/nkei_0640": {},
 			"ps3/s24/01/nkei_0650": {},
 			"ps3/s24/01/nkei_0660": {},
 			"ps3/s24/01/nkei_0670": {
-				"background/ma5": "bg/maebara/ma5.png",
-				"black": "black.png"
+				"background/ma5": "bg/maebara/ma5",
+				"black": "black"
 			},
 			"ps3/s24/01/nkei_0680": {},
 			"ps3/s24/01/nkei_0690": {},
@@ -4192,7 +4247,7 @@
 			"ps3/s24/02/nren_0020": {},
 			"ps3/s24/02/nren_0030": {},
 			"ps3/s24/02/nren_0040": {
-				"black": "black.png",
+				"black": "black",
 				"scene/601": "<SPECIAL_SCENE>"
 			},
 			"ps3/s24/02/nren_0050": {},
@@ -4210,7 +4265,7 @@
 			},
 			"ps3/s24/02/nren_0130": {},
 			"ps3/s24/02/nren_0140": {
-				"background/gr3": "bg/gakkou/gr3.png",
+				"background/gr3": "bg/gakkou/gr3",
 				"background/hu2": "bg/hurude/hu2",
 				"background/ma1": "bg/maebara/ma1",
 				"background/so1": "bg/sonozaki/so1",
@@ -4219,13 +4274,16 @@
 			"ps3/s24/02/nren_0150": {},
 			"ps3/s24/02/nren_0160": {
 				"background/outb_gr1": "bg/gakkou/gr1",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s24/02/nren_0170": {},
 			"ps3/s24/02/nren_0180": {
 				"effect/up": "effect/up"
 			},
-			"ps3/s24/02/nren_0190": {},
+			"ps3/s24/02/nren_0190": {
+				"background/blood_1b": "bg/efe/blood_1b",
+				"background/ma_g2": "bg/maebara/ma_g2"
+			},
 			"ps3/s24/02/nren_0200": {},
 			"ps3/s24/02/nren_0215": {
 				"portrait/renasen1_ikakaku_": "sprites/rena/sifuku_c/ren_14c"
@@ -4307,14 +4365,14 @@
 				"background/torakku1": "bg/kuruma/torakku1",
 				"background/torakku2": "bg/kuruma/torakku2",
 				"background/y_ie1": "bg/mori/koya2y",
-				"black": "black.png",
-				"effect/blade1w": "bg/efe/blade1w.png",
-				"effect/blade2w": "bg/efe/blade2w.png",
+				"black": "black",
+				"effect/blade1w": "bg/efe/blade1w",
+				"effect/blade2w": "bg/efe/blade2w",
 				"effect/blade8_1w": "bg/efe/blade8_1w",
 				"effect/blood_1b": "bg/efe/blood_1b",
 				"effect/left": "effect/left",
 				"effect/right": "effect/right",
-				"effect/up": "effect/up.png",
+				"effect/up": "effect/up",
 				"white": "white"
 			},
 			"ps3/s24/02/nren_0570": {},
@@ -4323,9 +4381,14 @@
 			"ps3/s24/03/nmio_0000": {},
 			"ps3/s24/03/nmio_0010": {},
 			"ps3/s24/03/nmio_0020": {},
-			"ps3/s24/03/nmio_0030": {},
+			"ps3/s24/03/nmio_0030": {
+				"background/hi1": "bg/mura/hi1"
+			},
 			"ps3/s24/03/nmio_0040": {},
-			"ps3/s24/03/nmio_0050": {},
+			"ps3/s24/03/nmio_0050": {
+				"background/gr3": "bg/gakkou/gr3",
+				"black": "black"
+			},
 			"ps3/s24/03/nmio_0060": {},
 			"ps3/s24/03/nmio_0070": {},
 			"ps3/s24/03/nmio_0080": {},
@@ -4337,14 +4400,14 @@
 			"ps3/s24/03/nmio_0140": {},
 			"ps3/s24/03/nmio_0150": {},
 			"ps3/s24/03/nmio_0160": {
-				"background/gr3": "bg/gakkou/gr3.png",
+				"background/gr3": "bg/gakkou/gr3",
 				"black": "black"
 			},
 			"ps3/s24/03/nmio_0170": {
 				"scene/601": "<SPECIAL_SCENE>"
 			},
 			"ps3/s24/03/nmio_0180": {
-				"background/gr3": "bg/gakkou/gr3.png",
+				"background/gr3": "bg/gakkou/gr3",
 				"background/ji2": "bg/jinja/ji2",
 				"black": "black",
 				"effect/different_spiral_1a": "bg/efe/different_spiral_1a"
@@ -4362,7 +4425,7 @@
 			"ps3/s24/03/nmio_0290": {},
 			"ps3/s24/03/nmio_0300": {},
 			"ps3/s24/03/nmio_0310": {
-				"background/hi4": "bg/mura/hi4.png",
+				"background/hi4": "bg/mura/hi4",
 				"black": "black"
 			},
 			"ps3/s24/03/nmio_0320": {},
@@ -4392,7 +4455,7 @@
 				"black": "black",
 				"effect/aka1": "effect/aka1",
 				"effect/aka2": "effect/aka2",
-				"effect/day_11": "<SPECIAL_TEXT_EFFECT>",
+				"effect/day_11": "bg/etc/day_11",
 				"effect/different_spiral_1a": "bg/efe/different_spiral_1a",
 				"effect/left": "effect/left",
 				"white": "white"
@@ -4403,17 +4466,17 @@
 			"ps3/s24/03/nmio_0460": {},
 			"ps3/s24/03/nmio_0470": {},
 			"ps3/s24/03/nmio_0480": {
-				"background/ma_j3": "bg/maebara/ma_j3.png",
+				"background/ma_j3": "bg/maebara/ma_j3",
 				"black": "black"
 			},
 			"ps3/s24/03/nmio_0490": {
 				"background/so_k1": "bg/sonozaki/so_k1"
 			},
 			"ps3/s24/03/nmio_0500": {
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s24/03/nmio_0510": {
-				"background/hi1": "bg/mura/hi1.png",
+				"background/hi1": "bg/mura/hi1",
 				"black": "black"
 			},
 			"ps3/s24/03/nmio_0520": {
@@ -4435,13 +4498,13 @@
 			"ps3/s24/03/nmio_0560": {},
 			"ps3/s24/03/nmio_0570": {},
 			"ps3/s24/03/nmio_0580": {
-				"background/ma_j3": "bg/maebara/ma_j3.png",
+				"background/ma_j3": "bg/maebara/ma_j3",
 				"black": "black"
 			},
 			"ps3/s24/03/nmio_0590": {},
 			"ps3/s24/03/nmio_0600": {
 				"background/ma_g3": "bg/maebara/ma_g3",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s24/03/nmio_0610": {},
 			"ps3/s24/03/nmio_0620": {},
@@ -4454,7 +4517,7 @@
 			"ps3/s24/03/nmio_0660": {},
 			"ps3/s24/03/nmio_0670": {},
 			"ps3/s24/03/nmio_0680": {
-				"background/hi4": "bg/mura/hi4.png",
+				"background/hi4": "bg/mura/hi4",
 				"black": "black"
 			},
 			"ps3/s24/03/nmio_0690": {},
@@ -4478,8 +4541,9 @@
 			"ps3/s24/04/nsat_0010": {},
 			"ps3/s24/04/nsat_0020": {},
 			"ps3/s24/04/nsat_0030": {
+				"background/outb_jt1": "None",
 				"scene/604a": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s24/04/nsat_0040": {},
 			"ps3/s24/04/nsat_0050": {
@@ -4490,33 +4554,35 @@
 			"ps3/s24/05/nrik_0020": {},
 			"ps3/s24/05/nrik_0030": {},
 			"ps3/s24/05/nrik_0040": {
+				"background/outb_jt1": "None",
 				"scene/604c": "<SPECIAL_SCENE>",
 				"scene/604d": "<SPECIAL_SCENE>"
 			},
 			"ps3/s24/05/nrik_0050": {
 				"black": "black",
-				"white": "white.png"
+				"white": "white"
 			}
 		},
 		"outbreak02_1": {
 			"": {
-				"background/mo2": "bg/mori/mo2.png",
+				"background/mo2": "bg/mori/mo2",
 				"background/outb_jt1": "bg/mura/hi2",
 				"background/sora": "bg/mura/sora",
 				"black": "black",
-				"effect/tyuui": "<SPECIAL_TEXT_EFFECT>"
+				"effect/tyuui": "img/tyuui"
 			},
 			"ps3/s25/00/nkua_0000": {
 				"black": "black",
-				"effect/blood_2c": "bg/efe/blood_2c.png",
+				"effect/blood_2c": "bg/efe/blood_2c",
 				"scene/609": "<SPECIAL_SCENE>"
 			},
 			"ps3/s25/00/nkub_0000": {
-				"background/ke2": "bg/keisatu/ke2.png",
+				"background/bui_r1e": "None",
+				"background/ke2": "bg/keisatu/ke2",
 				"black": "black",
 				"effect/right": "effect/right",
 				"scene/609": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/01/nkei_0730": {},
 			"ps3/s25/01/nkei_0740": {},
@@ -4525,7 +4591,7 @@
 			"ps3/s25/01/nkei_0770": {},
 			"ps3/s25/01/nkei_0780": {
 				"background/kamik_mati4": "bg/mati/mati4",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/01/nkei_0790": {},
 			"ps3/s25/01/nkei_0800": {},
@@ -4536,7 +4602,7 @@
 			"ps3/s25/01/nkei_0850": {},
 			"ps3/s25/01/nkei_0860": {
 				"background/kamik_sinryou_matiai1": "bg/sinryoujo/sinryou_matiai1",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/01/nkei_0870": {},
 			"ps3/s25/01/nkei_0880": {},
@@ -4598,7 +4664,7 @@
 			"ps3/s25/01/nkei_1260": {},
 			"ps3/s25/01/nkei_1270": {
 				"background/kamik_mati_203": "bg/mati2/mati_001",
-				"black": "black.png",
+				"black": "black",
 				"effect/left": "effect/left"
 			},
 			"ps3/s25/01/nkei_1280": {},
@@ -4633,16 +4699,16 @@
 			"ps3/s25/01/nkei_1460": {},
 			"ps3/s25/01/nkei_1470": {},
 			"ps3/s25/01/nkei_1480": {
-				"background/gk1": "bg/gakkou/gk1.png",
-				"black": "black.png",
-				"effect/left": "effect/left.png"
+				"background/gk1": "bg/gakkou/gk1",
+				"black": "black",
+				"effect/left": "effect/left"
 			},
 			"ps3/s25/01/nkei_1490": {},
 			"ps3/s25/01/nkei_1500": {},
 			"ps3/s25/01/nkei_1510": {},
 			"ps3/s25/01/nkei_1520": {
-				"background/gk1": "bg/gakkou/gk1.png",
-				"white": "white.png"
+				"background/gk1": "bg/gakkou/gk1",
+				"white": "white"
 			},
 			"ps3/s25/01/nkei_1530": {},
 			"ps3/s25/01/nkei_1540": {},
@@ -4650,7 +4716,7 @@
 				"background/mo1": "bg/mori/mo1",
 				"black": "black",
 				"effect/left": "effect/left",
-				"effect/right": "effect/right.png"
+				"effect/right": "effect/right"
 			},
 			"ps3/s25/02/nren_0610": {},
 			"ps3/s25/02/nren_0620": {},
@@ -4681,14 +4747,14 @@
 			"ps3/s25/02/nren_0820": {},
 			"ps3/s25/02/nren_0830": {
 				"background/kamik_mati_502": "bg/mati2/mati_502",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/02/nren_0840": {
 				"background/kamik_mati_502": "bg/mati2/mati_502",
 				"black": "black",
 				"effect/blade1w": "bg/efe/blade1w",
 				"effect/blade2w": "bg/efe/blade2w",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/02/nren_0850": {},
 			"ps3/s25/02/nren_0860": {},
@@ -4726,11 +4792,13 @@
 				"black": "black"
 			},
 			"ps3/s25/02/nren_1100": {},
-			"ps3/s25/02/nren_1110": {},
+			"ps3/s25/02/nren_1110": {
+				"background/kamik_mati_203": "None"
+			},
 			"ps3/s25/02/nren_1120": {
 				"background/cit_1ar": "bg/mati2/mati_101y",
 				"background/kamik_mati_203": "bg/mati2/mati_001",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/02/nren_1130": {},
 			"ps3/s25/02/nren_1140": {},
@@ -4752,7 +4820,7 @@
 			"ps3/s25/02/nren_1210": {},
 			"ps3/s25/02/nren_1220": {
 				"background/kamik_mati_206": "bg/mati2/mati_206",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/02/nren_1230": {},
 			"ps3/s25/02/nren_1240": {},
@@ -4766,22 +4834,22 @@
 			"ps3/s25/02/nren_1290": {},
 			"ps3/s25/02/nren_1295": {
 				"background/bui_r1e": "bg/keisatu/ke_ky4",
-				"background/ke2": "bg/keisatu/ke2.png",
-				"black": "black.png",
+				"background/ke2": "bg/keisatu/ke2",
+				"black": "black",
 				"effect/eye_base_b": "None",
 				"effect/eye_base_r": "None",
 				"effect/eye_kei": "sprites/keiiti/eye/kei_eyexa1",
 				"effect/eye_re": "sprites/rena/eye/re_eyexa2",
-				"effect/furiker_a": "furiker_a.png",
-				"effect/furiker_b": "furiker_b.png",
+				"effect/furiker_a": "furiker_a",
+				"effect/furiker_b": "furiker_b",
 				"effect/furiker_c": "None",
-				"effect/omo1_1": "<SPECIAL_TEXT_EFFECT>",
-				"effect/omo1_2": "<SPECIAL_TEXT_EFFECT>",
-				"effect/omo1_3": "<SPECIAL_TEXT_EFFECT>",
-				"effect/omo1_4": "<SPECIAL_TEXT_EFFECT>",
-				"effect/omo1_5": "<SPECIAL_TEXT_EFFECT>",
-				"effect/omo2_1": "<SPECIAL_TEXT_EFFECT>",
-				"effect/omo2_2": "<SPECIAL_TEXT_EFFECT>",
+				"effect/omo1_1": "bg/etc/omo1_1",
+				"effect/omo1_2": "bg/etc/omo1_2",
+				"effect/omo1_3": "bg/etc/omo1_3",
+				"effect/omo1_4": "bg/etc/omo1_4",
+				"effect/omo1_5": "bg/etc/omo1_5",
+				"effect/omo2_1": "bg/etc/omo2_1",
+				"effect/omo2_2": "bg/etc/omo2_2",
 				"white": "white"
 			},
 			"ps3/s25/02/nren_1300": {},
@@ -4807,7 +4875,7 @@
 			"ps3/s25/03/nmio_0810": {
 				"background/hi3": "bg/mura/hi3",
 				"background/m_hi1": "bg/mura/m_hi1",
-				"background/m_hi4": "bg/mura/m_hi4.png",
+				"background/m_hi4": "bg/mura/m_hi4",
 				"black": "black"
 			},
 			"ps3/s25/03/nmio_0820": {},
@@ -4838,6 +4906,7 @@
 			"ps3/s25/03/nmio_0930": {},
 			"ps3/s25/03/nmio_0940": {},
 			"ps3/s25/03/nmio_0950": {
+				"background/kamik_mati16": "None",
 				"background/kamik_mati_102": "bg/mati2/mati_102",
 				"effect/blood_2a": "bg/efe/blood_2a",
 				"effect/blood_2b": "bg/efe/blood_2b",
@@ -4856,6 +4925,7 @@
 			},
 			"ps3/s25/03/nmio_1000": {},
 			"ps3/s25/03/nmio_1010": {
+				"background/kamik_mati_504": "None",
 				"black": "black",
 				"scene/606": "<SPECIAL_SCENE>"
 			},
@@ -4877,7 +4947,7 @@
 			},
 			"ps3/s25/03/nmio_1130": {
 				"background/kamik_mati_401": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/03/nmio_1140": {},
 			"ps3/s25/03/nmio_1141": {},
@@ -4918,11 +4988,12 @@
 			"ps3/s25/03/nmio_1300": {
 				"background/cit_1ar": "bg/mati2/mati_101y",
 				"background/par_1ay": "bg/mati2/mati_103y",
-				"black": "black.png",
+				"black": "black",
 				"effect/different_spiral_1a": "bg/efe/different_spiral_1a",
 				"portrait/me7_majime_a1_": "sprites/mion/sifuku/me_majimea1"
 			},
 			"ps3/s25/03/nmio_1310": {
+				"background/kamik_mati_203": "None",
 				"black": "black",
 				"scene/605b": "<SPECIAL_SCENE>"
 			},
@@ -4942,9 +5013,12 @@
 				"white": "white"
 			},
 			"ps3/s25/03/nmio_1390": {},
-			"ps3/s25/03/nmio_1400": {},
+			"ps3/s25/03/nmio_1400": {
+				"background/kamik_mati_204": "None",
+				"black": "black"
+			},
 			"ps3/s25/03/nmio_1410": {
-				"background/ke2": "bg/keisatu/ke2.png",
+				"background/ke2": "bg/keisatu/ke2",
 				"effect/left": "effect/left"
 			},
 			"ps3/s25/03/nmio_1420": {},
@@ -4959,18 +5033,18 @@
 			"ps3/s25/03/nmio_1510": {},
 			"ps3/s25/03/nmio_1520": {},
 			"ps3/s25/03/nmio_1530": {
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/03/nmio_1540": {},
 			"ps3/s25/03/nmio_1550": {
-				"background/gk3": "bg/gakkou/gk3.png",
-				"black": "black.png"
+				"background/gk3": "bg/gakkou/gk3",
+				"black": "black"
 			},
 			"ps3/s25/03/nmio_1560": {},
 			"ps3/s25/03/nmio_1570": {},
 			"ps3/s25/03/nmio_1580": {
-				"background/gk3": "bg/gakkou/gk3.png",
-				"white": "white.png"
+				"background/gk3": "bg/gakkou/gk3",
+				"white": "white"
 			},
 			"ps3/s25/03/nmio_1590": {},
 			"ps3/s25/03/nmio_1600": {},
@@ -5052,7 +5126,7 @@
 			"ps3/s25/04/nsat_0450": {},
 			"ps3/s25/04/nsat_0460": {
 				"background/kaw_r1an": "bg/mati2/mati_302y",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/04/nsat_0470": {},
 			"ps3/s25/04/nsat_0480": {
@@ -5081,20 +5155,23 @@
 			"ps3/s25/04/nsat_0550": {},
 			"ps3/s25/04/nsat_0560": {},
 			"ps3/s25/04/nsat_0570": {},
-			"ps3/s25/04/nsat_0580": {},
+			"ps3/s25/04/nsat_0580": {
+				"background/kamik_mati_204": "None",
+				"effect/right": "effect/right"
+			},
 			"ps3/s25/04/nsat_0590": {},
 			"ps3/s25/04/nsat_0600": {},
 			"ps3/s25/04/nsat_0610": {},
 			"ps3/s25/04/nsat_0620": {},
 			"ps3/s25/04/nsat_0630": {
 				"background/bui_r1e": "bg/keisatu/ke_ky4",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/04/nsat_0640": {
 				"background/bui_r1e": "bg/keisatu/ke_ky4",
 				"black": "black",
 				"effect/up": "effect/up",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/04/nsat_0650": {
 				"effect/up": "effect/up"
@@ -5102,10 +5179,10 @@
 			"ps3/s25/04/nsat_0660": {},
 			"ps3/s25/04/nsat_0670": {},
 			"ps3/s25/04/nsat_0680": {
-				"background/mati_o1": "bg/mati/mati_o1.png"
+				"background/mati_o1": "bg/mati/mati_o1"
 			},
 			"ps3/s25/04/nsat_0690": {
-				"background/gk3": "bg/gakkou/gk3.png"
+				"background/gk3": "bg/gakkou/gk3"
 			},
 			"ps3/s25/04/nsat_0700": {},
 			"ps3/s25/04/nsat_0710": {},
@@ -5127,12 +5204,12 @@
 			},
 			"ps3/s25/05/nrik_0110": {},
 			"ps3/s25/05/nrik_0120": {
-				"background/hi3": "bg/mura/hi3.png",
+				"background/hi3": "bg/mura/hi3",
 				"background/kamik_mati3": "None",
 				"background/mo1": "bg/mori/mo1",
 				"background/mo2": "bg/mori/mo2",
 				"black": "black",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/05/nrik_0130": {},
 			"ps3/s25/05/nrik_0140": {},
@@ -5191,17 +5268,17 @@
 			"ps3/s25/05/nrik_0460": {},
 			"ps3/s25/05/nrik_0470": {
 				"portrait/ha1_muhyou_": "sprites/hanyu/miko/han_10",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/05/nrik_0480": {
 				"portrait/ha1_shinken_": "sprites/hanyu/miko/han_7"
 			},
 			"ps3/s25/05/nrik_0490": {
-				"background/fure1": "bg/sonota/fure1.png",
+				"background/fure1": "bg/sonota/fure1",
 				"background/fure2": "bg/sonota/fure2",
 				"black": "black",
 				"effect/left": "effect/left",
-				"effect/maskc": "effect/maskc.png",
+				"effect/maskc": "effect/maskc",
 				"white": "white"
 			},
 			"ps3/s25/05/nrik_0500": {},
@@ -5218,7 +5295,7 @@
 			},
 			"ps3/s25/05/nrik_0570": {
 				"background/fure2": "bg/sonota/fure2",
-				"background/hi1": "bg/mura/hi1.png",
+				"background/hi1": "bg/mura/hi1",
 				"background/kuruma6": "bg/kuruma/kuruma6",
 				"background/outb_shikenkan": "bg/etc/shikenkan",
 				"black": "black",
@@ -5293,14 +5370,14 @@
 				"background/fure2": "bg/sonota/fure2",
 				"black": "black",
 				"effect/kamik_inf_1": "bg/etc/inf_1",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/05/nrik_0900": {},
 			"ps3/s25/05/nrik_0910": {},
 			"ps3/s25/05/nrik_0920": {
 				"background/bui_r1e": "bg/keisatu/ke_ky4",
-				"effect/maskc": "effect/maskc.png",
-				"white": "white.png"
+				"effect/maskc": "effect/maskc",
+				"white": "white"
 			},
 			"ps3/s25/05/nrik_0930": {},
 			"ps3/s25/05/nrik_0940": {
@@ -5396,7 +5473,7 @@
 			},
 			"ps3/s25/05/nrik_1440": {
 				"scene/611a": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/05/nrik_1450": {},
 			"ps3/s25/05/nrik_1460": {},
@@ -5404,7 +5481,7 @@
 				"background/mati_o1": "bg/mati/mati_o1",
 				"effect/furiker_c": "None",
 				"scene/611b": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/05/nrik_1470": {},
 			"ps3/s25/05/nrik_1480": {},
@@ -5412,18 +5489,18 @@
 				"background/mati_o1": "bg/mati/mati_o1",
 				"effect/furiker_c": "None",
 				"scene/611c": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/05/nrik_1490": {
-				"background/gk3": "bg/gakkou/gk3.png",
+				"background/gk3": "bg/gakkou/gk3",
 				"black": "black",
 				"effect/left": "effect/left"
 			},
 			"ps3/s25/05/nrik_1500": {},
 			"ps3/s25/05/nrik_1510": {},
 			"ps3/s25/05/nrik_1520": {
-				"background/gk3": "bg/gakkou/gk3.png",
-				"black": "black.png"
+				"background/gk3": "bg/gakkou/gk3",
+				"black": "black"
 			},
 			"ps3/s25/05/nrik_1530": {},
 			"ps3/s25/05/nrik_1540": {},
@@ -5432,10 +5509,14 @@
 				"effect/different_spiral_1b": "bg/efe/different_spiral_1b"
 			},
 			"ps3/s25/06/nshi_0000": {
-				"black": "black.png",
+				"background/kamik_mati_204": "None",
+				"black": "black",
 				"scene/608": "<SPECIAL_SCENE>"
 			},
-			"ps3/s25/06/nshi_0010": {},
+			"ps3/s25/06/nshi_0010": {
+				"background/kamik_mati_206": "None",
+				"effect/left": "effect/left"
+			},
 			"ps3/s25/06/nshi_0020": {},
 			"ps3/s25/06/nshi_0030": {},
 			"ps3/s25/06/nshi_0040": {},
@@ -5445,10 +5526,10 @@
 			"ps3/s25/06/nshi_0080": {},
 			"ps3/s25/06/nshi_0090": {
 				"background/ke5": "bg/keisatu/ke5",
-				"black": "black.png",
+				"black": "black",
 				"effect/eye_base_b": "None",
 				"effect/eye_kas": "sprites/kasai/eye/kas_eyex1",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/06/nshi_0100": {},
 			"ps3/s25/06/nshi_0110": {},
@@ -5480,9 +5561,9 @@
 			"ps3/s25/08/ntom_0140": {},
 			"ps3/s25/08/ntom_0150": {},
 			"ps3/s25/08/ntom_0160": {
-				"background/hi1": "bg/mura/hi1.png",
+				"background/hi1": "bg/mura/hi1",
 				"background/mboi_1c": "bg/sinryoujo/sinryou_sinsatu4",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/08/ntom_0170": {},
 			"ps3/s25/08/ntom_0180": {},
@@ -5511,7 +5592,7 @@
 				"background/kamik_sinryou_soto1": "bg/sinryoujo/sinryou_soto1",
 				"background/kamik_sinryou_soto4": "bg/sinryoujo/sinryou_soto4",
 				"background/kuruma3_01": "bg/kuruma/kuruma3",
-				"background/kuruma6": "bg/kuruma/kuruma6.png",
+				"background/kuruma6": "bg/kuruma/kuruma6",
 				"black": "black",
 				"effect/left": "effect/left",
 				"portrait/ha1_yowaki_": "None",
@@ -5528,9 +5609,9 @@
 				"portrait/ri2_fuman_a1_": "sprites/rika/sifuku/rik_6"
 			},
 			"ps3/s25/08/ntom_0370": {
-				"background/kuruma6": "bg/kuruma/kuruma6.png",
-				"black": "black.png",
-				"effect/left": "effect/left.png",
+				"background/kuruma6": "bg/kuruma/kuruma6",
+				"black": "black",
+				"effect/left": "effect/left",
 				"portrait/ri2_majime_a1_": "None"
 			},
 			"ps3/s25/08/ntom_0380": {},
@@ -5543,9 +5624,9 @@
 			"ps3/s25/08/ntom_0450": {},
 			"ps3/s25/08/ntom_0460": {},
 			"ps3/s25/08/ntom_0470": {
-				"background/ke2": "bg/keisatu/ke2.png",
+				"background/ke2": "bg/keisatu/ke2",
 				"effect/left": "effect/left",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/08/ntom_0480": {},
 			"ps3/s25/08/ntom_0490": {
@@ -5556,7 +5637,7 @@
 			"ps3/s25/08/ntom_0500": {},
 			"ps3/s25/08/ntom_0510": {
 				"background/kamik_ke_ky1": "None",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/08/ntom_0520": {},
 			"ps3/s25/08/ntom_0530": {
@@ -5593,21 +5674,21 @@
 				"effect/mask1": "None"
 			},
 			"ps3/s25/09/ntak_0180": {
-				"background/ke2": "bg/keisatu/ke2.png"
+				"background/ke2": "bg/keisatu/ke2"
 			},
 			"ps3/s25/09/ntak_0190": {
-				"background/ke2": "bg/keisatu/ke2.png",
+				"background/ke2": "bg/keisatu/ke2",
 				"black": "black",
 				"effect/kamik_inf_4": "bg/etc/inf_4"
 			},
 			"ps3/s25/09/ntak_0200": {},
 			"ps3/s25/09/ntak_0210": {},
 			"ps3/s25/09/ntak_0220": {
-				"background/ke2": "bg/keisatu/ke2.png"
+				"background/ke2": "bg/keisatu/ke2"
 			},
 			"ps3/s25/09/ntak_0230": {
 				"black": "black",
-				"effect/blood_2a": "bg/efe/blood_2a.png",
+				"effect/blood_2a": "bg/efe/blood_2a",
 				"effect/left": "effect/left",
 				"scene/609": "<SPECIAL_SCENE>"
 			},
@@ -5620,14 +5701,14 @@
 			"ps3/s25/09/ntak_0280": {},
 			"ps3/s25/09/ntak_0290": {},
 			"ps3/s25/09/ntak_0300": {
-				"background/ke2": "bg/keisatu/ke2.png",
+				"background/ke2": "bg/keisatu/ke2",
 				"black": "black",
 				"effect/left": "effect/left"
 			},
 			"ps3/s25/09/ntak_0310": {
 				"background/bui_r1e": "bg/keisatu/ke_ky4",
-				"black": "black.png",
-				"effect/left": "effect/left.png"
+				"black": "black",
+				"effect/left": "effect/left"
 			},
 			"ps3/s25/09/ntak_0320": {},
 			"ps3/s25/09/ntak_0330": {},
@@ -5650,7 +5731,7 @@
 			"ps3/s25/12/nhan_0070": {
 				"background/kamik_sinryou_matiai2": "bg/sinryoujo/sinryou_sinsatu4",
 				"background/kamik_sinryou_rouka2": "bg/sinryoujo/sinryou_rouka2",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/12/nhan_0080": {
 				"background/kamik_sinryou_matiai2": "bg/sinryoujo/sinryou_sinsatu4",
@@ -5685,6 +5766,7 @@
 			},
 			"ps3/s25/12/nhan_0270": {},
 			"ps3/s25/12/nhan_0280": {
+				"background/fure1": "bg/sonota/fure1",
 				"effect/maskc": "effect/maskc",
 				"scene/607": "<SPECIAL_SCENE>",
 				"white": "white"
@@ -5699,7 +5781,7 @@
 				"portrait/ri2_niyari_a1_": "sprites/rika/sifuku/rik_7a"
 			},
 			"ps3/s25/12/nhan_0360": {
-				"background/fure1": "bg/sonota/fure1.png",
+				"background/fure1": "bg/sonota/fure1",
 				"black": "black"
 			},
 			"ps3/s25/12/nhan_0370": {},
@@ -5708,7 +5790,7 @@
 			},
 			"ps3/s25/12/nhan_0390": {
 				"background/kuruma2": "bg/kuruma/kuruma2",
-				"black": "black.png",
+				"black": "black",
 				"effect/different_spiral_1a": "bg/efe/different_spiral_1a",
 				"effect/v_hurricane": "None"
 			},
@@ -5743,8 +5825,8 @@
 			},
 			"ps3/s25/12/nhan_0520": {
 				"background/fure1": "bg/sonota/fure1",
-				"background/hi1": "bg/mura/hi1.png",
-				"black": "black.png",
+				"background/hi1": "bg/mura/hi1",
+				"black": "black",
 				"effect/kamik_inf_1": "bg/etc/inf_1"
 			},
 			"ps3/s25/12/nhan_0530": {},
@@ -5773,8 +5855,8 @@
 			"ps3/s25/12/nhan_0670": {},
 			"ps3/s25/12/nhan_0680": {},
 			"ps3/s25/12/nhan_0690": {
-				"background/fure1": "bg/sonota/fure1.png",
-				"black": "black.png"
+				"background/fure1": "bg/sonota/fure1",
+				"black": "black"
 			},
 			"ps3/s25/12/nhan_0700": {},
 			"ps3/s25/12/nhan_0710": {},
@@ -5788,7 +5870,7 @@
 			"ps3/s25/12/nhan_0760": {
 				"background/bui_r1e": "bg/keisatu/ka3",
 				"effect/furiker_c": "None",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/12/nhan_0770": {},
 			"ps3/s25/12/nhan_0780": {},
@@ -5811,11 +5893,11 @@
 			"ps3/s25/12/nhan_0900": {},
 			"ps3/s25/12/nhan_0910": {},
 			"ps3/s25/12/nhan_0920": {
-				"background/fure1": "bg/sonota/fure1.png"
+				"background/fure1": "bg/sonota/fure1"
 			},
 			"ps3/s25/12/nhan_0930": {},
 			"ps3/s25/12/nhan_0940": {
-				"background/fure1": "bg/sonota/fure1.png",
+				"background/fure1": "bg/sonota/fure1",
 				"black": "black",
 				"effect/right": "effect/right"
 			},
@@ -5842,8 +5924,8 @@
 			"ps3/s25/12/nhan_1060": {},
 			"ps3/s25/12/nhan_1070": {},
 			"ps3/s25/12/nhan_1080": {
-				"background/gk1": "bg/gakkou/gk1.png",
-				"black": "black.png"
+				"background/gk1": "bg/gakkou/gk1",
+				"black": "black"
 			},
 			"ps3/s25/12/nhan_1090": {},
 			"ps3/s25/12/nhan_1100": {
@@ -5854,7 +5936,7 @@
 				"background/gk3": "bg/gakkou/gk3"
 			},
 			"ps3/s25/12/nhan_1120": {
-				"background/gk3": "bg/gakkou/gk3.png",
+				"background/gk3": "bg/gakkou/gk3",
 				"black": "black",
 				"effect/left": "effect/left"
 			},
@@ -5864,12 +5946,12 @@
 				"white": "white"
 			},
 			"ps3/s25/12/nhan_1150": {
-				"background/gk3": "bg/gakkou/gk3.png"
+				"background/gk3": "bg/gakkou/gk3"
 			},
 			"ps3/s25/12/nhan_1160": {},
 			"ps3/s25/12/nhan_1170": {},
 			"ps3/s25/12/nhan_1180": {
-				"background/gk3": "bg/gakkou/gk3.png",
+				"background/gk3": "bg/gakkou/gk3",
 				"black": "black"
 			},
 			"ps3/s25/15/nkas_0000": {
@@ -5877,23 +5959,23 @@
 				"black": "black"
 			},
 			"ps3/s25/15/nkas_0010": {
-				"background/ke2": "bg/keisatu/ke2.png",
+				"background/ke2": "bg/keisatu/ke2",
 				"black": "black"
 			},
 			"ps3/s25/15/nkas_0020": {},
 			"ps3/s25/15/nkas_0030": {
-				"background/ke2": "bg/keisatu/ke2.png"
+				"background/ke2": "bg/keisatu/ke2"
 			},
 			"ps3/s25/15/nkas_0040": {},
 			"ps3/s25/15/nkas_0050": {
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/15/nkas_0060": {
-				"background/ke2": "bg/keisatu/ke2.png"
+				"background/ke2": "bg/keisatu/ke2"
 			},
 			"ps3/s25/15/nkas_0070": {},
 			"ps3/s25/15/nkas_0080": {
-				"background/ke2": "bg/keisatu/ke2.png"
+				"background/ke2": "bg/keisatu/ke2"
 			},
 			"ps3/s25/15/nkas_0090": {},
 			"ps3/s25/15/nkas_0100": {
@@ -5910,7 +5992,7 @@
 				"background/kamik_mati_502": "bg/mati2/mati_502",
 				"background/kamik_mati_503": "bg/mati2/mati_503",
 				"background/kaw_r1an": "bg/mati/ryou1",
-				"black": "black.png",
+				"black": "black",
 				"effect/left": "effect/left",
 				"white": "white"
 			},
@@ -5953,7 +6035,7 @@
 			"ps3/s25/50/nune_0270": {},
 			"ps3/s25/50/nune_0280": {
 				"background/kamik_mati_005": "bg/mati2/mati_102y",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/50/nune_0290": {},
 			"ps3/s25/50/nune_0300": {},
@@ -5973,8 +6055,8 @@
 			"ps3/s25/50/nune_0370": {},
 			"ps3/s25/50/nune_0380": {},
 			"ps3/s25/50/nune_0390": {
-				"background/fure2": "bg/sonota/fure2.png",
-				"white": "white.png"
+				"background/fure2": "bg/sonota/fure2",
+				"white": "white"
 			},
 			"ps3/s25/50/nune_0400": {},
 			"ps3/s25/50/nune_0410": {
@@ -5983,7 +6065,7 @@
 				"white": "white"
 			},
 			"ps3/s25/50/nune_0420": {
-				"background/fure1": "bg/sonota/fure1.png",
+				"background/fure1": "bg/sonota/fure1",
 				"background/fure2": "bg/sonota/fure2",
 				"background/hi1": "bg/mura/hi1",
 				"black": "black",
@@ -5994,7 +6076,7 @@
 			"ps3/s25/50/nune_0450": {},
 			"ps3/s25/50/nune_0460": {},
 			"ps3/s25/50/nune_0470": {
-				"background/fure1": "bg/sonota/fure1.png",
+				"background/fure1": "bg/sonota/fure1",
 				"black": "black"
 			},
 			"ps3/s25/50/nune_0480": {},
@@ -6014,7 +6096,7 @@
 			"ps3/s25/50/nune_0570": {},
 			"ps3/s25/50/nune_0580": {
 				"background/bui_r1e": "None",
-				"background/ke2": "bg/keisatu/ke2.png",
+				"background/ke2": "bg/keisatu/ke2",
 				"black": "black"
 			},
 			"ps3/s25/50/nune_0590": {},
@@ -6039,8 +6121,8 @@
 			"ps3/s25/50/nune_0650": {
 				"background/fure1": "bg/sonota/fure1",
 				"black": "black",
-				"effect/maskc": "effect/maskc.png",
-				"white": "white.png"
+				"effect/maskc": "effect/maskc",
+				"white": "white"
 			},
 			"ps3/s25/50/nune_0660": {},
 			"ps3/s25/50/nune_0670": {},
@@ -6055,6 +6137,7 @@
 				"background/outb_shikenkan": "bg/etc/shikenkan",
 				"black": "black",
 				"effect/bite": "bg/efe/bite",
+				"effect/kamik_inf_1": "None",
 				"effect/kamik_inf_5": "bg/etc/inf_5"
 			},
 			"ps3/s25/50/nune_0710": {},
@@ -6070,13 +6153,13 @@
 				"black": "black"
 			},
 			"ps3/s25/50/nune_0800": {
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/50/nune_0810": {},
 			"ps3/s25/50/nune_0820": {
 				"background/fure1": "bg/sonota/fure1",
 				"background/moon": "bg/mura/moon",
-				"black": "black.png"
+				"black": "black"
 			},
 			"ps3/s25/50/nune_0830": {},
 			"ps3/s25/50/nune_0840": {},
@@ -6092,12 +6175,12 @@
 			"ps3/s25/50/nune_0910": {},
 			"ps3/s25/50/nune_0920": {},
 			"ps3/s25/50/nune_0930": {
-				"background/mati_o1": "bg/mati/mati_o1.png"
+				"background/mati_o1": "bg/mati/mati_o1"
 			},
 			"ps3/s25/50/nune_0940": {
-				"background/gk1": "bg/gakkou/gk1.png",
-				"black": "black.png",
-				"effect/left": "effect/left.png"
+				"background/gk1": "bg/gakkou/gk1",
+				"black": "black",
+				"effect/left": "effect/left"
 			},
 			"ps3/s25/50/nune_0950": {},
 			"ps3/s25/50/nune_0960": {},
@@ -6108,25 +6191,26 @@
 			},
 			"ps3/s25/50/nune_0980": {
 				"background/gk1": "bg/gakkou/gk1",
-				"black": "black.png",
-				"effect/left": "effect/left.png"
+				"black": "black",
+				"effect/left": "effect/left"
 			},
 			"ps3/s25/50/nune_0990": {},
 			"ps3/s25/50/nune_1000": {},
 			"ps3/s25/50/nune_1010": {},
 			"ps3/s25/50/nune_1020": {},
 			"ps3/s25/50/nune_1030": {
-				"background/gk3": "bg/gakkou/gk3.png"
+				"background/gk3": "bg/gakkou/gk3"
 			},
 			"ps3/s25/50/nune_1040": {},
 			"ps3/s25/50/nune_1050": {},
 			"ps3/s25/51/ntam_0000": {},
 			"ps3/s25/51/ntam_0010": {
-				"background/fure1": "bg/sonota/fure1.png",
+				"background/fure1": "bg/sonota/fure1",
+				"background/fure2": "bg/sonota/fure2",
 				"black": "black",
-				"effect/maskc": "effect/maskc.png",
+				"effect/maskc": "effect/maskc",
 				"scene/607": "<SPECIAL_SCENE>",
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/51/ntam_0020": {},
 			"ps3/s25/51/ntam_0030": {
@@ -6142,12 +6226,12 @@
 			"ps3/s25/51/ntam_0040": {},
 			"ps3/s25/51/ntam_0050": {},
 			"ps3/s25/51/ntam_0060": {
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/51/ntam_0070": {
-				"background/fure1": "bg/sonota/fure1.png",
+				"background/fure1": "bg/sonota/fure1",
 				"background/kuruma2": "bg/kuruma/kuruma2",
-				"background/kuruma6": "bg/kuruma/kuruma6.png",
+				"background/kuruma6": "bg/kuruma/kuruma6",
 				"black": "black",
 				"effect/maskc": "effect/maskc",
 				"portrait/ri2_majime_a1_": "sprites/rika/sifuku/rik_8a",
@@ -6156,14 +6240,14 @@
 			"ps3/s25/51/ntam_0080": {},
 			"ps3/s25/51/ntam_0090": {},
 			"ps3/s25/51/ntam_0100": {
-				"white": "white.png"
+				"white": "white"
 			},
 			"ps3/s25/51/ntam_0110": {},
 			"ps3/s25/51/ntam_0120": {},
 			"ps3/s25/51/ntam_0130": {
 				"background/bui_r1e": "bg/keisatu/ke4",
-				"background/ke2": "bg/keisatu/ke2.png",
-				"background/ke5": "bg/keisatu/ke5.png",
+				"background/ke2": "bg/keisatu/ke2",
+				"background/ke5": "bg/keisatu/ke5",
 				"black": "black",
 				"effect/left": "effect/left",
 				"white": "white"
@@ -6171,27 +6255,28 @@
 			"ps3/s25/51/ntam_0140": {},
 			"ps3/s25/51/ntam_0150": {},
 			"ps3/s25/51/ntam_0160": {
-				"background/ke2": "bg/keisatu/ke2.png",
-				"black": "black.png",
-				"effect/left": "effect/left.png"
+				"background/ke2": "bg/keisatu/ke2",
+				"black": "black",
+				"effect/left": "effect/left"
 			},
 			"ps3/s25/51/ntam_0170": {},
 			"ps3/s25/51/ntam_0180": {
-				"background/ke2": "bg/keisatu/ke2.png",
-				"black": "black.png",
-				"effect/maskc": "effect/maskc.png"
+				"background/ke2": "bg/keisatu/ke2",
+				"black": "black",
+				"effect/maskc": "effect/maskc"
 			},
 			"ps3/s25/51/ntam_0190": {},
 			"ps3/s25/51/ntam_0200": {},
 			"ps3/s25/51/ntam_0210": {},
 			"ps3/s25/51/ntam_0220": {
-				"background/fure1": "bg/sonota/fure1.png",
-				"white": "white.png"
+				"background/fure1": "bg/sonota/fure1",
+				"white": "white"
 			},
 			"ps3/s25/51/ntam_0230": {},
 			"ps3/s25/51/ntam_0240": {},
 			"ps3/s25/51/ntam_0250": {
 				"black": "black",
+				"effect/kamik_inf_1": "None",
 				"scene/610": "<SPECIAL_SCENE>"
 			},
 			"ps3/s25/51/ntam_0260": {},
@@ -6206,19 +6291,19 @@
 			"ps3/s25/51/ntam_0350": {},
 			"ps3/s25/51/ntam_0360": {},
 			"ps3/s25/51/ntam_0370": {
-				"background/mati_o1": "bg/mati/mati_o1.png"
+				"background/mati_o1": "bg/mati/mati_o1"
 			},
 			"ps3/s25/51/ntam_0380": {},
 			"ps3/s25/51/ntam_0390": {
-				"background/gk3": "bg/gakkou/gk3.png"
+				"background/gk3": "bg/gakkou/gk3"
 			},
 			"ps3/s25/51/ntam_0400": {
-				"background/gk3": "bg/gakkou/gk3.png",
-				"black": "black.png",
-				"effect/right": "effect/right.png"
+				"background/gk3": "bg/gakkou/gk3",
+				"black": "black",
+				"effect/right": "effect/right"
 			},
 			"ps3/s25/51/ntam_0410": {
-				"background/gk3": "bg/gakkou/gk3.png"
+				"background/gk3": "bg/gakkou/gk3"
 			},
 			"ps3/s25/51/ntam_0420": {},
 			"ps3/s25/51/ntam_0430": {},
@@ -6226,7 +6311,7 @@
 			"ps3/s25/51/ntam_0450": {},
 			"ps3/s25/51/ntam_0460": {},
 			"ps3/s25/51/ntam_0470": {
-				"effect/down": "effect/down.png"
+				"effect/down": "effect/down"
 			},
 			"ps3/s25/51/ntam_0480": {},
 			"ps3/s25/51/ntam_0490": {},
@@ -6248,6 +6333,7 @@
 				"background/kamik_mati16": "None"
 			},
 			"ps3/s25/92/nbob_0020": {
+				"background/kamik_mati_001": "None",
 				"black": "black",
 				"scene/605b": "<SPECIAL_SCENE>"
 			},
@@ -6264,20 +6350,21 @@
 				"white": "white"
 			},
 			"ps3/s25/93/nboc_0000": {
-				"black": "black.png",
+				"background/kamik_mati_102": "None",
+				"black": "black",
 				"scene/605a": "<SPECIAL_SCENE>"
 			}
 		},
 		"staffroom": {
 			"": {
 				"background/file": "bg/sonota/file",
-				"background/hasi3": "bg/mori/hasi3.png",
+				"background/hasi3": "bg/mori/hasi3",
 				"background/ke_shiryou1_02": "img/dsc00038",
-				"black": "black.png",
-				"effect/furiker_a": "furiker_a.png",
-				"effect/furiker_b": "furiker_b.png",
+				"black": "black",
+				"effect/furiker_a": "furiker_a",
+				"effect/furiker_b": "furiker_b",
 				"effect/furiker_c": "None",
-				"effect/left": "effect/left.png",
+				"effect/left": "effect/left",
 				"effect/maskc": "effect/maskc",
 				"effect/right": "effect/right",
 				"effect/up": "effect/up",
@@ -6288,8 +6375,8 @@
 			"": {
 				"background/ke_shiryou1_02": "img/dsc000103",
 				"black": "black",
-				"effect/furiker_a": "furiker_a.png",
-				"effect/furiker_b": "furiker_b.png",
+				"effect/furiker_a": "furiker_a",
+				"effect/furiker_b": "furiker_b",
 				"effect/mask1": "None",
 				"white": "white"
 			}
@@ -6297,10 +6384,10 @@
 		"staffroom03": {
 			"": {
 				"background/ke_shiryou1_02": "img/dsc00039",
-				"background/sora5": "bg/mura/sora5.png",
+				"background/sora5": "bg/mura/sora5",
 				"black": "black",
-				"effect/furiker_a": "furiker_a.png",
-				"effect/furiker_b": "furiker_b.png",
+				"effect/furiker_a": "furiker_a",
+				"effect/furiker_b": "furiker_b",
 				"effect/left": "effect/left",
 				"effect/m1": "effect/m1",
 				"effect/mask1": "None",
@@ -6314,8 +6401,8 @@
 			"": {
 				"background/ke_shiryou1_02": "img/dsc00039",
 				"black": "black",
-				"effect/furiker_a": "furiker_a.png",
-				"effect/furiker_b": "furiker_b.png",
+				"effect/furiker_a": "furiker_a",
+				"effect/furiker_b": "furiker_b",
 				"effect/left": "effect/left",
 				"effect/right": "effect/right",
 				"white": "white"
@@ -6351,8 +6438,8 @@
 			"": {
 				"background/ke_shiryou1_02": "img/dsc000102",
 				"black": "black",
-				"effect/furiker_a": "furiker_a.png",
-				"effect/furiker_b": "furiker_b.png",
+				"effect/furiker_a": "furiker_a",
+				"effect/furiker_b": "furiker_b",
 				"effect/furiker_c": "None",
 				"white": "white"
 			}
@@ -6362,8 +6449,8 @@
 				"background/ke_shiryou1_02": "img/dsc000103",
 				"black": "black",
 				"effect/eye": "bg/sonota/eye",
-				"effect/furiker_a": "furiker_a.png",
-				"effect/furiker_b": "furiker_b.png",
+				"effect/furiker_a": "furiker_a",
+				"effect/furiker_b": "furiker_b",
 				"effect/furiker_c": "None",
 				"effect/left": "effect/left",
 				"effect/mask1": "None",
@@ -6375,7 +6462,7 @@
 			"": {
 				"background/jt1": "bg/jinja/jt1",
 				"background/ke_shiryou1_02": "img/dsc00039",
-				"black": "black.png"
+				"black": "black"
 			}
 		},
 		"staffroom15": {
