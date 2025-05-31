@@ -10,7 +10,13 @@ import voice_util
 
 PRINT_FAILED_MATCHES = False
 
-def normalize_path(path: str) -> str:
+def normalize_path(path_maybe_ext: str) -> str:
+
+    path = path_maybe_ext
+
+    if path is not None:
+        path = os.path.splitext(path_maybe_ext)[0]
+
     return str(path).replace('\\', '/').split('HigurashiEp10_Data/StreamingAssets/CG/')[-1]
 
 def should_output_mapping(ps3_path: str, sprite_mode: bool):
