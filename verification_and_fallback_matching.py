@@ -480,8 +480,8 @@ def check_for_bad_matches(existing_matches: VoiceMatchDatabase):
         # print(f"Printing matches for voice {voicefile}")
         for voiceMatch in matchesForVoice:
             # print(f"- {voiceMatch.og_path}")
-            if voiceMatch.og_path == None or voiceMatch.og_path == 'None':
-                bad_matches.append(f"Got bad match in voice match database [{voiceMatch.og_path}] for [{voiceMatch.mod_path}]")
+            if voiceMatch.og_path is None or voiceMatch.og_path == 'None':
+                bad_matches.append(f"Got bad match in voice match database [{voiceMatch.og_path} ({print(type(voiceMatch.og_path))})] for [{voiceMatch.mod_path}]")
 
     return bad_matches
 
@@ -526,8 +526,6 @@ for modded_script_path in Path(mod_script_dir).glob(pattern):
         for bad_match_string in bad_matches_debug_strings:
             print(f" - {bad_match_string}")
 
-        raise Exception("Bad match in database - stopping")
-
     all_match_data.set_voice_database(modded_script_path, existing_matches)
 
     print(f"Loaded {len(existing_matches.db)} voice sections from [{db_path}]")
@@ -539,10 +537,10 @@ for modded_script_path in Path(mod_script_dir).glob(pattern):
 
     merged_fallback_matches |= fallback_match_for_chapter
 
-    output_per_chapter.append((Path(modded_script_path).stem, debug_output))
+    output_per_chapter.append((Path(modded_script_path).stem, debug_output, bad_matches_debug_strings))
 
 print("\n------------ Summary per script ------------")
-for script_name, debug_output_list in output_per_chapter:
+for script_name, debug_output_list, bad_db_matches in output_per_chapter:
     if debug_output_list:
         print(f"{script_name} - Missing items for :")
         for line in debug_output_list:
@@ -550,6 +548,8 @@ for script_name, debug_output_list in output_per_chapter:
     else:
         print(f"{script_name} - PASS")
 
+    if bad_db_matches:
+        print(f"{script_name} - DB check - FAIL {len(bad_db_matches)} bad items")
 
 if not scanned_any_scripts:
     raise Exception("No files were scanned. Are you sure pattern is correct?")
