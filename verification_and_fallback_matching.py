@@ -474,6 +474,17 @@ def collect_sorted_statistics(mod_script_dir: str, pattern: str) -> dict[str, li
 
     return sorted_statistics
 
+def check_for_bad_matches(existing_matches: VoiceMatchDatabase):
+    bad_matches = []
+    for (voicefile, matchesForVoice) in existing_matches.db.items():
+        # print(f"Printing matches for voice {voicefile}")
+        for voiceMatch in matchesForVoice:
+            # print(f"- {voiceMatch.og_path}")
+            if voiceMatch.og_path == None or voiceMatch.og_path == 'None':
+                bad_matches.append(f"Got bad match in voice match database [{voiceMatch.og_path}] for [{voiceMatch.mod_path}]")
+
+    return bad_matches
+
 all_match_data = AllMatchData()
 
 output_folder = Path('mod_usable_files')
@@ -508,6 +519,14 @@ for modded_script_path in Path(mod_script_dir).glob(pattern):
     # Load the matches found by the main matching script
     db_path = common.get_voice_db_path(modded_script_path)
     existing_matches = VoiceMatchDatabase.deserialize(db_path)
+
+    bad_matches_debug_strings = check_for_bad_matches(existing_matches)
+    if len(bad_matches_debug_strings) > 0:
+        print("One or more bad matches were found in the database:")
+        for bad_match_string in bad_matches_debug_strings:
+            print(f" - {bad_match_string}")
+
+        raise Exception("Bad match in database - stopping")
 
     all_match_data.set_voice_database(modded_script_path, existing_matches)
 
