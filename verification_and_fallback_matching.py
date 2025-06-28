@@ -42,7 +42,17 @@ def convert_database_to_dict(voice_database: VoiceMatchDatabase, sprite_mode: bo
 
         for match in matches_after_voice:
             mod_path = normalize_path(match.mod_path)
-            og_path = normalize_path(match.og_path)
+
+            if match.og_path is None:
+                # To indicate when we know there is a graphics we failed to find a match for, allow the og_path to be None/null
+                og_path = None
+            elif match.og_path == 'None':
+                # Assume an error if the og path is set to None, as in we accidentally converted python None to string somewhere
+                # this may cause a problem if we have an actual graphics file called 'None'
+                raise Exception("String 'None' not allowed as a match - see code for details")
+            else:
+                og_path = normalize_path(match.og_path)
+
             if should_output_mapping(mod_path, sprite_mode):
                 matches_per_voice[mod_path] = og_path
 
