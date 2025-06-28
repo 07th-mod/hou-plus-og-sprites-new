@@ -218,6 +218,14 @@ def graphics_is_detected_and_mapped(last_voice: str, stripped_path: str, existin
 
     return CheckResult(False, False)
 
+def matchPathIsValid(path):
+    if path == None:
+        return (False, "path is literally None")
+    elif path == "None":
+        return (False, "path is the string 'None'")
+    else:
+        return (True, "path is OK")
+
 def verify_one_script(mod_script_path: str, graphics_regexes: list[re.Pattern], existing_matches: VoiceMatchDatabase, statistics: dict[str, list[str, int]]) -> tuple[list[str], dict[str, FallbackMatch]]:
     with open(mod_script_path, encoding='utf-8') as f:
         all_lines = f.readlines()
@@ -404,10 +412,15 @@ def verify_one_script(mod_script_path: str, graphics_regexes: list[re.Pattern], 
                 match_path, _match_count = maybe_statistics_for_path[0]
                 match_source_description = f'Popularity ({maybe_statistics_for_path})'
 
-        if match_path is not None:
+
+        (match_is_valid, failure_reason) = matchPathIsValid(match_path)
+
+        if match_is_valid:
+            if match_path is None:
+                raise Exception("This shouldn't happen - match_path is None")
             fallback_matches[mod_path] = FallbackMatch(match_path, match_source_description)
         else:
-            debug_output.append(f" - {mod_path} ({len(failed_matches)} times) | {maybe_statistics_for_path}")
+            debug_output.append(f" - {mod_path} ({len(failed_matches)} times) | {maybe_statistics_for_path} | Because {failure_reason}")
 
     num_fallback_matches = len(debug_output)
     if num_fallback_matches > 0:
