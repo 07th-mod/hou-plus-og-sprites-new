@@ -413,7 +413,7 @@ def verify_one_script(mod_script_path: str, graphics_regexes: list[re.Pattern], 
             match_source_description = 'Manual Fallback List'
 
             if match_path == '<USE_MOD_VERSION>':
-                match_path = mod_path
+                match_path = '<USE_MOD_VERSION>'
                 match_source_description = 'Manual Fallback List (Use Modded Image)'
 
         if match_path is None:
