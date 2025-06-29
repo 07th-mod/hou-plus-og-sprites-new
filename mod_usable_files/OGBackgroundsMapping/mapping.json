@@ -272,7 +272,7 @@
 		"effect/tyuui": "img/tyuui",
 		"effect/up": "effect/up",
 		"effect/v_hurricane": "<USE_MOD_VERSION>",
-		"effect/wagabu": "<USE_MODDED>",
+		"effect/wagabu": "<SPECIAL_TEXT_EFFECT>",
 		"effect/x": "effect/x",
 		"omake/lock_bg": "omake/lock_bg",
 		"omake/music": "omake/music",
@@ -3942,7 +3942,7 @@
 			"ps3/s24/01/nkei_0530": {},
 			"ps3/s24/01/nkei_0540": {},
 			"ps3/s24/01/nkei_0550": {
-				"effect/wagabu": "<USE_MODDED>",
+				"effect/wagabu": "<SPECIAL_TEXT_EFFECT>",
 				"white": "white"
 			},
 			"ps3/s24/01/nkei_0560": {
