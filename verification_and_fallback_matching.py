@@ -396,7 +396,7 @@ def verify_one_script(mod_script_path: str, graphics_regexes: list[re.Pattern], 
 
         # Bus Stop Effects
         'effect/tyuui': 'img/tyuui',
-        'effect/wagabu': '<USE_MODDED>',
+        'effect/wagabu': '<USE_MOD_VERSION>',
         # For effect/wagabu, just use modded version.
         # How to handle this one? It's an image of "They went after our club", draw call doesn't exist in og game
         # I guess just copy to OGBackgrounds folder and scale for 4:3?
