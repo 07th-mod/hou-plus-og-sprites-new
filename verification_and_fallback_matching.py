@@ -19,8 +19,14 @@ def normalize_path(path_maybe_ext: str) -> str:
 
     return str(path).replace('\\', '/').split('HigurashiEp10_Data/StreamingAssets/CG/')[-1]
 
-def should_output_mapping(ps3_path: str, sprite_mode: bool):
-    is_sprite = ps3_path.startswith('sprite/')
+def should_output_mapping(ps3_path: str, sprite_mode: bool, og_path: str):
+    if og_path is None or og_path.startswith("<"):
+        # If the OG path is invalid, check the ps3 path to determine whether it is a sprite
+        is_sprite = ps3_path.startswith('sprite/') or ps3_path.startswith('portrait/')
+    else:
+        # If the OG path is valid, only use the OG path to determine whether it is a sprite.
+        # Since the OG path is what is actually displayed, we must treat it like a sprite, even if it was originally an effect or somethign else, so that sprite option toggle works correctly
+        is_sprite = og_path.startswith('sprites/')
 
     if sprite_mode:
         return is_sprite
@@ -54,7 +60,7 @@ def convert_database_to_dict(voice_database: VoiceMatchDatabase, sprite_mode: bo
             else:
                 og_path = normalize_path(match.og_path)
 
-            if should_output_mapping(mod_path, sprite_mode):
+            if should_output_mapping(mod_path, sprite_mode, og_path):
                 matches_per_voice[mod_path] = og_path
 
         ret[voice] = matches_per_voice
@@ -98,7 +104,7 @@ def get_fallback_dict_for_json(fallback: dict[str, FallbackMatch], save_source_i
     fallback_for_json = {}
 
     for ps3_path, info in fallback.items():
-        if should_output_mapping(ps3_path, sprite_mode):
+        if should_output_mapping(ps3_path, sprite_mode, info.fallback_match_path):
             fallback_for_json[ps3_path] = info.fallback_match_path
             if save_source_info:
                 fallback_for_json[ps3_path + "_source"] = info.source_description
