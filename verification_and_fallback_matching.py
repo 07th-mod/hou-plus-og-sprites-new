@@ -35,7 +35,7 @@ def should_output_mapping(ps3_path: str, sprite_mode: bool, og_path: str):
 
 # Outputs a dictionary, mapping 'last played voice' to another dict.
 # The inner dict maps from mod path -> og path
-def convert_database_to_dict(voice_database: VoiceMatchDatabase, sprite_mode: bool) -> dict[str, dict[str, str]]:
+def convert_database_to_dict(voice_database: VoiceMatchDatabase, sprite_mode: bool, no_match_info: dict[str, str]) -> dict[str, dict[str, str]]:
     ret = {}
     for voice, matches_after_voice in voice_database.db.items():
         # Convert None to the empty string as [null] is an invalid JSON key
@@ -52,7 +52,10 @@ def convert_database_to_dict(voice_database: VoiceMatchDatabase, sprite_mode: bo
             if match.og_path is None:
                 # To indicate when we know there is a graphics we failed to find a match for, put '<NO_MATCH>' as the match
                 # The engine will use the next available fallback when it sees this
-                og_path = '<NO_MATCH>'
+                if mod_path in no_match_info:
+                    og_path = f'<{no_match_info[mod_path]}>'
+                else:
+                    og_path = '<NO_MATCH>'
             elif match.og_path == 'None':
                 # Assume an error if the og path is set to None, as in we accidentally converted python None to string somewhere
                 # this may cause a problem if we have an actual graphics file called 'None'
@@ -137,7 +140,7 @@ def build_global_fallback(voice_database: dict[str, dict[str, dict[str, str]]], 
     return final_global_fallback
 
 
-def get_match_data_as_plain_dict(match_data: AllMatchData, save_debug_info: bool, sprite_mode: bool):
+def get_match_data_as_plain_dict(match_data: AllMatchData, save_debug_info: bool, sprite_mode: bool, no_match_info: dict[str, str]):
     # Collect all script fallbacks into a dict
     script_fallback = {}
     for script_name, per_script_fallback in match_data.per_script_fallbacks.items():
@@ -145,7 +148,7 @@ def get_match_data_as_plain_dict(match_data: AllMatchData, save_debug_info: bool
 
     all_voice_database = {}
     for script_path_object, voice_database in match_data.per_script_voice_database.items():
-        all_voice_database[Path(script_path_object).stem] = convert_database_to_dict(voice_database, sprite_mode)
+        all_voice_database[Path(script_path_object).stem] = convert_database_to_dict(voice_database, sprite_mode, no_match_info)
 
     global_fallback = get_fallback_dict_for_json(match_data.global_fallback, save_source_info=save_debug_info, sprite_mode=sprite_mode)
 
@@ -585,6 +588,12 @@ backgrounds_output_path = output_folder.joinpath('OGBackgroundsMapping', 'mappin
 os.makedirs(Path(sprites_output_path).parent, exist_ok=True)
 os.makedirs(Path(backgrounds_output_path).parent, exist_ok=True)
 
-save_to_json(get_match_data_as_plain_dict(all_match_data, save_debug_info, sprite_mode=True), sprites_output_path)
-save_to_json(get_match_data_as_plain_dict(all_match_data, save_debug_info, sprite_mode=False), backgrounds_output_path)
+sprite_match_data_as_plain_dict = get_match_data_as_plain_dict(all_match_data, save_debug_info, sprite_mode=True, no_match_info={})
+
+no_match_info = {}
+for ps3_path, og_path in sprite_match_data_as_plain_dict['global_fallback'].items():
+    no_match_info[ps3_path] = "SPRITE_MATCH"
+
+save_to_json(sprite_match_data_as_plain_dict, sprites_output_path)
+save_to_json(get_match_data_as_plain_dict(all_match_data, save_debug_info, sprite_mode=False, no_match_info=no_match_info), backgrounds_output_path)
 
