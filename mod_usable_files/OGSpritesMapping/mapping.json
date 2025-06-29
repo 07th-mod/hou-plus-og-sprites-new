@@ -2,7 +2,67 @@
 	"comment_lookup": "To lookup, first check the voice database. Then check the script fallback. Then check the global fallback.",
 	"comment_paths": "Note: when looking up paths, paths starting with '<' like <SPECIAL_TEXT_EFFECT>  are special cases. And if a match is 'null' then it means this sprite was never matched.",
 	"global_fallback": {
-		"sprite/aks1_warai_": "sprite/aks1_warai_",
+		"effect/eye_kas": "sprites/kasai/eye/kas_eyex1",
+		"effect/eye_kei": "sprites/keiiti/eye/kei_eyexa1",
+		"effect/eye_me": "sprites/mion/eye/me_eyex1",
+		"effect/eye_re": "sprites/rena/eye/re_eyexa2",
+		"effect/eye_sa": "sprites/satoko/eye/sa_eyexa2",
+		"effect/hara": "sprites/ara/ara_d4",
+		"effect/hnit": "sprites/nit/nit_d1",
+		"effect/hoda": "sprites/oda/oda_d4a",
+		"effect/hoka": "sprites/oka/oka_d1",
+		"effect/hton": "sprites/ton/ton_d5a",
+		"effect/hyos": "sprites/yos/yos_d3a",
+		"effect/kei": "sprites/keiiti/2021/main/kei_ikari1",
+		"effect/oyasiro": "sprites/oya/oya_d5",
+		"portrait/ha1_au_": "sprites/hanyu/miko/han_4a",
+		"portrait/ha1_muhyou_": "sprites/hanyu/miko/han_7",
+		"portrait/ha1_sakebi_": "sprites/hanyu/miko/han_7",
+		"portrait/ha1_shinken_": "sprites/hanyu/miko/han_7",
+		"portrait/ha1_yowaki_": "sprites/hanyu/miko/han_5a",
+		"portrait/hara1a_01_": "sprites/ara/ara_d1",
+		"portrait/hara1a_04_": "sprites/ara/ara_d7",
+		"portrait/hara1a_05_": "sprites/ara/ara_d7a",
+		"portrait/hara1a_10_": "sprites/ara/ara_d8a",
+		"portrait/hara1a_11_": "sprites/ara/ara_d4a",
+		"portrait/hara1a_12_": "sprites/ara/ara_d8a",
+		"portrait/hmi2a_02_": "sprites/mio/mio_d5",
+		"portrait/hmi2a_03_": "sprites/mio/mio_d4",
+		"portrait/hmi2a_04_": "sprites/mio/mio_d14a",
+		"portrait/hmi2a_05_": "sprites/mio/mio_d10",
+		"portrait/hmi2a_07_": "sprites/mio/mio_d8a",
+		"portrait/hmi2a_08_": "sprites/mio/mio_d13a",
+		"portrait/hmi2a_09_": "sprites/mio/mio_d8a",
+		"portrait/hmi2a_13_": "sprites/mio/mio_d14",
+		"portrait/hri2a_01_": "sprites/rik/rik_d4",
+		"portrait/hri2a_02_": "sprites/rik/rik_d2",
+		"portrait/hri2a_03_": "sprites/rik/rik_d3",
+		"portrait/hri2a_05_": "sprites/rik/rik_d8",
+		"portrait/hri2a_08_": "sprites/rik/rik_d8a",
+		"portrait/hri2a_09_": "sprites/rik/rik_d7",
+		"portrait/hri2a_10_": "sprites/rik/rik_d6",
+		"portrait/hri2a_12_": "sprites/rik/rik_d1",
+		"portrait/hton1a_01_": "sprites/ton/ton_d1",
+		"portrait/hton1a_05_": "sprites/ton/ton_d5a",
+		"portrait/hton1a_08_": "sprites/ton/ton_d1a",
+		"portrait/hyos1a_08_": "sprites/yos/yos_d1",
+		"portrait/hyos1a_09_": "sprites/yos/yos_d1",
+		"portrait/iri2_majime_": "sprites/irie/hakui/iri_majime",
+		"portrait/kameda1a_warai_": "sprites/kam/kam_4",
+		"portrait/kameda1b_odoroki_": "sprites/kam/kam_4",
+		"portrait/me7_def_a1_": "sprites/mion/sifuku/me_tokuia2",
+		"portrait/me7_majime_a1_": "sprites/mion/sifuku/me_majimea1",
+		"portrait/me7_tohoho_a1_": "sprites/mion/sifuku/me_tohohoa2",
+		"portrait/re2a_nande_a1_": "sprites/rena/sifuku/re_nandea1",
+		"portrait/renasen1_ikakaku_": "sprites/rena/sifuku_c/ren_14c",
+		"portrait/ri2_fuman_a1_": "sprites/rika/sifuku/rik_6",
+		"portrait/ri2_majime_a1_": "sprites/rika/sifuku/rik_8a",
+		"portrait/ri2_niko_a1_": "sprites/rika/sifuku/rik_9",
+		"portrait/ri2_niyari_a1_": "sprites/rika/sifuku/rik_7a",
+		"portrait/tomi3_komaru_": "sprites/tomi/sifuku/tomitake5",
+		"portrait/tomi3_shinken_": "sprites/tomi/sifuku/tomitake3",
+		"portrait/une3a_12_": "sprites/une/2/une_12",
+		"sprite/aks1_warai_": "<USE_MOD_VERSION>",
 		"sprite/ha1_au_": "sprites/hanyu/miko/han_4",
 		"sprite/ha1_def2_": "sprites/hanyu/miko/han_10",
 		"sprite/ha1_def_": "sprites/hanyu/miko/han_1",
@@ -116,7 +176,7 @@
 		"sprite/hyos1a_12_": "sprites/yos/yos_d3a",
 		"sprite/hyos1a_13_": "sprites/yos/yos_d5",
 		"sprite/hyos1a_14_": "sprites/yos/yos_d3a",
-		"sprite/iri1_warai_": "sprite/iri1_warai_",
+		"sprite/iri1_warai_": "<USE_MOD_VERSION>",
 		"sprite/iri2_def1_": "sprites/irie/hakui/iri_def1",
 		"sprite/iri2_def2_": "sprites/irie/hakui/iri_def2",
 		"sprite/iri2_majime2_": "sprites/irie/hakui/iri_majime2",
@@ -217,7 +277,7 @@
 		"sprite/mo2_01_": "sprites/mo2/mo2_9",
 		"sprite/mo3_01_": "sprites/mo3/mo3_6",
 		"sprite/mura_01_": "sprites/mo1/mo1_7",
-		"sprite/oisi1_2_": "sprite/oisi1_2_",
+		"sprite/oisi1_2_": "<USE_MOD_VERSION>",
 		"sprite/oisi2_10_": "sprites/sonota/oisi10",
 		"sprite/oisi2_6_": "sprites/sonota/oisi6",
 		"sprite/oisi2_7_": "sprites/sonota/oisi7",
@@ -381,7 +441,7 @@
 		"sprite/si6_tokui_a1_": "sprites/sion/2021/si_tokuia1",
 		"sprite/si6_warai_a1_": "sprites/sion/2021/si_waraia1",
 		"sprite/si6_wink_a1_": "sprites/sion/2021/si_winka1",
-		"sprite/ta1_warai_": "sprite/ta1_warai_",
+		"sprite/ta1_warai_": "<USE_MOD_VERSION>",
 		"sprite/ta2_akuwarai_": "sprites/takano/hakui/ta_akuwarai",
 		"sprite/ta2_def_": "sprites/takano/hakui/ta_def",
 		"sprite/ta2_human_": "sprites/takano/hakui/ta_tukare",
@@ -461,6 +521,17 @@
 		"&endroll": {},
 		"&opening": {},
 		"busstop01": {
+			"effect/oyasiro": "sprites/oya/oya_d5",
+			"portrait/hara1a_01_": "sprites/ara/ara_d1",
+			"portrait/hara1a_05_": "sprites/ara/ara_d7a",
+			"portrait/hmi2a_13_": "sprites/mio/mio_d14",
+			"portrait/hri2a_02_": "sprites/rik/rik_d2",
+			"portrait/hri2a_03_": "sprites/rik/rik_d3",
+			"portrait/hri2a_05_": "sprites/rik/rik_d8",
+			"portrait/hri2a_09_": "sprites/rik/rik_d7",
+			"portrait/hri2a_10_": "sprites/rik/rik_d6",
+			"portrait/hyos1a_08_": "sprites/yos/yos_d1",
+			"portrait/hyos1a_09_": "sprites/yos/yos_d1",
 			"sprite/hara1a_01_": "sprites/ara/ara_d1",
 			"sprite/hara1a_03_": "sprites/ara/ara_d6a",
 			"sprite/hara1a_04_": "sprites/ara/ara_d7a",
@@ -533,6 +604,13 @@
 		},
 		"init": {},
 		"mehagashi": {
+			"effect/eye_me": "sprites/mion/eye/me_eyex1",
+			"effect/hara": "sprites/ara/ara_d4",
+			"effect/hnit": "sprites/nit/nit_d1",
+			"effect/hoda": "sprites/oda/oda_d4a",
+			"effect/hton": "sprites/ton/ton_d5a",
+			"effect/hyos": "sprites/yos/yos_d3a",
+			"effect/kei": "sprites/keiiti/2021/main/kei_ikari1",
 			"sprite/ha1_def_": "sprites/hanyu/miko/han_1",
 			"sprite/iri2_majime_": "sprites/irie/hakui/iri_majime",
 			"sprite/kameda1a_shinken_": "sprites/kam/kam_2",
@@ -545,6 +623,7 @@
 			"sprite/sa11_odoroki_a1_": "sprites/satoko/taoru/sa_odorokia1"
 		},
 		"outbreak01_1": {
+			"portrait/renasen1_ikakaku_": "sprites/rena/sifuku_c/ren_14c",
 			"sprite/kei2_def2_": "sprites/keiiti/sifuku/kei_def2",
 			"sprite/kei2_ikari1_": "sprites/keiiti/sifuku/kei_ikari1",
 			"sprite/kei2_ikari2_": "sprites/keiiti/sifuku/kei_ikari2",
@@ -582,6 +661,10 @@
 			"sprite/sa2a_odoroki_a1_": "sprites/satoko/sifuku/sa_odorokia1"
 		},
 		"outbreak02_1": {
+			"portrait/ha1_sakebi_": "sprites/hanyu/miko/han_7",
+			"portrait/ha1_yowaki_": "sprites/hanyu/miko/han_5a",
+			"portrait/ri2_majime_a1_": "sprites/rika/sifuku/rik_8a",
+			"portrait/ri2_niyari_a1_": "sprites/rika/sifuku/rik_7a",
 			"sprite/ha1_au_": "sprites/hanyu/miko/han_4",
 			"sprite/ha1_def2_": "sprites/hanyu/miko/han_10",
 			"sprite/ha1_muhyou_": "sprites/hanyu/miko/han_7",
@@ -694,12 +777,12 @@
 		"staffroom13": {},
 		"staffroom14": {},
 		"staffroom15": {
-			"sprite/aks1_warai_": "sprite/aks1_warai_",
-			"sprite/iri1_warai_": "sprite/iri1_warai_",
+			"sprite/aks1_warai_": "<USE_MOD_VERSION>",
+			"sprite/iri1_warai_": "<USE_MOD_VERSION>",
 			"sprite/kasa_1_": "sprites/kasai/kasa1",
-			"sprite/oisi1_2_": "sprite/oisi1_2_",
+			"sprite/oisi1_2_": "<USE_MOD_VERSION>",
 			"sprite/oko3_niyari_": "sprites/okonogi/oko_warai",
-			"sprite/ta1_warai_": "sprite/ta1_warai_"
+			"sprite/ta1_warai_": "<USE_MOD_VERSION>"
 		},
 		"util": {}
 	},
@@ -889,11 +972,21 @@
 			"ps3/s26/52/trik_0440": {
 				"sprite/hmi2a_04_": "sprites/mio/mio_d10"
 			},
-			"ps3/s26/52/trik_0450": {},
-			"ps3/s26/52/trik_0460": {},
-			"ps3/s26/52/trik_0470": {},
-			"ps3/s26/52/trik_0480": {},
-			"ps3/s26/52/trik_0490": {},
+			"ps3/s26/52/trik_0450": {
+				"portrait/hmi2a_03_": "sprites/mio/mio_d6a"
+			},
+			"ps3/s26/52/trik_0460": {
+				"portrait/hmi2a_08_": "sprites/mio/mio_d5a"
+			},
+			"ps3/s26/52/trik_0470": {
+				"portrait/hmi2a_05_": "sprites/mio/mio_d13a"
+			},
+			"ps3/s26/52/trik_0480": {
+				"portrait/hara1a_01_": "<NO_MATCH>"
+			},
+			"ps3/s26/52/trik_0490": {
+				"portrait/hton1a_01_": "sprites/ton/ton_d1"
+			},
 			"ps3/s26/52/trik_0500": {
 				"sprite/hmi2a_07_": "<NO_MATCH>",
 				"sprite/hmi2a_09_": "<NO_MATCH>"
@@ -946,7 +1039,9 @@
 			"ps3/s26/52/trik_0680": {
 				"sprite/hara1a_10_": "sprites/ara/ara_d1a"
 			},
-			"ps3/s26/52/trik_0690": {},
+			"ps3/s26/52/trik_0690": {
+				"portrait/hmi2a_05_": "sprites/mio/mio_d10a"
+			},
 			"ps3/s26/52/trik_0700": {
 				"sprite/hton1a_06_": "sprites/ton/ton_d5a"
 			},
@@ -954,10 +1049,18 @@
 				"sprite/hara1a_11_": "sprites/ara/ara_d4a",
 				"sprite/hri2a_09_": "<NO_MATCH>"
 			},
-			"ps3/s26/52/trik_0720": {},
-			"ps3/s26/52/trik_0730": {},
-			"ps3/s26/52/trik_0740": {},
-			"ps3/s26/52/trik_0750": {},
+			"ps3/s26/52/trik_0720": {
+				"portrait/hri2a_09_": "sprites/rik/rik_d9"
+			},
+			"ps3/s26/52/trik_0730": {
+				"portrait/hmi2a_09_": "sprites/mio/mio_d9"
+			},
+			"ps3/s26/52/trik_0740": {
+				"portrait/hyos1a_09_": "sprites/yos/yos_d1"
+			},
+			"ps3/s26/52/trik_0750": {
+				"portrait/hmi2a_08_": "sprites/mio/mio_d13a"
+			},
 			"ps3/s26/52/trik_0760": {
 				"sprite/hara1a_08_": "sprites/ara/ara_d8a"
 			},
@@ -1181,16 +1284,32 @@
 			},
 			"ps3/s26/52/trik_1510": {},
 			"ps3/s26/52/trik_1520": {},
-			"ps3/s26/52/trik_1530": {},
-			"ps3/s26/52/trik_1540": {},
+			"ps3/s26/52/trik_1530": {
+				"portrait/hmi2a_04_": "sprites/mio/mio_d7a"
+			},
+			"ps3/s26/52/trik_1540": {
+				"portrait/hmi2a_04_": "sprites/mio/mio_d14a"
+			},
 			"ps3/s26/52/trik_1550": {},
-			"ps3/s26/52/trik_1560": {},
-			"ps3/s26/52/trik_1570": {},
-			"ps3/s26/52/trik_1580": {},
+			"ps3/s26/52/trik_1560": {
+				"portrait/hri2a_09_": "sprites/rik/rik_d7"
+			},
+			"ps3/s26/52/trik_1570": {
+				"portrait/hri2a_10_": "sprites/rik/rik_d13"
+			},
+			"ps3/s26/52/trik_1580": {
+				"portrait/hri2a_12_": "sprites/rik/rik_d4"
+			},
 			"ps3/s26/52/trik_1590": {},
-			"ps3/s26/52/trik_1600": {},
-			"ps3/s26/52/trik_1610": {},
-			"ps3/s26/52/trik_1620": {},
+			"ps3/s26/52/trik_1600": {
+				"portrait/hmi2a_09_": "sprites/mio/mio_d9a"
+			},
+			"ps3/s26/52/trik_1610": {
+				"portrait/hri2a_12_": "sprites/rik/rik_d1"
+			},
+			"ps3/s26/52/trik_1620": {
+				"portrait/hmi2a_09_": "sprites/mio/mio_d8a"
+			},
 			"ps3/s26/52/trik_1630": {
 				"sprite/hri2a_06_": "sprites/rik/rik_d6a"
 			},
@@ -1421,15 +1540,33 @@
 			"ps3/s26/53/tmio_0410": {
 				"sprite/hri2a_09_": "sprites/rik/rik_d4"
 			},
-			"ps3/s26/53/tmio_0420": {},
-			"ps3/s26/53/tmio_0430": {},
-			"ps3/s26/53/tmio_0440": {},
-			"ps3/s26/53/tmio_0450": {},
-			"ps3/s26/53/tmio_0460": {},
-			"ps3/s26/53/tmio_0470": {},
-			"ps3/s26/53/tmio_0480": {},
-			"ps3/s26/53/tmio_0490": {},
-			"ps3/s26/53/tmio_0500": {},
+			"ps3/s26/53/tmio_0420": {
+				"portrait/hmi2a_02_": "sprites/mio/mio_d1"
+			},
+			"ps3/s26/53/tmio_0430": {
+				"portrait/hri2a_08_": "sprites/rik/rik_d12"
+			},
+			"ps3/s26/53/tmio_0440": {
+				"portrait/hri2a_09_": "sprites/rik/rik_d7"
+			},
+			"ps3/s26/53/tmio_0450": {
+				"portrait/hri2a_10_": "sprites/rik/rik_d6"
+			},
+			"ps3/s26/53/tmio_0460": {
+				"portrait/hara1a_04_": "sprites/ara/ara_d6a"
+			},
+			"ps3/s26/53/tmio_0470": {
+				"portrait/hmi2a_07_": "sprites/mio/mio_d8a"
+			},
+			"ps3/s26/53/tmio_0480": {
+				"portrait/hmi2a_05_": "sprites/mio/mio_d13a"
+			},
+			"ps3/s26/53/tmio_0490": {
+				"portrait/hmi2a_02_": "sprites/mio/mio_d5"
+			},
+			"ps3/s26/53/tmio_0500": {
+				"portrait/hri2a_12_": "sprites/rik/rik_d5"
+			},
 			"ps3/s26/53/tmio_0510": {
 				"sprite/hmi2a_04_": "<NO_MATCH>"
 			},
@@ -1526,13 +1663,19 @@
 			"ps3/s26/53/tmio_0850": {
 				"sprite/hton1a_05_": "sprites/ton/ton_d4a"
 			},
-			"ps3/s26/53/tmio_0860": {},
+			"ps3/s26/53/tmio_0860": {
+				"portrait/hyos1a_09_": "sprites/yos/yos_d1"
+			},
 			"ps3/s26/53/tmio_0870": {
 				"sprite/hton1a_05_": "sprites/ton/ton_d5a"
 			},
 			"ps3/s26/53/tmio_0880": {},
-			"ps3/s26/53/tmio_0890": {},
-			"ps3/s26/53/tmio_0900": {},
+			"ps3/s26/53/tmio_0890": {
+				"portrait/hmi2a_05_": "sprites/mio/mio_d10"
+			},
+			"ps3/s26/53/tmio_0900": {
+				"portrait/hri2a_10_": "sprites/rik/rik_d7"
+			},
 			"ps3/s26/53/tmio_0910": {
 				"sprite/hton1a_05_": "sprites/ton/ton_d4a"
 			},
@@ -1595,7 +1738,9 @@
 			},
 			"ps3/s26/53/tmio_1150": {},
 			"ps3/s26/53/tmio_1160": {},
-			"ps3/s26/53/tmio_1170": {},
+			"ps3/s26/53/tmio_1170": {
+				"portrait/hyos1a_08_": "<NO_MATCH>"
+			},
 			"ps3/s26/53/tmio_1180": {
 				"sprite/hri2a_04_": "sprites/rik/rik_d4"
 			},
@@ -1917,11 +2062,21 @@
 			},
 			"ps3/s26/53/tmio_2460": {},
 			"ps3/s26/53/tmio_2470": {},
-			"ps3/s26/53/tmio_2480": {},
-			"ps3/s26/53/tmio_2490": {},
-			"ps3/s26/53/tmio_2500": {},
-			"ps3/s26/53/tmio_2510": {},
-			"ps3/s26/53/tmio_2520": {},
+			"ps3/s26/53/tmio_2480": {
+				"portrait/hri2a_01_": "sprites/rik/rik_d4"
+			},
+			"ps3/s26/53/tmio_2490": {
+				"portrait/hri2a_10_": "sprites/rik/rik_d6"
+			},
+			"ps3/s26/53/tmio_2500": {
+				"portrait/hri2a_12_": "sprites/rik/rik_d9"
+			},
+			"ps3/s26/53/tmio_2510": {
+				"portrait/hri2a_10_": "sprites/rik/rik_d9"
+			},
+			"ps3/s26/53/tmio_2520": {
+				"portrait/hri2a_09_": "sprites/rik/rik_d9"
+			},
 			"ps3/s26/53/tmio_2530": {
 				"sprite/hri2a_05_": "<NO_MATCH>"
 			},
@@ -1991,11 +2146,22 @@
 			},
 			"ps3/s26/53/tmio_2770": {},
 			"ps3/s26/53/tmio_2780": {},
-			"ps3/s26/53/tmio_2790": {},
-			"ps3/s26/53/tmio_2800": {},
-			"ps3/s26/53/tmio_2810": {},
-			"ps3/s26/53/tmio_2820": {},
-			"ps3/s26/53/tmio_2830": {},
+			"ps3/s26/53/tmio_2790": {
+				"portrait/hri2a_02_": "sprites/rik/rik_d2"
+			},
+			"ps3/s26/53/tmio_2800": {
+				"portrait/hri2a_10_": "<NO_MATCH>"
+			},
+			"ps3/s26/53/tmio_2810": {
+				"portrait/hri2a_08_": "sprites/rik/rik_d8a"
+			},
+			"ps3/s26/53/tmio_2820": {
+				"portrait/hri2a_03_": "<NO_MATCH>",
+				"portrait/hri2a_05_": "<NO_MATCH>"
+			},
+			"ps3/s26/53/tmio_2830": {
+				"portrait/hri2a_02_": "<NO_MATCH>"
+			},
 			"ps3/s26/53/tmio_2840": {
 				"sprite/hri2a_01_": "sprites/rik/rik_d2"
 			},
@@ -2126,9 +2292,15 @@
 				"sprite/hmi2a_06_": "sprites/mio/mio_d9a"
 			},
 			"ps3/s26/54/tyos_0320": {},
-			"ps3/s26/54/tyos_0330": {},
-			"ps3/s26/54/tyos_0340": {},
-			"ps3/s26/54/tyos_0350": {},
+			"ps3/s26/54/tyos_0330": {
+				"portrait/hri2a_09_": "<NO_MATCH>"
+			},
+			"ps3/s26/54/tyos_0340": {
+				"portrait/hton1a_08_": "sprites/ton/ton_d1a"
+			},
+			"ps3/s26/54/tyos_0350": {
+				"portrait/hara1a_04_": "sprites/ara/ara_d7"
+			},
 			"ps3/s26/54/tyos_0360": {
 				"sprite/hmi2a_09_": "sprites/mio/mio_d8a"
 			},
@@ -2137,7 +2309,9 @@
 			},
 			"ps3/s26/54/tyos_0380": {},
 			"ps3/s26/54/tyos_0390": {},
-			"ps3/s26/54/tyos_0400": {},
+			"ps3/s26/54/tyos_0400": {
+				"portrait/hri2a_12_": "sprites/rik/rik_d13"
+			},
 			"ps3/s26/54/tyos_0410": {},
 			"ps3/s26/54/tyos_0420": {
 				"sprite/hton1a_07_": "sprites/ton/ton_d2a"
@@ -2270,7 +2444,9 @@
 				"sprite/hmi2a_09_": "<NO_MATCH>"
 			},
 			"ps3/s26/54/tyos_1020": {},
-			"ps3/s26/54/tyos_1030": {},
+			"ps3/s26/54/tyos_1030": {
+				"portrait/hmi2a_13_": "<NO_MATCH>"
+			},
 			"ps3/s26/54/tyos_1040": {},
 			"ps3/s26/54/tyos_1050": {
 				"sprite/hmi2a_09_": "sprites/mio/mio_d15a"
@@ -2315,16 +2491,36 @@
 			},
 			"ps3/s26/54/tyos_1220": {},
 			"ps3/s26/54/tyos_1230": {},
-			"ps3/s26/54/tyos_1240": {},
-			"ps3/s26/54/tyos_1250": {},
-			"ps3/s26/54/tyos_1260": {},
-			"ps3/s26/54/tyos_1270": {},
-			"ps3/s26/54/tyos_1280": {},
-			"ps3/s26/54/tyos_1290": {},
-			"ps3/s26/54/tyos_1300": {},
-			"ps3/s26/54/tyos_1310": {},
-			"ps3/s26/54/tyos_1320": {},
-			"ps3/s26/54/tyos_1330": {},
+			"ps3/s26/54/tyos_1240": {
+				"portrait/hyos1a_09_": "<NO_MATCH>"
+			},
+			"ps3/s26/54/tyos_1250": {
+				"portrait/hara1a_05_": "<NO_MATCH>"
+			},
+			"ps3/s26/54/tyos_1260": {
+				"portrait/hara1a_05_": "<NO_MATCH>"
+			},
+			"ps3/s26/54/tyos_1270": {
+				"portrait/hara1a_10_": "sprites/ara/ara_d8a"
+			},
+			"ps3/s26/54/tyos_1280": {
+				"portrait/hara1a_10_": "sprites/ara/ara_d7a"
+			},
+			"ps3/s26/54/tyos_1290": {
+				"portrait/hara1a_11_": "sprites/ara/ara_d4a"
+			},
+			"ps3/s26/54/tyos_1300": {
+				"portrait/hara1a_12_": "sprites/ara/ara_d8a"
+			},
+			"ps3/s26/54/tyos_1310": {
+				"portrait/hara1a_05_": "sprites/ara/ara_d7a"
+			},
+			"ps3/s26/54/tyos_1320": {
+				"portrait/hara1a_10_": "sprites/ara/ara_d8a"
+			},
+			"ps3/s26/54/tyos_1330": {
+				"portrait/hara1a_11_": "sprites/ara/ara_d4a"
+			},
 			"ps3/s26/54/tyos_1340": {
 				"sprite/hara1a_10_": "sprites/ara/ara_d7a"
 			},
@@ -2585,8 +2781,13 @@
 			"ps3/s26/55/tara_0190": {
 				"sprite/hmi2a_05_": "<NO_MATCH>"
 			},
-			"ps3/s26/55/tara_0200": {},
-			"ps3/s26/55/tara_0210": {},
+			"ps3/s26/55/tara_0200": {
+				"portrait/hri2a_08_": "sprites/rik/rik_d7",
+				"portrait/hton1a_08_": "sprites/ton/ton_d2a"
+			},
+			"ps3/s26/55/tara_0210": {
+				"portrait/hri2a_12_": "sprites/rik/rik_d4"
+			},
 			"ps3/s26/55/tara_0220": {
 				"sprite/hton1a_05_": "sprites/ton/ton_d5a"
 			},
@@ -2622,11 +2823,15 @@
 				"sprite/hyos1a_09_": "sprites/yos/yos_d2"
 			},
 			"ps3/s26/55/tara_0350": {},
-			"ps3/s26/55/tara_0360": {},
+			"ps3/s26/55/tara_0360": {
+				"portrait/hyos1a_09_": "sprites/yos/yos_d4"
+			},
 			"ps3/s26/55/tara_0370": {
 				"sprite/hton1a_05_": "sprites/ton/ton_d5a"
 			},
-			"ps3/s26/55/tara_0380": {},
+			"ps3/s26/55/tara_0380": {
+				"portrait/hri2a_10_": "sprites/rik/rik_d1"
+			},
 			"ps3/s26/55/tara_0390": {
 				"sprite/hri2a_09_": "sprites/rik/rik_d4"
 			},
@@ -2739,14 +2944,30 @@
 			},
 			"ps3/s26/55/tara_0870": {},
 			"ps3/s26/55/tara_0880": {},
-			"ps3/s26/55/tara_0890": {},
-			"ps3/s26/55/tara_0900": {},
-			"ps3/s26/55/tara_0910": {},
-			"ps3/s26/55/tara_0920": {},
-			"ps3/s26/55/tara_0930": {},
-			"ps3/s26/55/tara_0940": {},
-			"ps3/s26/55/tara_0950": {},
-			"ps3/s26/55/tara_0960": {},
+			"ps3/s26/55/tara_0890": {
+				"portrait/hyos1a_09_": "<NO_MATCH>"
+			},
+			"ps3/s26/55/tara_0900": {
+				"portrait/hyos1a_08_": "sprites/yos/yos_d1"
+			},
+			"ps3/s26/55/tara_0910": {
+				"portrait/hyos1a_09_": "sprites/yos/yos_d1"
+			},
+			"ps3/s26/55/tara_0920": {
+				"portrait/hyos1a_08_": "sprites/yos/yos_d4"
+			},
+			"ps3/s26/55/tara_0930": {
+				"portrait/hyos1a_09_": "sprites/yos/yos_d1"
+			},
+			"ps3/s26/55/tara_0940": {
+				"portrait/hyos1a_09_": "<NO_MATCH>"
+			},
+			"ps3/s26/55/tara_0950": {
+				"portrait/hyos1a_08_": "sprites/yos/yos_d1"
+			},
+			"ps3/s26/55/tara_0960": {
+				"portrait/hyos1a_09_": "sprites/yos/yos_d5"
+			},
 			"ps3/s26/55/tara_0970": {
 				"sprite/hara1a_11_": "<NO_MATCH>"
 			},
@@ -2859,9 +3080,15 @@
 			"ps3/s26/56/tton_0220": {
 				"sprite/hara1a_03_": "sprites/ara/ara_d4a"
 			},
-			"ps3/s26/56/tton_0230": {},
-			"ps3/s26/56/tton_0240": {},
-			"ps3/s26/56/tton_0250": {},
+			"ps3/s26/56/tton_0230": {
+				"portrait/hton1a_05_": "sprites/ton/ton_d5a"
+			},
+			"ps3/s26/56/tton_0240": {
+				"portrait/hri2a_01_": "sprites/rik/rik_d1"
+			},
+			"ps3/s26/56/tton_0250": {
+				"portrait/hmi2a_03_": "sprites/mio/mio_d4"
+			},
 			"ps3/s26/56/tton_0260": {
 				"sprite/hmi2a_06_": "sprites/mio/mio_d9a"
 			},
@@ -2903,7 +3130,9 @@
 			"ps3/s26/56/tton_0400": {
 				"sprite/hara1a_09_": "sprites/ara/ara_d9a"
 			},
-			"ps3/s26/56/tton_0410": {},
+			"ps3/s26/56/tton_0410": {
+				"portrait/hyos1a_09_": "sprites/yos/yos_d2"
+			},
 			"ps3/s26/56/tton_0420": {
 				"sprite/hton1a_06_": "sprites/ton/ton_d4a"
 			},
@@ -3281,7 +3510,9 @@
 			"ps3/s26/59/toka_0130": {
 				"sprite/hara1a_11_": "sprites/ara/ara_d4a"
 			},
-			"ps3/s26/59/toka_0140": {},
+			"ps3/s26/59/toka_0140": {
+				"portrait/hara1a_10_": "sprites/ara/ara_d8a"
+			},
 			"ps3/s26/59/toka_0150": {
 				"sprite/hyos1a_14_": "sprites/yos/yos_d2a"
 			},
@@ -3402,7 +3633,9 @@
 				"sprite/kei7_nayamu_": "sprites/keiiti/2021/main/kei_nayamu"
 			},
 			"ps3/meha/0/mob069000": {},
-			"ps3/meha/0/mob069001": {},
+			"ps3/meha/0/mob069001": {
+				"effect/hoda": "sprites/oda/oda_d4a"
+			},
 			"ps3/meha/0/mob069002": {},
 			"ps3/meha/0/mob069003": {},
 			"ps3/meha/0/mob079000": {},
@@ -3422,7 +3655,9 @@
 				"sprite/si5_tokui_a1_": "sprites/sion/2021/2/si_tokuia1"
 			},
 			"ps3/meha/0/mob099000": {},
-			"ps3/meha/0/mob099001": {},
+			"ps3/meha/0/mob099001": {
+				"effect/hara": "sprites/ara/ara_d4"
+			},
 			"ps3/meha/0/mob099002": {},
 			"ps3/meha/0/mob099003": {},
 			"ps3/meha/0/mob099004": {},
@@ -3560,6 +3795,7 @@
 			},
 			"ps3/meha/1/keiichi9040": {},
 			"ps3/meha/1/keiichi9041": {
+				"effect/hton": "sprites/ton/ton_d5a",
 				"sprite/me8_wink_a1_": "sprites/mion/2021/me_winka1",
 				"sprite/re6_hau_a1_": "sprites/rena/2021/re_haua1",
 				"sprite/ri8_def_a1_": "sprites/rika/2021/ri_defa1",
@@ -3573,6 +3809,8 @@
 			"ps3/meha/1/keiichi9045": {},
 			"ps3/meha/1/keiichi9046": {},
 			"ps3/meha/1/keiichi9047": {
+				"effect/hnit": "sprites/nit/nit_d1",
+				"effect/hoka": "sprites/oka/oka_d6",
 				"sprite/me8_hau_a1_": "sprites/mion/2021/me_haua1",
 				"sprite/me8_wink_a1_": "sprites/mion/2021/me_winka1",
 				"sprite/re6_hau_a1_": "sprites/rena/2021/re_haua1",
@@ -3843,9 +4081,13 @@
 			"ps3/meha/1/keiichi9184": {},
 			"ps3/meha/1/keiichi9185": {},
 			"ps3/meha/1/keiichi9186": {},
-			"ps3/meha/1/keiichi9187": {},
+			"ps3/meha/1/keiichi9187": {
+				"effect/eye_sa": "sprites/satoko/eye/sa_eyexa2"
+			},
 			"ps3/meha/1/keiichi9188": {},
-			"ps3/meha/1/keiichi9189": {},
+			"ps3/meha/1/keiichi9189": {
+				"effect/eye_sa": "sprites/satoko/eye/sa_eyexa2"
+			},
 			"ps3/meha/1/keiichi9190": {},
 			"ps3/meha/1/keiichi9191": {
 				"sprite/kei7_nayamu_": "sprites/keiiti/2021/main/kei_nayamu"
@@ -4029,9 +4271,13 @@
 			"ps3/meha/10/irie9031": {},
 			"ps3/meha/10/irie9032": {},
 			"ps3/meha/10/irie9033": {
+				"portrait/kameda1b_odoroki_": "sprites/kam/kam_3",
 				"sprite/kameda1a_shinken_": "sprites/kam/kam_2"
 			},
-			"ps3/meha/10/irie9034": {},
+			"ps3/meha/10/irie9034": {
+				"portrait/iri2_majime_": "sprites/irie/hakui/iri_majime",
+				"portrait/kameda1b_odoroki_": "sprites/kam/kam_4"
+			},
 			"ps3/meha/10/irie9035": {
 				"sprite/kei8_komaru_": "sprites/keiiti/2021/kei_komaru",
 				"sprite/kei8_majime_": "sprites/keiiti/2021/kei_majime",
@@ -4149,7 +4395,9 @@
 			},
 			"ps3/meha/12/hanyu9058": {},
 			"ps3/meha/12/hanyu9059": {},
-			"ps3/meha/12/hanyu9060": {},
+			"ps3/meha/12/hanyu9060": {
+				"effect/eye_kei": "sprites/keiiti/eye/kei_eyexa1"
+			},
 			"ps3/meha/12/hanyu9061": {},
 			"ps3/meha/12/hanyu9062": {
 				"sprite/kei7_ikari1_": "sprites/keiiti/2021/main/kei_ikari1"
@@ -4253,6 +4501,7 @@
 			"ps3/meha/23/kameda9005": {},
 			"ps3/meha/23/kameda9006": {},
 			"ps3/meha/23/kameda9007": {
+				"portrait/kameda1a_warai_": "sprites/kam/kam_4",
 				"sprite/ri6_def_a1_": "sprites/rika/resutoran/ri_defa1",
 				"sprite/ri6_komaru_a1_": "sprites/rika/resutoran/ri_komarua1"
 			},
@@ -4268,7 +4517,9 @@
 			"ps3/meha/23/kameda9013": {
 				"sprite/iri2_majime2_": "sprites/irie/hakui/iri_majime2"
 			},
-			"ps3/meha/23/kameda9014": {},
+			"ps3/meha/23/kameda9014": {
+				"portrait/iri2_majime_": "sprites/irie/hakui/iri_majime2"
+			},
 			"ps3/meha/23/kameda9015": {},
 			"ps3/meha/3/mion9000": {},
 			"ps3/meha/3/mion9001": {},
@@ -4292,7 +4543,10 @@
 				"sprite/sa2a_warai_a1_": "sprites/satoko/sifuku/sa_waraia1"
 			},
 			"ps3/meha/3/mion9011": {},
-			"ps3/meha/3/mion9012": {},
+			"ps3/meha/3/mion9012": {
+				"effect/hara": "sprites/ara/ara_d4",
+				"effect/hton": "sprites/ton/ton_d5a"
+			},
 			"ps3/meha/3/mion9013": {},
 			"ps3/meha/3/mion9014": {
 				"sprite/sa10_yareyare_a1_": "sprites/satoko/2021/sa_yareyarea1"
@@ -4302,12 +4556,17 @@
 				"sprite/me8_wink_a1_": "sprites/mion/2021/me_winka1"
 			},
 			"ps3/meha/3/mion9017": {
+				"effect/hara": "sprites/ara/ara_d4",
+				"effect/hton": "sprites/ton/ton_d5a",
 				"sprite/kei7_nayamu_": "sprites/keiiti/2021/main/kei_nayamu"
 			},
 			"ps3/meha/3/mion9018": {
 				"sprite/me8_wink_a1_": "sprites/mion/2021/me_winka1"
 			},
-			"ps3/meha/3/mion9019": {},
+			"ps3/meha/3/mion9019": {
+				"effect/hara": "sprites/ara/ara_d4",
+				"effect/hton": "sprites/ton/ton_d5a"
+			},
 			"ps3/meha/3/mion9020": {},
 			"ps3/meha/3/mion9021": {
 				"sprite/me8_def_a1_": "sprites/mion/2021/me_defa1"
@@ -4344,6 +4603,7 @@
 			},
 			"ps3/meha/3/mion9039": {},
 			"ps3/meha/3/mion9040": {
+				"effect/eye_me": "sprites/mion/eye/me_eyex1",
 				"sprite/me8_akuwarai_a1_": "sprites/mion/2021/me_akuwaraia1",
 				"sprite/me8_huteki_a1_": "sprites/mion/2021/me_hutekia1",
 				"sprite/si6_odoroki_a1_": "sprites/sion/2021/si_odorokia1",
@@ -4480,6 +4740,8 @@
 			},
 			"ps3/meha/4/satoko9012": {},
 			"ps3/meha/4/satoko9013": {
+				"effect/hara": "sprites/ara/ara_d4",
+				"effect/hton": "sprites/ton/ton_d5a",
 				"sprite/sa10_akuwarai_a1_": "sprites/satoko/2021/sa_akuwaraia1"
 			},
 			"ps3/meha/4/satoko9014": {
@@ -4555,6 +4817,7 @@
 			},
 			"ps3/meha/4/satoko9047": {},
 			"ps3/meha/4/satoko9048": {
+				"effect/eye_sa": "sprites/satoko/eye/sa_eyexa1",
 				"sprite/kei7_ikari1_": "sprites/keiiti/2021/main/kei_ikari1",
 				"sprite/kei7_ikari2_": "sprites/keiiti/2021/main/kei_ikari2",
 				"sprite/kei7_nayamu_": "sprites/keiiti/2021/main/kei_nayamu",
@@ -4564,6 +4827,8 @@
 				"sprite/si6_majime_a1_": "sprites/sion/2021/si_majimea1"
 			},
 			"ps3/meha/4/satoko9049": {
+				"effect/hoka": "sprites/oka/oka_d1",
+				"effect/hton": "sprites/ton/ton_d2",
 				"sprite/ri8_niyari_a1_": "sprites/rika/2021/ri_niyaria1"
 			},
 			"ps3/meha/4/satoko9050": {},
@@ -4667,15 +4932,25 @@
 			"ps3/meha/5/rika9036": {
 				"sprite/ri8_warai_a1_": "sprites/rika/2021/ri_waraia1"
 			},
-			"ps3/meha/5/rika9037": {},
+			"ps3/meha/5/rika9037": {
+				"effect/hara": "sprites/ara/ara_d4",
+				"effect/hton": "sprites/ton/ton_d5a"
+			},
 			"ps3/meha/5/rika9038": {},
 			"ps3/meha/5/rika9039": {},
 			"ps3/meha/5/rika9040": {
+				"effect/eye_sa": "sprites/satoko/eye/sa_eyexa1",
+				"effect/hara": "sprites/ara/ara_d4",
+				"effect/hton": "sprites/ton/ton_d5a",
+				"effect/hyos": "sprites/yos/yos_d3a",
 				"sprite/ri8_def_a1_": "sprites/rika/2021/ri_defa1"
 			},
 			"ps3/meha/5/rika9041": {},
 			"ps3/meha/5/rika9042": {},
-			"ps3/meha/5/rika9043": {},
+			"ps3/meha/5/rika9043": {
+				"effect/hara": "sprites/ara/ara_d4",
+				"effect/hyos": "sprites/yos/yos_d3a"
+			},
 			"ps3/meha/5/rika9044": {},
 			"ps3/meha/5/rika9045": {
 				"sprite/sa9_hannbeso_a1_": "sprites/satoko/2021/s_mizugi/sa_hannbesoa1"
@@ -4690,7 +4965,10 @@
 			"ps3/meha/5/rika9051": {},
 			"ps3/meha/5/rika9052": {},
 			"ps3/meha/5/rika9053": {},
-			"ps3/meha/5/rika9054": {},
+			"ps3/meha/5/rika9054": {
+				"effect/hara": "sprites/ara/ara_d4",
+				"effect/hyos": "sprites/yos/yos_d3a"
+			},
 			"ps3/meha/5/rika9055": {},
 			"ps3/meha/5/rika9056": {},
 			"ps3/meha/5/rika9057": {
@@ -4856,6 +5134,8 @@
 			},
 			"ps3/meha/6/shion9076": {},
 			"ps3/meha/6/shion9077": {
+				"effect/hara": "sprites/ara/ara_d3",
+				"effect/hton": "sprites/ton/ton_d5a",
 				"sprite/ri8_komaru_a1_": "sprites/rika/2021/ri_komarua2",
 				"sprite/ri8_komaru_a2_": "sprites/rika/2021/ri_komarua2",
 				"sprite/ri8_warai_a1_": "sprites/rika/2021/ri_waraia1"
@@ -4866,6 +5146,7 @@
 			"ps3/meha/6/shion9079": {},
 			"ps3/meha/6/shion9080": {},
 			"ps3/meha/6/shion9081": {
+				"effect/hara": "sprites/ara/ara_d4",
 				"sprite/kei7_ikari1_": "sprites/keiiti/2021/main/kei_ikari1",
 				"sprite/si5_akuwarai_a1_": "sprites/sion/2021/2/si_akuwaraia1"
 			},
@@ -4887,6 +5168,10 @@
 				"sprite/ri8_niyari_a1_": "sprites/rika/2021/ri_niyaria1"
 			},
 			"ps3/meha/6/shion9090": {
+				"effect/eye_kei": "sprites/keiiti/eye/kei_eyexa1",
+				"effect/hara": "sprites/ara/ara_d4",
+				"effect/hton": "sprites/ton/ton_d5a",
+				"effect/hyos": "sprites/yos/yos_d3a",
 				"sprite/ri8_majime_a1_": "sprites/rika/2021/ri_majimea1",
 				"sprite/sa9_odoroki_a1_": "sprites/satoko/2021/s_mizugi/sa_odorokia1",
 				"sprite/si5_majime_a1_": "sprites/sion/2021/2/si_majimea1"
@@ -5078,6 +5363,7 @@
 				"sprite/renasen2_ikakaku_": "sprites/rena/sifuku_c/ren_10c"
 			},
 			"ps3/s24/01/nkei_0350": {
+				"portrait/renasen1_ikakaku_": "<NO_MATCH>",
 				"sprite/renasen2_tuukaku_": "<NO_MATCH>"
 			},
 			"ps3/s24/01/nkei_0360": {
@@ -5234,7 +5520,9 @@
 			"ps3/s24/02/nren_0200": {
 				"sprite/renasen1_tuukaku_": "<NO_MATCH>"
 			},
-			"ps3/s24/02/nren_0215": {},
+			"ps3/s24/02/nren_0215": {
+				"portrait/renasen1_ikakaku_": "sprites/rena/sifuku_c/ren_14c"
+			},
 			"ps3/s24/02/nren_0220": {},
 			"ps3/s24/02/nren_0230": {
 				"sprite/kei5_komaru_": "sprites/keiiti/sifuku/kei_komaru"
@@ -5699,7 +5987,9 @@
 				"sprite/une1a_04_": "<NO_MATCH>",
 				"sprite/une1a_05_": "sprites/une/une_4"
 			},
-			"ps3/s25/01/nkei_1120": {},
+			"ps3/s25/01/nkei_1120": {
+				"portrait/re2a_nande_a1_": "sprites/rena/sifuku/re_nandea1"
+			},
 			"ps3/s25/01/nkei_1130": {
 				"sprite/re2a_okoru_a1_": "sprites/rena/sifuku/re_okorua1"
 			},
@@ -6039,6 +6329,8 @@
 				"sprite/ta7_hatena_": "sprites/takano/ta_komaru"
 			},
 			"ps3/s25/02/nren_1295": {
+				"effect/eye_kei": "sprites/keiiti/eye/kei_eyexa1",
+				"effect/eye_re": "sprites/rena/eye/re_eyexa2",
 				"sprite/kei2_warai_": "sprites/keiiti/sifuku/kei_warai",
 				"sprite/re2b_kaii_b1_": "sprites/rena/sifuku/re_kaiib1",
 				"sprite/si1a_odoroki_a1_": "sprites/sion/sifuku/si_odorokia1",
@@ -6218,7 +6510,9 @@
 			"ps3/s25/03/nmio_1210": {
 				"sprite/re2a_okoru_a1_": "sprites/rena/sifuku/re_okorua1"
 			},
-			"ps3/s25/03/nmio_1220": {},
+			"ps3/s25/03/nmio_1220": {
+				"portrait/me7_def_a1_": "sprites/mion/sifuku/me_tokuia2"
+			},
 			"ps3/s25/03/nmio_1230": {},
 			"ps3/s25/03/nmio_1240": {
 				"sprite/une1b_06_": "sprites/une/une_6a"
@@ -6236,10 +6530,12 @@
 				"sprite/sa2b_akuwarai_b1_": "sprites/satoko/sifuku/sa_akuwaraib1"
 			},
 			"ps3/s25/03/nmio_1290": {
+				"portrait/me7_tohoho_a1_": "sprites/mion/sifuku/me_tohohoa2",
 				"sprite/me7_huteki_a1_": "sprites/mion/sifuku/me_hutekia2",
 				"sprite/me7_majime_a1_": "sprites/mion/sifuku/me_majimea1"
 			},
 			"ps3/s25/03/nmio_1300": {
+				"portrait/me7_majime_a1_": "sprites/mion/sifuku/me_majimea1",
 				"sprite/mo1_01_": "sprites/mo1/mo1_8",
 				"sprite/mo2_01_": "<NO_MATCH>",
 				"sprite/mo3_01_": "<NO_MATCH>"
@@ -6616,10 +6912,15 @@
 				"sprite/ha1_yowaki_": "sprites/hanyu/miko/han_9a"
 			},
 			"ps3/s25/05/nrik_0270": {
+				"portrait/tomi3_shinken_": "sprites/tomi/sifuku/tomitake6",
 				"sprite/ri2_niyari_a1_": "sprites/rika/sifuku/rik_7a"
 			},
-			"ps3/s25/05/nrik_0280": {},
-			"ps3/s25/05/nrik_0290": {},
+			"ps3/s25/05/nrik_0280": {
+				"portrait/tomi3_komaru_": "sprites/tomi/sifuku/tomitake5"
+			},
+			"ps3/s25/05/nrik_0290": {
+				"portrait/tomi3_shinken_": "sprites/tomi/sifuku/tomitake3"
+			},
 			"ps3/s25/05/nrik_0300": {
 				"sprite/tomi3_shinken_": "sprites/tomi/sifuku/tomitake5"
 			},
@@ -6665,8 +6966,12 @@
 				"sprite/ha1_au_": "<NO_MATCH>"
 			},
 			"ps3/s25/05/nrik_0460": {},
-			"ps3/s25/05/nrik_0470": {},
-			"ps3/s25/05/nrik_0480": {},
+			"ps3/s25/05/nrik_0470": {
+				"portrait/ha1_muhyou_": "sprites/hanyu/miko/han_10"
+			},
+			"ps3/s25/05/nrik_0480": {
+				"portrait/ha1_shinken_": "sprites/hanyu/miko/han_7"
+			},
 			"ps3/s25/05/nrik_0490": {
 				"sprite/ri2_fuman_a1_": "sprites/rika/sifuku/rik_6a"
 			},
@@ -6685,24 +6990,38 @@
 			"ps3/s25/05/nrik_0540": {
 				"sprite/ha1_shinken_": "sprites/hanyu/miko/han_7"
 			},
-			"ps3/s25/05/nrik_0550": {},
+			"ps3/s25/05/nrik_0550": {
+				"portrait/ha1_muhyou_": "sprites/hanyu/miko/han_10"
+			},
 			"ps3/s25/05/nrik_0560": {
 				"sprite/ha1_sakebi_": "sprites/hanyu/miko/han_8"
 			},
 			"ps3/s25/05/nrik_0570": {
+				"portrait/ha1_sakebi_": "<NO_MATCH>",
+				"portrait/ri2_niyari_a1_": "sprites/rika/sifuku/rik_7a",
 				"sprite/ta3_akuwarai_": "sprites/takano/ta_akuwarai",
 				"sprite/tamura1a_11_": "sprites/tam/tam_9"
 			},
 			"ps3/s25/05/nrik_0580": {},
-			"ps3/s25/05/nrik_0590": {},
+			"ps3/s25/05/nrik_0590": {
+				"portrait/ha1_yowaki_": "sprites/hanyu/miko/han_5a"
+			},
 			"ps3/s25/05/nrik_0600": {},
 			"ps3/s25/05/nrik_0610": {
 				"sprite/ta3_human_": "sprites/takano/ta_tukare"
 			},
-			"ps3/s25/05/nrik_0620": {},
-			"ps3/s25/05/nrik_0630": {},
-			"ps3/s25/05/nrik_0640": {},
-			"ps3/s25/05/nrik_0650": {},
+			"ps3/s25/05/nrik_0620": {
+				"portrait/ha1_au_": "sprites/hanyu/miko/han_4a"
+			},
+			"ps3/s25/05/nrik_0630": {
+				"portrait/ha1_muhyou_": "sprites/hanyu/miko/han_7"
+			},
+			"ps3/s25/05/nrik_0640": {
+				"portrait/ri2_niko_a1_": "sprites/rika/sifuku/rik_9"
+			},
+			"ps3/s25/05/nrik_0650": {
+				"portrait/ha1_au_": "sprites/hanyu/miko/han_4a"
+			},
 			"ps3/s25/05/nrik_0660": {
 				"sprite/me7_majime_a1_": "sprites/mion/sifuku/me_majimea2"
 			},
@@ -6879,6 +7198,7 @@
 				"sprite/tamura1a_09_": "sprites/tam/tam_9"
 			},
 			"ps3/s25/05/nrik_1230": {
+				"portrait/une3a_12_": "sprites/une/2/une_12",
 				"sprite/ri2_majime_a1_": "sprites/rika/sifuku/rik_10a"
 			},
 			"ps3/s25/05/nrik_1240": {
@@ -6927,8 +7247,11 @@
 			"ps3/s25/05/nrik_1380": {
 				"sprite/une3a_13_": "sprites/une/2/une_13"
 			},
-			"ps3/s25/05/nrik_1390": {},
+			"ps3/s25/05/nrik_1390": {
+				"portrait/ri2_majime_a1_": "sprites/rika/sifuku/rik_8"
+			},
 			"ps3/s25/05/nrik_1400": {
+				"portrait/ri2_niyari_a1_": "sprites/rika/sifuku/rik_7",
 				"sprite/ta3_akuwarai_": "sprites/takano/ta_akuwarai",
 				"sprite/ta3_def_": "sprites/takano/ta_def",
 				"sprite/tamura1a_08_": "sprites/tam/tam_8a",
@@ -7013,7 +7336,9 @@
 				"sprite/kei2_majime_": "sprites/keiiti/sifuku/kei_majime"
 			},
 			"ps3/s25/06/nshi_0080": {},
-			"ps3/s25/06/nshi_0090": {},
+			"ps3/s25/06/nshi_0090": {
+				"effect/eye_kas": "sprites/kasai/eye/kas_eyex1"
+			},
 			"ps3/s25/06/nshi_0100": {
 				"sprite/si1a_akuwarai_a1_": "sprites/sion/sifuku/si_akuwaraia1"
 			},
@@ -7129,12 +7454,20 @@
 			"ps3/s25/08/ntom_0310": {
 				"sprite/ri2_majime_a1_": "sprites/rika/sifuku/rik_9"
 			},
-			"ps3/s25/08/ntom_0320": {},
+			"ps3/s25/08/ntom_0320": {
+				"portrait/ha1_yowaki_": "<NO_MATCH>",
+				"portrait/ri2_niyari_a1_": "<NO_MATCH>"
+			},
 			"ps3/s25/08/ntom_0330": {},
 			"ps3/s25/08/ntom_0340": {},
 			"ps3/s25/08/ntom_0350": {},
-			"ps3/s25/08/ntom_0360": {},
-			"ps3/s25/08/ntom_0370": {},
+			"ps3/s25/08/ntom_0360": {
+				"portrait/ha1_yowaki_": "sprites/hanyu/miko/han_5",
+				"portrait/ri2_fuman_a1_": "sprites/rika/sifuku/rik_6"
+			},
+			"ps3/s25/08/ntom_0370": {
+				"portrait/ri2_majime_a1_": "<NO_MATCH>"
+			},
 			"ps3/s25/08/ntom_0380": {
 				"sprite/tomi3_ikari_": "sprites/tomi/sifuku/tomitake7"
 			},
@@ -7343,9 +7676,15 @@
 			"ps3/s25/12/nhan_0230": {
 				"sprite/tomi3_ikari_": "sprites/tomi/sifuku/tomitake4"
 			},
-			"ps3/s25/12/nhan_0240": {},
-			"ps3/s25/12/nhan_0250": {},
-			"ps3/s25/12/nhan_0260": {},
+			"ps3/s25/12/nhan_0240": {
+				"portrait/ri2_niko_a1_": "sprites/rika/sifuku/rik_9"
+			},
+			"ps3/s25/12/nhan_0250": {
+				"portrait/ri2_fuman_a1_": "sprites/rika/sifuku/rik_6"
+			},
+			"ps3/s25/12/nhan_0260": {
+				"portrait/ri2_majime_a1_": "sprites/rika/sifuku/rik_8a"
+			},
 			"ps3/s25/12/nhan_0270": {
 				"sprite/ha1_shinken_": "sprites/hanyu/miko/han_11"
 			},
@@ -7370,18 +7709,24 @@
 			"ps3/s25/12/nhan_0340": {
 				"sprite/tamura1a_09_": "sprites/tam/tam_9"
 			},
-			"ps3/s25/12/nhan_0350": {},
+			"ps3/s25/12/nhan_0350": {
+				"portrait/ri2_niyari_a1_": "sprites/rika/sifuku/rik_7a"
+			},
 			"ps3/s25/12/nhan_0360": {
 				"sprite/ha1_def2_": "sprites/hanyu/miko/han_10"
 			},
 			"ps3/s25/12/nhan_0370": {
 				"sprite/ri2_fuman_a1_": "sprites/rika/sifuku/rik_6"
 			},
-			"ps3/s25/12/nhan_0380": {},
+			"ps3/s25/12/nhan_0380": {
+				"portrait/ri2_majime_a1_": "sprites/rika/sifuku/rik_8"
+			},
 			"ps3/s25/12/nhan_0390": {},
 			"ps3/s25/12/nhan_0400": {},
 			"ps3/s25/12/nhan_0410": {},
-			"ps3/s25/12/nhan_0420": {},
+			"ps3/s25/12/nhan_0420": {
+				"portrait/ri2_majime_a1_": "sprites/rika/sifuku/rik_10"
+			},
 			"ps3/s25/12/nhan_0430": {
 				"sprite/mo1_01_": "<NO_MATCH>",
 				"sprite/mo2_01_": "<NO_MATCH>",
@@ -8026,7 +8371,9 @@
 			"ps3/s25/51/ntam_0060": {
 				"sprite/ri2_komaru_a2_": "sprites/rika/sifuku/rik_8a"
 			},
-			"ps3/s25/51/ntam_0070": {},
+			"ps3/s25/51/ntam_0070": {
+				"portrait/ri2_majime_a1_": "sprites/rika/sifuku/rik_8a"
+			},
 			"ps3/s25/51/ntam_0080": {
 				"sprite/ha1_sakebi_": "sprites/hanyu/miko/han_8a"
 			},
