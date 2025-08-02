@@ -2,11 +2,11 @@
 	"comment_lookup": "To lookup, first check the voice database. Then check the script fallback. Then check the global fallback.",
 	"comment_paths": "Note: when looking up paths, paths starting with '<' like <SPECIAL_TEXT_EFFECT>  are special cases. And if a match is 'null' then it means this sprite was never matched.",
 	"global_fallback": {
-		"effect/eye_kas": "sprites/kasai/eye/kas_eyex1",
-		"effect/eye_kei": "sprites/keiiti/eye/kei_eyexa1",
-		"effect/eye_me": "sprites/mion/eye/me_eyex1",
-		"effect/eye_re": "sprites/rena/eye/re_eyexa2",
-		"effect/eye_sa": "sprites/satoko/eye/sa_eyexa2",
+		"effect/eye_kas": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
+		"effect/eye_kei": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
+		"effect/eye_me": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
+		"effect/eye_re": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
+		"effect/eye_sa": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
 		"effect/hara": "sprites/ara/ara_d4",
 		"effect/hnit": "sprites/nit/nit_d1",
 		"effect/hoda": "sprites/oda/oda_d4a",
@@ -604,7 +604,7 @@
 		},
 		"init": {},
 		"mehagashi": {
-			"effect/eye_me": "sprites/mion/eye/me_eyex1",
+			"effect/eye_me": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
 			"effect/hara": "sprites/ara/ara_d4",
 			"effect/hnit": "sprites/nit/nit_d1",
 			"effect/hoda": "sprites/oda/oda_d4a",
@@ -4082,11 +4082,12 @@
 			"ps3/meha/1/keiichi9185": {},
 			"ps3/meha/1/keiichi9186": {},
 			"ps3/meha/1/keiichi9187": {
-				"effect/eye_sa": "sprites/satoko/eye/sa_eyexa2"
+				"effect/eye_me": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
+				"effect/eye_sa": "<USE_OGSPRITES_FILE_BASED_MAPPING>"
 			},
 			"ps3/meha/1/keiichi9188": {},
 			"ps3/meha/1/keiichi9189": {
-				"effect/eye_sa": "sprites/satoko/eye/sa_eyexa2"
+				"effect/eye_sa": "<USE_OGSPRITES_FILE_BASED_MAPPING>"
 			},
 			"ps3/meha/1/keiichi9190": {},
 			"ps3/meha/1/keiichi9191": {
@@ -4396,7 +4397,7 @@
 			"ps3/meha/12/hanyu9058": {},
 			"ps3/meha/12/hanyu9059": {},
 			"ps3/meha/12/hanyu9060": {
-				"effect/eye_kei": "sprites/keiiti/eye/kei_eyexa1"
+				"effect/eye_kei": "<USE_OGSPRITES_FILE_BASED_MAPPING>"
 			},
 			"ps3/meha/12/hanyu9061": {},
 			"ps3/meha/12/hanyu9062": {
@@ -4603,7 +4604,7 @@
 			},
 			"ps3/meha/3/mion9039": {},
 			"ps3/meha/3/mion9040": {
-				"effect/eye_me": "sprites/mion/eye/me_eyex1",
+				"effect/eye_me": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
 				"sprite/me8_akuwarai_a1_": "sprites/mion/2021/me_akuwaraia1",
 				"sprite/me8_huteki_a1_": "sprites/mion/2021/me_hutekia1",
 				"sprite/si6_odoroki_a1_": "sprites/sion/2021/si_odorokia1",
@@ -4817,7 +4818,7 @@
 			},
 			"ps3/meha/4/satoko9047": {},
 			"ps3/meha/4/satoko9048": {
-				"effect/eye_sa": "sprites/satoko/eye/sa_eyexa1",
+				"effect/eye_sa": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
 				"sprite/kei7_ikari1_": "sprites/keiiti/2021/main/kei_ikari1",
 				"sprite/kei7_ikari2_": "sprites/keiiti/2021/main/kei_ikari2",
 				"sprite/kei7_nayamu_": "sprites/keiiti/2021/main/kei_nayamu",
@@ -4939,7 +4940,7 @@
 			"ps3/meha/5/rika9038": {},
 			"ps3/meha/5/rika9039": {},
 			"ps3/meha/5/rika9040": {
-				"effect/eye_sa": "sprites/satoko/eye/sa_eyexa1",
+				"effect/eye_sa": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
 				"effect/hara": "sprites/ara/ara_d4",
 				"effect/hton": "sprites/ton/ton_d5a",
 				"effect/hyos": "sprites/yos/yos_d3a",
@@ -5168,7 +5169,7 @@
 				"sprite/ri8_niyari_a1_": "sprites/rika/2021/ri_niyaria1"
 			},
 			"ps3/meha/6/shion9090": {
-				"effect/eye_kei": "sprites/keiiti/eye/kei_eyexa1",
+				"effect/eye_kei": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
 				"effect/hara": "sprites/ara/ara_d4",
 				"effect/hton": "sprites/ton/ton_d5a",
 				"effect/hyos": "sprites/yos/yos_d3a",
@@ -6329,8 +6330,8 @@
 				"sprite/ta7_hatena_": "sprites/takano/ta_komaru"
 			},
 			"ps3/s25/02/nren_1295": {
-				"effect/eye_kei": "sprites/keiiti/eye/kei_eyexa1",
-				"effect/eye_re": "sprites/rena/eye/re_eyexa2",
+				"effect/eye_kei": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
+				"effect/eye_re": "<USE_OGSPRITES_FILE_BASED_MAPPING>",
 				"sprite/kei2_warai_": "sprites/keiiti/sifuku/kei_warai",
 				"sprite/re2b_kaii_b1_": "sprites/rena/sifuku/re_kaiib1",
 				"sprite/si1a_odoroki_a1_": "sprites/sion/sifuku/si_odorokia1",
@@ -7337,7 +7338,7 @@
 			},
 			"ps3/s25/06/nshi_0080": {},
 			"ps3/s25/06/nshi_0090": {
-				"effect/eye_kas": "sprites/kasai/eye/kas_eyex1"
+				"effect/eye_kas": "<USE_OGSPRITES_FILE_BASED_MAPPING>"
 			},
 			"ps3/s25/06/nshi_0100": {
 				"sprite/si1a_akuwarai_a1_": "sprites/sion/sifuku/si_akuwaraia1"

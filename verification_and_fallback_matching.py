@@ -19,8 +19,21 @@ def normalize_path(path_maybe_ext: str) -> str:
 
     return str(path).replace('\\', '/').split('HigurashiEp10_Data/StreamingAssets/CG/')[-1]
 
+# Anything in this set is treated as a sprite
+is_sprite_ps3_path_overrides = {
+    'effect/eye_kas',
+    'effect/eye_aks',
+    'effect/eye_kei',
+    'effect/eye_me',
+    'effect/eye_ois',
+    'effect/eye_re',
+    'effect/eye_sa',
+}
+
 def should_output_mapping(ps3_path: str, sprite_mode: bool, og_path: str):
-    if og_path is None or og_path.startswith("<"):
+    if ps3_path in is_sprite_ps3_path_overrides:
+        is_sprite = True
+    elif og_path is None or og_path.startswith("<"):
         # If the OG path is invalid, check the ps3 path to determine whether it is a sprite
         is_sprite = ps3_path.startswith('sprite/') or ps3_path.startswith('portrait/')
     else:
@@ -100,7 +113,6 @@ class AllMatchData:
 
     def set_voice_database(self, script_name: str, voice_database: VoiceMatchDatabase):
         self.per_script_voice_database[script_name] = voice_database
-
 
 def get_fallback_dict_for_json(fallback: dict[str, FallbackMatch], save_source_info: bool, sprite_mode: bool):
     # Convert fallback matching to dict
@@ -355,7 +367,6 @@ def verify_one_script(mod_script_path: str, graphics_regexes: list[re.Pattern], 
         'effect/v_hurricane' : '<USE_MOD_VERSION>', # No equivalent mask so just use mod's mask (OG game just draws efe/different_spiral_1a)
         'effect/eye_base_b' : '<USE_MOD_VERSION>',
         'effect/eye_base_r' : '<USE_MOD_VERSION>',
-        'effect/eye_kas' : '<NEED_IMAGE_REPLACEMENT>', # TODO: need to replace eye images with OG versions! Copy from preivous chapter?
 
         # Sprites Mehagashi
         # TODO: This is a silhouette cutout of keiichi. I'm not if just reusing the same image
@@ -580,6 +591,41 @@ if not scanned_any_scripts:
 save_debug_info = False
 
 all_match_data.set_global_fallback(merged_fallback_matches)
+
+########################## Apply final overrides ##########################
+# These matches override any other existing matching
+match_overrides = {
+    # These use custom made OG versions of the console eye sprites
+    'effect/eye_kas' : '<USE_OGSPRITES_FILE_BASED_MAPPING>',
+    'effect/eye_aks' : '<USE_OGSPRITES_FILE_BASED_MAPPING>',
+    'effect/eye_kei' : '<USE_OGSPRITES_FILE_BASED_MAPPING>',
+    'effect/eye_me' : '<USE_OGSPRITES_FILE_BASED_MAPPING>',
+    'effect/eye_ois' : '<USE_OGSPRITES_FILE_BASED_MAPPING>',
+    'effect/eye_re' : '<USE_OGSPRITES_FILE_BASED_MAPPING>',
+    'effect/eye_sa' : '<USE_OGSPRITES_FILE_BASED_MAPPING>',
+}
+
+# Apply overrides to voice database
+for script_name, voiceMatchDatabase in all_match_data.per_script_voice_database.items():
+    for voice_line, voiceBasedMatches in voiceMatchDatabase.db.items():
+        for voiceBasedMatch in voiceBasedMatches:
+            if voiceBasedMatch.mod_path in match_overrides:
+                voiceBasedMatch.og_path = match_overrides[voiceBasedMatch.mod_path]
+
+# Apply overrides to per-script fallback
+for script_name, perScriptFallbacks in all_match_data.per_script_fallbacks.items():
+    for mod_path, fallback in perScriptFallbacks.items():
+        if mod_path in match_overrides:
+            fallback.fallback_match_path = match_overrides[mod_path]
+            fallback.source_description = "Overriden by final overrides (per-script)"
+
+# Apply overrides to global fallback
+for mod_path, fallback in all_match_data.global_fallback.items():
+    if mod_path in match_overrides:
+        fallback.fallback_match_path = match_overrides[mod_path]
+        fallback.source_description = "Overriden by final overrides (global)"
+
+########################## Save file to disk as JSON ##########################
 
 # Output separate mapping.json files for OGBackgrounds and OGSprites
 sprites_output_path = output_folder.joinpath('OGSpritesMapping', 'mapping.json')

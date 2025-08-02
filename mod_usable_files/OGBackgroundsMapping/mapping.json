@@ -235,7 +235,6 @@
 		"effect/eye": "bg/sonota/eye",
 		"effect/eye_base_b": "<USE_MOD_VERSION>",
 		"effect/eye_base_r": "<USE_MOD_VERSION>",
-		"effect/eye_me": "<SPRITE_MATCH>",
 		"effect/furiker_a": "furiker_a",
 		"effect/furiker_b": "furiker_b",
 		"effect/furiker_c": "effect/f_c",
@@ -2712,8 +2711,7 @@
 			"ps3/meha/1/keiichi9186": {},
 			"ps3/meha/1/keiichi9187": {
 				"background/sora": "bg/mura/sora",
-				"black": "black",
-				"effect/eye_me": "<SPRITE_MATCH>"
+				"black": "black"
 			},
 			"ps3/meha/1/keiichi9188": {},
 			"ps3/meha/1/keiichi9189": {},
