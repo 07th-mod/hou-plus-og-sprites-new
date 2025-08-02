@@ -88,7 +88,7 @@ class AllMatchData:
     def __init__(self):
         self.global_fallback = None #type: dict[str, FallbackMatch]
         # modded script name -> fallback dictionary
-        self.per_script_fallbacks = {} #type: dict[str, list[PerScriptFallback]]
+        self.per_script_fallbacks = {} #type: dict[str, dict[str, FallbackMatch]]
         # modded script name -> VoiceMatchDatabase object
         self.per_script_voice_database = {} #type: dict[str, VoiceMatchDatabase]
 
